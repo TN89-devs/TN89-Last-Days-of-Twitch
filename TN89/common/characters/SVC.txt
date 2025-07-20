@@ -1,0 +1,21 @@
+characters = {
+	alexey_shevcov = {
+		name = "Алексей Шевцов"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Shevcov
+			}
+		}
+	
+	
+		country_leader = {
+			expire = "2000.1.1.1"
+			ideology = twitcherizm
+			id = -1
+			traits = {
+				#
+			}
+		}
+	}
+	
+}

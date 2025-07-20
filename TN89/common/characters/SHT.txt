@@ -1,0 +1,48 @@
+characters = {
+	alexander_shtefanov = {
+		name = SHT_alexander_shtefanov
+		portraits = {
+			civilian = {
+				large = GFX_portrait_alexander_shtefanov
+			}
+		}
+		country_leader = {
+			ideology = socdem
+			desc = SHT_alexander_shtefanov_desc
+			expire = "1965.1.1.1"
+			id = -1
+			traits = {
+				shtefanov_kotik
+			}
+		}
+	}
+
+	alexander_shtefanov_vedaet = {
+		name = SHT_alexander_shtefanov_vedaet
+		portraits = {
+			civilian = {
+				large = GFX_portrait_alexander_shtefanov_vedaet
+			}
+		}
+		country_leader = {
+			ideology = vedy
+			desc = SHT_alexander_shtefanov_vedaet_desc
+			expire = "2042.1.1.1"
+			id = -1
+			traits = {
+				
+			}
+		}
+	}
+
+	placeholder = {
+		name = "Плейсхолдер"
+		country_leader = {
+			ideology = anarchist_communism
+			expire = "2042.1.1.1"
+			id = -1
+			traits = {
+			}
+		}
+	}
+}

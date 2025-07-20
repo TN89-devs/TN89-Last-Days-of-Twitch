@@ -1,0 +1,21 @@
+characters = {
+	stas_vasilyev = {
+		name = "Стас Васильев"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_stas_vasilyev
+			}
+		}
+	
+	
+		country_leader = {
+			expire = "2000.1.1.1"
+			ideology = stalinism
+			id = -1
+			traits = {
+				#
+			}
+		}
+	}
+	
+}
