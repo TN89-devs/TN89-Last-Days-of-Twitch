@@ -1,0 +1,163 @@
+idea_categories = {
+	
+	country = {
+		
+		KAZ_nazionaly = {
+			
+			picture = n/a
+
+			allowed = {
+				original_tag = KAZ
+				always = no
+			}
+
+			modifier = {
+				fascism_drift = 0.1
+			}
+		}
+
+		KAZ_plan_Z = {
+			
+			picture = n/a
+
+			allowed = {
+				original_tag = KAZ
+				always = no
+			}
+
+			modifier = {
+				tag = SHT
+				attack_bonus_against = 0.1    
+				defense_bonus_against = 0.1
+ 			}
+		}
+
+		KAZ_plan_Y = {
+			
+			picture = n/a
+
+			allowed = {
+				original_tag = KAZ
+				always = no
+			}
+
+			modifier = {
+				tag = ---
+				attack_bonus_against = 0.1    
+				defense_bonus_against = 0.1
+ 			}
+		}
+
+		KAZ_plan_X = {
+			
+			picture = n/a
+
+			allowed = {
+				original_tag = KAZ
+				always = no
+			}
+
+			modifier = {
+				tag = ---
+				attack_bonus_against = 0.1    
+				defense_bonus_against = 0.1
+ 			}
+		}
+
+		kill_shtefanov = {
+			
+			picture = n/a
+
+			allowed = {
+				original_tag = KAZ
+				always = no
+			}
+
+			modifier = {
+				tag = SHT
+				attack_bonus_against = 0.2    
+				defense_bonus_against = 0.2
+ 			}
+		}
+
+		Zultra_max = {
+
+			picture = n/a
+
+			allowed = {
+				original_tag = KAZ
+				always = no
+			}
+
+			modifier = {
+				tag = HSU
+				attack_bonus_against = 0.5
+				defense_bonus_against = 0.5
+			}
+		}
+
+		Zultra_min = {
+
+			picture = n/a
+
+			allowed = {
+				original_tag = KAZ
+				always = no
+			}
+
+			modifier = {
+				tag = HSU
+				attack_bonus_against = 0.2
+				defense_bonus_against = 0.2
+			}
+		}
+
+		Zhmyl_unite_attack = {
+			
+			picture = n/a
+
+			allowed = {
+				original_tag = KAZ
+				always = no
+			}
+
+			modifier = {
+				tag = ---
+				attack_bonus_against = 0.2
+				defense_bonus_against = 0.2
+			}
+		}
+			
+		KAZ_plan_GRPZDC = {
+			
+			picture = n/a
+
+			allowed = {
+			original_tag = KAZ
+			always = no
+			}
+
+			modifier = {
+			tag = ---
+			attack_bonus_against = 0.2
+			defense_bonus_against = 0.2
+			}
+		}
+			
+		KAZ_plan_ubermarginal = {
+			
+			picture = n/a
+
+			allowed = {
+			original_tag = KAZ
+			always = no
+			}
+
+			modifier = {
+			tag = ---
+			attack_bonus_against = 0.2
+			defense_bonus_against = 0.2
+			}
+		}	
+	}
+}

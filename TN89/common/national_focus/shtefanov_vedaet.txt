@@ -1,0 +1,530 @@
+focus_tree = {
+	id = shtefanov_vedaet
+	country = {
+		factor = 0
+		modifier = {
+			add = 5
+			tag = SHT
+		}
+	}
+	default = no
+
+	focus = {
+		id = vozrodim_hyperboreyu
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 12
+		y = 0
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_2
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 11
+		y = 1
+		prerequisite = {
+			focus = vozrodim_hyperboreyu
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_1
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 13
+		y = 1
+		prerequisite = {
+			focus = vozrodim_hyperboreyu
+		}
+		completion_reward = { }
+	}
+	
+	focus = {
+		id = SHT_3
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 12
+		y = 2
+		completion_reward = { }
+		prerequisite = {
+			focus = SHT_1
+		}
+		prerequisite = {
+			focus = SHT_2
+		}
+	}
+
+	focus = { #Милитаристы
+		id = SHT_4
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 7
+		y = 3
+		prerequisite = {
+			focus = SHT_3
+		}
+		mutually_exclusive = {
+			focus = SHT_5
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_6
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 6
+		y = 4
+		prerequisite = {
+			focus = SHT_4
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_7
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 8
+		y = 4
+		prerequisite = {
+			focus = SHT_4
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_8
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 5
+		y = 5
+		prerequisite = {
+			focus = SHT_6
+		}
+		prerequisite = {
+			focus = SHT_7
+		}
+		completion_reward = { }
+	}
+	
+	focus = {
+		id = SHT_9
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 7
+		y = 5
+		prerequisite = {
+			focus = SHT_6
+		}
+		prerequisite = {
+			focus = SHT_7
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_10
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 9
+		y = 6
+		prerequisite = {
+			focus = SHT_6
+		}
+		prerequisite = {
+			focus = SHT_7
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = SHT_11
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 6
+		y = 6
+		prerequisite = {
+			focus = SHT_8
+		}
+		prerequisite = {
+			focus = SHT_9
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_12
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 7
+		y = 7
+		prerequisite = {
+			focus = SHT_9
+		}
+		prerequisite = {
+			focus = SHT_11
+		}
+		completion_reward = { }
+	}
+
+	focus = { #Мирные родноверы
+		id = SHT_5
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 17
+		y = 3
+		prerequisite = {
+			focus = SHT_3
+		}
+		mutually_exclusive = {
+			focus = SHT_4
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_13
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 16
+		y = 4
+		prerequisite = {
+			focus = SHT_5
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_14
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 18
+		y = 4
+		prerequisite = {
+			focus = SHT_5
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_15
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 15
+		y = 6
+		prerequisite = {
+			focus = SHT_13
+		}
+		prerequisite = {
+			focus = SHT_14
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_16
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 17
+		y = 5
+		prerequisite = {
+			focus = SHT_13
+		}
+		prerequisite = {
+			focus = SHT_14
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_17
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 19
+		y = 5
+		prerequisite = {
+			focus = SHT_13
+		}
+		prerequisite = {
+			focus = SHT_14
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_18
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 18
+		y = 6
+		prerequisite = {
+			focus = SHT_16
+		}
+		prerequisite = {
+			focus = SHT_17
+		}
+		completion_reward = { }
+	}
+	
+	focus = {
+		id = SHT_19
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 17
+		y = 7
+		prerequisite = {
+			focus = SHT_16
+		}
+		prerequisite = {
+			focus = SHT_18
+		}
+		completion_reward = { }
+	}
+
+	focus = { #Центральная ветка (общая)
+		id = SHT_20
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 12
+		y = 4
+		prerequisite = {
+			focus = SHT_3
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_21
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 11
+		y = 5
+		prerequisite = {
+			focus = SHT_20
+		}
+		mutually_exclusive = {
+			focus = SHT_22
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_22
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 13
+		y = 5
+		prerequisite = {
+			focus = SHT_20
+		}
+		mutually_exclusive = {
+			focus = SHT_21
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_23
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 12
+		y = 6
+		prerequisite = {
+			focus = SHT_21
+			focus = SHT_22
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_24
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 12
+		y = 7
+		prerequisite = {
+			focus = SHT_10
+			focus = SHT_15
+		}
+		prerequisite = {
+			focus = SHT_23
+		}
+		completion_reward = { }
+	}
+
+	focus = { #Операция:Хесус
+		id = SHT_25
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 11
+		y = 8
+		prerequisite = {
+			focus = SHT_24
+		}
+		completion_reward = { }
+	}
+
+	focus = { #Операция:шевцов
+		id = SHT_26
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 13
+		y = 8
+		prerequisite = {
+			focus = SHT_24
+		}
+		completion_reward = { }
+	}
+
+	focus = { #Операция:Стас
+		id = SHT_27
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 12
+		y = 9
+		prerequisite = {
+			focus = SHT_25
+		}
+		prerequisite = {
+			focus = SHT_26
+		}
+		completion_reward = { }
+	}
+
+	focus = { #Мобильность
+		id = SHT_28
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 1
+		y = 0
+		available = {
+			has_completed_focus = vozrodim_hyperboreyu
+		}
+		mutually_exclusive = {
+			focus = SHT_29
+		}
+		completion_reward = { }
+	}
+
+	focus = { #Количество
+		id = SHT_29
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 3
+		y = 0
+		available = {
+			has_completed_focus = vozrodim_hyperboreyu
+		}
+		mutually_exclusive = {
+			focus = SHT_28
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_30
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = SHT_28
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_31
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = SHT_28
+			focus = SHT_29
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_32
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 4
+		y = 1
+		prerequisite = {
+			focus = SHT_29
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_33
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = SHT_30
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_34
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 2
+		y = 2
+		prerequisite = {
+			focus = SHT_31
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_35
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 4
+		y = 2
+		prerequisite = {
+			focus = SHT_32
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_36
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 1
+		y = 3
+		prerequisite = {
+			focus = SHT_33
+		}
+		prerequisite = {
+			focus = SHT_34
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_37
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 3
+		y = 3
+		prerequisite = {
+			focus = SHT_34
+		}
+		prerequisite = {
+			focus = SHT_35
+		}
+		completion_reward = { }
+	}
+
+}

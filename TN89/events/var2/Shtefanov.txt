@@ -1,0 +1,32 @@
+add_namespace = sht_vibory
+
+country_event = {
+	id = sht_vibory.1
+	title = sht_vibory.1.t
+	desc = sht_vibory.1.d
+	picture = GFX_report_event_gre_allied_diplomacy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = sht_vibory.1.a
+
+		hidden_effect = {
+			complete_national_focus = za_shtefanova
+			clr_country_flag = vibory_neutral
+			set_country_flag = vibory_shtefanov
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+
+	option = {
+		name = sht_vibory.1.b
+
+		hidden_effect = {
+			complete_national_focus = za_svetova
+			clr_country_flag = vibory_neutral
+			set_country_flag = vibory_svetov
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+}

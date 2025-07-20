@@ -1,0 +1,21 @@
+state={
+	id=1053
+	name="STATE_1053"
+	provinces={
+		4287 1282 10247 12221 10318 12202 12459 1338 1619 7462
+	}
+	history={
+		owner = HSU
+		buildings = {
+			infrastructure = 3 #was: 5
+		}
+		add_core_of = HSU
+		victory_points = {
+			12459 1 
+		}
+	}
+	state_category=rural
+	manpower=156743
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

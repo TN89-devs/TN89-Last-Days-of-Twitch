@@ -1,0 +1,588 @@
+focus_tree = {
+	id = KTZ
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KTZ
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = {
+		x = 2000
+		y = 2000
+	}
+
+	# Черизвычайная Ситуация
+	focus = {
+		id = KAZ_Cherzvycainaya_Situacyia
+		icon = GFX_CHP
+		cost = 1
+		x = 11
+		y = 0
+		
+		completion_reward = {
+			add_political_power = 150
+			add_stability = 0.15
+			add_war_support = 0.2
+		}
+	}
+
+	# Мобилизировать Бригады
+	focus = {
+		id = KAZ_mobilizirovat_brigady
+		icon = GFX_mobilizacyia
+		cost = 1
+		prerequisite = {
+			focus = KAZ_Cherzvycainaya_Situacyia
+		}
+		x = 11
+		y = 1
+
+		completion_reward = {
+			add_war_support = 0.15
+			add_equipment_to_stockpile = {
+				type = infantry_weapons
+				amount = 3000
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 300
+			}
+			KAZ = {
+				division_template = {
+					name = "KAZ_kaz_brigad"
+					regiments = { 
+						infantry = {x = 0 y = 0}
+						infantry = {x = 0 y = 1}
+						infantry = {x = 0 y = 2}
+
+						infantry = {x = 1 y = 0}
+						infantry = {x = 1 y = 1}
+						infantry = {x = 1 y = 2}
+					}
+					support = {
+						artillery = {x = 0 y = 0}
+					}
+				}
+				random_owned_controlled_state = {
+					create_unit = {
+						division = "name = \"1. Пехотная Дивизия 'Россия'\" division_template = \"KAZ_kaz_brigad\" start_experience_factor = 0.75"
+						owner = KTZ
+					}
+					create_unit = {
+						division = "name = \"2. Пехотная Дивизия 'Свобода'\" division_template = \"KAZ_kaz_brigad\" start_experience_factor = 0.75"
+						owner = KTZ
+					}
+				}
+			}
+		}
+
+	}
+
+	# ВСЕ ДОЛЖНЫ ЗИГОВАТЬ!
+	focus = {
+		id = KAZ_vse_dolzny_zigovat
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = KAZ_mobilizirovat_brigady
+		}
+		mutually_exclusive = {
+			focus = KAZ_vpered_rosia
+		}
+		x = 7
+		y = 2
+
+		completion_reward = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.6
+			}
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+			}
+
+			add_ideas = KAZ_nazionaly			
+		}
+
+	}
+
+	# Мобилизировать "Союзных Сородичей"
+	focus = {
+		id = KAZ_mobilizirovat_SS
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = KAZ_vse_dolzny_zigovat
+		}
+		x = 7
+		y = 3
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_weapons
+				amount = 3000
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 300
+			}
+			KAZ = {
+				division_template = {
+					name = "KAZ_kaz_brigad_SS"
+					regiments = { 
+						infantry = {x = 0 y = 0}
+						infantry = {x = 0 y = 1}
+						infantry = {x = 0 y = 2}
+						infantry = {x = 0 y = 3}
+
+						infantry = {x = 1 y = 0}
+						infantry = {x = 1 y = 1}
+						infantry = {x = 1 y = 2}
+					}
+					support = {
+						artillery = {x = 0 y = 0}
+					}
+				}
+				random_owned_controlled_state = {
+					create_unit = {
+						division = "name = \"3. Пехотная Дивизия 'Кац - Наш Слоняра'\" division_template = \"KAZ_kaz_brigad_SS\" start_experience_factor = 0.75"
+						owner = KTZ
+					}
+					create_unit = {
+						division = "name = \"4. Пехотная Дивизия 'Свобода России'\" division_template = \"KAZ_kaz_brigad_SS\" start_experience_factor = 0.75"
+						owner = KTZ
+					}
+					create_unit = {
+						division = "name = \"5. Пехотная Дивизия 'CCC'\" division_template = \"KAZ_kaz_brigad_SS\" start_experience_factor = 0.75"
+						owner = KTZ
+					}
+				}
+			}
+		}
+
+	}
+
+	# План Z (Атаковать Штефанова)
+	focus = {
+		id = KAZ_plan_Z
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = KAZ_mobilizirovat_SS
+		}
+		x = 5
+		y = 4
+
+		completion_reward = {
+			add_ideas = KAZ_plan_Z
+		}
+	}
+
+	# План Y (Атаковать Дядя Батя)
+	focus = {
+		id = KAZ_plan_Y
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = KAZ_mobilizirovat_SS
+		}
+		x = 7
+		y = 4
+
+		completion_reward = {
+			add_ideas = KAZ_plan_Y
+		}
+	}
+
+	# План X (Атаковать Стас ай как просто)
+	focus = {
+		id = KAZ_plan_X
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = KAZ_mobilizirovat_SS
+		}
+		x = 9
+		y = 4
+
+		completion_reward = {
+			add_ideas = KAZ_plan_X
+		}
+
+	}
+
+	# Сами Справимся
+	focus = {
+		id = KAZ_odinocka
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = KAZ_plan_Z
+			focus = KAZ_plan_Y
+			focus = KAZ_plan_X
+		}
+		mutually_exclusive = {
+			focus = KAZ_vmeste_sila
+		}
+		x = 8
+		y = 5
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 2000
+			}
+		}
+
+	}
+
+	# Мы!
+	focus = {
+		id = KAZ_vmeste_sila
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = KAZ_plan_Z
+			focus = KAZ_plan_Y
+			focus = KAZ_plan_X
+		}
+		mutually_exclusive = {
+			focus = KAZ_odinocka
+		}
+		x = 6
+		y = 5
+
+		available = {
+			SHT = {
+				has_ideology = fascism
+			}
+		}
+
+		completion_reward = {
+			SHT = {
+				country_event = SHT.p.10
+			}
+		}
+
+	}
+
+	# Уничтожить Штефанова
+	focus = {
+		id = KAZ_unictozhit_shtefanova
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = KAZ_odinocka
+		}
+		x = 8
+		y = 6
+		completion_reward = {
+			if = {
+				limit = {
+					country_exists = SHT
+					NOT = { SHT = { is_in_faction_with = KAZ}}
+				}
+				create_wargoal = {
+				target = SHT
+				type = annex_everything
+				}
+
+				add_ideas = kill_shtefanov
+			}
+
+			if = {
+				limit = { 
+					has_war_with = SHT
+				}
+
+				add_ideas = kill_shtefanov
+
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 1000
+				}
+			}
+		}
+
+		bypass = {
+			tag = SHT
+			exists = no
+		}
+	}
+
+	# Вперёд Россия!
+	focus = {
+		id = KAZ_vpered_rosia
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = KAZ_mobilizirovat_brigady
+		}
+		mutually_exclusive = {
+			focus = KAZ_vse_dolzny_zigovat
+		}
+		x = 16
+		y = 2
+
+		completion_reward = {
+			set_stability = 0.4
+		}
+
+	}
+
+	# Уничтожить Жмыля
+	focus = {
+		id = KAZ_unictozhit_zhmylya
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = KAZ_sovmestnye_ucenie
+			focus = KAZ_unictozhit_shtefanova
+		}
+		x = 7
+		y = 7
+
+		completion_reward = {
+			if = {
+				limit = {
+					has_completed_focus = KAZ_vmeste_sila
+					has_completed_focus = KAZ_sovmestnye_ucenie
+				}
+				KAZ = {
+					add_ideas = Zhmyl_unite_attack
+
+					add_equipment_to_stockpile = {
+						type = infantry_weapons
+						amount = 1000
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_completed_focus = KAZ_odinocka
+					
+				}
+			}
+		}
+	}
+
+	# Совместные учение
+	focus = {
+		id = KAZ_sovmestnye_ucenie
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = KAZ_vmeste_sila
+		}
+		x = 6
+		y = 6
+
+		completion_reward = {
+			army_experience = 25
+			SHT = {
+				country_event = SHT.a.1
+			}
+		}
+
+
+	}
+
+	# Сокрушить ГРПЗДЦ
+	focus = {
+		id = KAZ_sokrushit_GRPZDC
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = KAZ_unictozhit_zhmylya
+		}
+		x = 7
+		y = 8
+
+		completion_reward = {
+			add_ideas = KAZ_plan_GRPZDC
+		}
+
+	}
+
+	# Подготовить план Zултьра
+	focus = {
+		id = KAZ_podgotovit_plan_Zultra
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = KAZ_sokrushit_GRPZDC
+		}
+		mutually_exclusive = {
+			focus = KAZ_unictozhit_ubermarginala
+		}
+		x = 5
+		y = 9
+
+
+
+	}
+
+	# Покончить с Убермаргиналом
+	focus = {
+		id = KAZ_unictozhit_ubermarginala
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = KAZ_sokrushit_GRPZDC
+		}
+		mutually_exclusive = {
+			focus = KAZ_podgotovit_plan_Zultra
+		}
+		x = 9
+		y = 9
+
+		completion_reward = {
+			add_ideas = KAZ_plan_ubermarginal
+		}
+
+	}
+
+	# Мобилизировать Неугодных
+	focus = {
+		id = KAZ_mobilizirovat_neugodnyh
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = KAZ_podgotovit_plan_Zultra
+		}
+		x = 5
+		y = 10
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_weapons
+				amount = 3000
+			}
+			KAZ = {
+				division_template = {
+					name = "KAZ_kaz_brigad_straf"
+					regiments = { 
+						infantry = {x = 0 y = 0}
+						infantry = {x = 0 y = 1}
+						infantry = {x = 0 y = 2}
+
+						infantry = {x = 1 y = 0}
+						infantry = {x = 1 y = 1}
+						infantry = {x = 1 y = 2}
+					}
+				}
+				random_owned_controlled_state = {
+					create_unit = {
+						division = "name = \"1. Штраф-Батальон 'Атомваффен'\" division_template = \"KAZ_kaz_brigad_straf\" start_experience_factor = 0.75"
+						owner = KTZ
+					}
+					create_unit = {
+						division = "name = \"2. Штраф-Батальон 'Смерть Хесусу!'\" division_template = \"KAZ_kaz_brigad_straf\" start_experience_factor = 0.75"
+						owner = KTZ
+					}
+					create_unit = {
+						division = "name = \"5. Штраф-Батальон 'Зетники'\" division_template = \"KAZ_kaz_brigad_straf\" start_experience_factor = 0.75"
+						owner = KTZ
+					}
+				}
+			}
+		}
+
+	}
+	
+	# Пакт с "Позывной Леон"
+	focus = {
+		id = KAZ_pakt_s_pozyvnym_Leon
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = KAZ_unictozhit_ubermarginala
+		}
+		mutually_exclusive = {
+			focus = KAZ_pakt_s_Legion_Z
+		}
+		x = 8
+		y = 10
+
+		completion_reward = {
+
+
+			LEO = {
+				country_event = leo.1
+			}
+		}
+
+	}
+
+	#Пакт с "Легион Z"
+	focus = {
+		id = KAZ_pakt_s_Legion_Z
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = KAZ_unictozhit_ubermarginala
+		}
+		mutually_exclusive = {
+			focus = KAZ_pakt_s_pozyvnym_Leon
+		}
+		x = 10
+		y = 10
+
+		completion_reward = {
+			
+			
+			LGZ = {
+				country_event = lgz.1
+			}
+		}
+
+	}
+
+	# ВЫПОЛНИТЬ ПЛАН ZУЛЬТРА!
+	focus = {
+		id = KAZ_vypolnit_plan_Zultra
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = KAZ_mobilizirovat_neugodnyh
+			focus = KAZ_pakt_s_pozyvnym_Leon
+			focus = KAZ_pakt_s_Legion_Z
+		}
+		x = 7
+		y = 11
+
+		completion_reward = {
+			if = {
+				limit = { 
+					has_completed_focus = KAZ_podgotovit_plan_Zultra
+					has_completed_focus = KAZ_mobilizirovat_neugodnyh
+				}
+				KAZ = {
+					add_ideas = Zultra_max
+				}
+			}
+
+			if = {
+				limit = {
+					has_completed_focus = KAZ_unictozhit_ubermarginala
+				}
+				KAZ = {
+					add_ideas = Zultra_min
+				}
+			}
+
+			add_equipment_to_stockpile = {
+				type = infantry_weapons
+				amount = 3000
+			}
+
+			add_war_support = 0.5
+			add_stability = 0.1
+		}
+	}
+}

@@ -1,0 +1,251 @@
+focus_tree = {
+	id = shtefanov
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SHT
+		}
+	}
+	default = no
+
+	focus = { #Выборы, выборы
+		id = vibory_vibory
+		icon = GFX_goal_vibory_vibory
+		cancelable = no
+		cost = 1
+		x = 8
+		y = 0
+		completion_reward = {
+			country_event = sht_vibory.1
+		}
+	}
+
+	focus = { #Компания Zа Штефанова
+		id = za_shtefanova
+		icon = GFX_goal_za_shtefanova
+		cost = 5
+		x = 5
+		y = 1
+		prerequisite = {
+			focus = vibory_vibory
+		}
+		mutually_exclusive = {
+			focus = za_svetova
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = prava_rabochim
+		icon = GFX_goal_prava_rabochim
+		cost = 5
+		x = 4
+		y = 2
+		prerequisite = {
+			focus = za_shtefanova
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = svobodu_grazdanam
+		icon = GFX_goal_svobodu_grazdanam
+		cost = 5
+		x = 6
+		y = 2
+		prerequisite = {
+			focus = za_shtefanova
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_6
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 3
+		y = 3
+		prerequisite = {
+			focus = prava_rabochim
+		}
+		prerequisite = {
+			focus = svobodu_grazdanam
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_7
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 5
+		y = 3
+		prerequisite = {
+			focus = prava_rabochim
+		}
+		prerequisite = {
+			focus = svobodu_grazdanam
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_8
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 7
+		y = 3
+		prerequisite = {
+			focus = prava_rabochim
+		}
+		prerequisite = {
+			focus = svobodu_grazdanam
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_9
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 6
+		y = 4
+		prerequisite = {
+			focus = SHT_7
+		}
+		prerequisite = {
+			focus = SHT_8
+		}
+		completion_reward = { }
+	}
+
+	focus = { #Компания Zа Светова
+		id = za_svetova
+		icon = GFX_goal_za_svetova
+		cost = 5
+		x = 11
+		y = 1
+		prerequisite = {
+			focus = vibory_vibory
+		}
+		mutually_exclusive = {
+			focus = za_shtefanova
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_10
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 10
+		y = 2
+		prerequisite = {
+			focus = za_svetova
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_11
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 12
+		y = 2
+		prerequisite = {
+			focus = za_svetova
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_12
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 9
+		y = 3
+		prerequisite = {
+			focus = SHT_10
+		}
+		prerequisite = {
+			focus = SHT_11
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_13
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 11
+		y = 3
+		prerequisite = {
+			focus = SHT_10
+		}
+		prerequisite = {
+			focus = SHT_11
+		}
+		completion_reward = { }
+	}
+	
+	focus = {
+		id = SHT_14
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 13
+		y = 3
+		prerequisite = {
+			focus = SHT_10
+		}
+		prerequisite = {
+			focus = SHT_11
+		}
+		completion_reward = { }
+	}
+	
+	focus = {
+		id = SHT_15
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 10
+		y = 4
+		prerequisite = {
+			focus = SHT_12
+		}
+		prerequisite = {
+			focus = SHT_13
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = podvedem_itogi
+		icon = {
+			trigger = {
+				has_country_flag = vibory_neutral
+			}
+			value = GFX_goal_podvedem_itogi
+		}
+		icon = {
+			trigger = {
+				has_country_flag = vibory_svetov
+			}
+			value = GFX_goal_podvedem_itogi_svetov
+		}
+		icon = {
+			trigger = {
+				has_country_flag = vibory_shtefanov
+			}
+			value = GFX_goal_podvedem_itogi_shtefanov
+		}
+		cost = 5
+		x = 8
+		y = 5
+		prerequisite = {
+			focus = SHT_9
+			focus = SHT_15
+		}
+		completion_reward = { }
+	}
+}
