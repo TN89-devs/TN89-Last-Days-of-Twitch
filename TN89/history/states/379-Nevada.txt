@@ -20,10 +20,17 @@ state = {
 			infrastructure = 2
 
 			# Hoover Dam
-			}
+			4799 = { dam_mountain = 1 }
+
+		}
+
+		victory_points = {
+			4799 5 # Las Vegas
+		}
 		
 	}
-	provinces = { 
+	
+	provinces = {
 		1862   4736  4816 7756 7827 7879  10591  12399  
 	}
 

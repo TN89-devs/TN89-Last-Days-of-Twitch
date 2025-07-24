@@ -6,14 +6,14 @@ state = {
 	state_category = small_island
 	
 	history = {
-		owner = DER
+		owner = ARA
 		buildings = {
 			infrastructure = 2
 			13003 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = DER
+		add_core_of = ARA
 
 		victory_points = { #Tórshavn
 			13003 1

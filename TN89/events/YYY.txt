@@ -25,7 +25,9 @@ country_event = {
 			}
 			CUT = {
 				transfer_state = 378
-				transfer_state = 377
+				transfer_state = 1061
+				transfer_state = 1060
+				transfer_state = 1058
 			}
 			GRP = {
 				transfer_state = 393
@@ -45,6 +47,8 @@ country_event = {
 				transfer_state = 816
 				transfer_state = 363
 				transfer_state = 358
+				transfer_state = 1052
+				transfer_state = 1065
 			}
 			RTW = {
 				transfer_state = 373
@@ -57,6 +61,9 @@ country_event = {
 				transfer_state = 389
 				transfer_state = 382
 				transfer_state = 381
+				transfer_state = 372
+				transfer_state = 1054
+				transfer_state = 1055
 			}
 			SRS = {
 				transfer_state = 386
@@ -69,15 +76,22 @@ country_event = {
 				transfer_state = 368
 				transfer_state = 370
 				transfer_state = 371
-				transfer_state = 372 
+				transfer_state = 1056 
+				transfer_state = 1051 
 			}
 			ULT = {
 				transfer_state = 380
 				transfer_state = 379
+				transfer_state = 377
+				transfer_state = 1059
+				transfer_state = 1062
+				transfer_state = 1063
+				transfer_state = 1064
 			}
 			DAD = {
 				transfer_state = 375
 				transfer_state = 376
+				transfer_state = 1057
 			}
 			ZUS = {
 				transfer_state = 313

@@ -8,7 +8,7 @@ state={
 	
 	resources={
 		oil=44 # was: 66
-	}
+	} 
 
 	history={
 		owner = HSU
@@ -16,16 +16,20 @@ state={
 			infrastructure = 3 #was: 5
 			industrial_complex = 2
 			air_base = 5
+			7552 = {
+				naval_base = 5
+
+			}
 		}
 		add_core_of = HSU
 		victory_points = {
-			1643 1
+			7552 10 
 		}
 
 	}
 	
 	provinces={
-	 1528 1559 1643 4507 4522 7555 7599 12313 12401 
+		 1528 1559 1643 4507 4522    7555 7599 12313  12401 
 	}
 
 	local_supplies=0.0 

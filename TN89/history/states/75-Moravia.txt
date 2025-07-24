@@ -23,10 +23,7 @@ state={
 			air_base = 5
 
 		}
-		add_core_of = DRE
-		add_core_of = DRE
-	}
-
+		add_core_of = DRE}
 	provinces={
 		569 3553 3569 6562 6576 6590 11511 
 	}

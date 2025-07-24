@@ -1,6 +1,6 @@
 
 state={
-	id=376 
+	id=376
 	name="STATE_376"
 	manpower = 423316
 	
@@ -9,7 +9,7 @@ state={
 	resources={
 		oil=14 # was: 20
 		aluminium=30 # was: 52
-	}
+	} 
 
 
 	history={
@@ -20,12 +20,12 @@ state={
 		}
 		add_core_of = HSU
 		victory_points = {
-			5044 1
+			4975 1
 		}
 	}
-
+	
 	provinces={
-		5044 10914 
+		 2102 3867 3883 4975  8070 10642  10867   12684 12720 12791 
 	}
 	
 

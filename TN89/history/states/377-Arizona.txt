@@ -1,5 +1,5 @@
 
-state={ 
+state={
 	id=377
 	name="STATE_377"
 	manpower = 435572
@@ -25,8 +25,9 @@ state={
 		}
 
 	}
+	
 	provinces={
-		 853 1793 3834 4796  7747  7920 8115  10783 11814  
+		850     6897  7821   10573   12765 
 	}
 
 	local_supplies=8.0 

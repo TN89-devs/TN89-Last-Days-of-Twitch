@@ -1,7 +1,7 @@
 
 state={
 	id=372
-	name="STATE_372" 
+	name="STATE_372"
 	manpower = 1854481
 	
 	state_category = town
@@ -11,7 +11,7 @@ state={
 	}
 
 
-	history={
+	history={ 
 		owner = HSU
 		buildings = {
 			infrastructure = 2
@@ -19,14 +19,14 @@ state={
 		}
 		add_core_of = HSU
 		victory_points = {
-			7586 1 
+			12489 1 
 		}
 
 	}
 
 	provinces={
-		   4567 4597 4625   7586  10477   12778 
+		 1646 4444 4567 4597 4625   7586  10477   
 	}
-	1503  4444 7485 7543 10355 12458 12489 
+
 	local_supplies=9.0 
 }
