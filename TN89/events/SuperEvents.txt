@@ -150,9 +150,14 @@ country_event = {
 	picture = GFX_sp_event_Squade
 
 	fire_only_once = yes
-	is_triggered_only = yes
 	
 	hidden = yes
+	
+	trigger = {
+		BTK = {
+			has_completed_focus = BTK_restart_89_squad
+		}
+	}
 
 	immediate = {
 		name = super.6.a
@@ -161,7 +166,105 @@ country_event = {
         set_global_flag = BTK_top_squad
 		set_global_flag = Super_Event_Visible
 		
-		play_song = "top_squad89"
+		play_song = "top_squad"
+	}
+}
+country_event = {
+	id = super.7
+	title = super.7.t
+	desc = super.7.d
+	picture = GFX_sp_event_Hesus_war
+
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		tag = HSU
+	}
+
+	immediate = {
+		name = super.7.a
+		log = "[GetDateText]: [This.GetName]: super.7.a executed"
+		
+        set_global_flag = HSU_war
+		set_global_flag = Super_Event_Visible
+		
+		play_song = "HSU_war"
+	}
+}
+
+country_event = {
+	id = super.8
+	title = super.8.t
+	desc = super.8.d
+	picture = GFX_sp_event_shtefanov_vedaet_amerima
+	fire_only_once = yes
+	hidden = yes
+	trigger = {
+		SHT = {
+			has_government = fascism
+			controls_state = 385
+			controls_state = 386
+			controls_state = 387
+			controls_state = 388
+			controls_state = 381
+			controls_state = 1056
+			controls_state = 389
+			controls_state = 390
+			controls_state = 384
+			controls_state = 391
+			controls_state = 394
+			controls_state = 392
+			controls_state = 1052
+			controls_state = 379
+			controls_state = 378
+			controls_state = 1050
+			controls_state = 377
+			controls_state = 380
+			controls_state = 376
+			controls_state = 375
+			controls_state = 1055
+			controls_state = 374
+			controls_state = 383
+			controls_state = 382
+			controls_state = 384
+			controls_state = 373
+			controls_state = 371
+			controls_state = 372
+			controls_state = 395
+			controls_state = 369
+			controls_state = 368
+			controls_state = 370
+			controls_state = 1051
+			controls_state = 1054
+			controls_state = 367
+			controls_state = 365
+			controls_state = 366
+			controls_state = 384
+			controls_state = 363
+			controls_state = 362
+			controls_state = 816
+			controls_state = 261
+			controls_state = 393
+			controls_state = 276
+			controls_state = 358
+			controls_state = 360
+			controls_state = 361
+			controls_state = 359
+			controls_state = 357
+			controls_state = 1053
+			controls_state = 465
+		}
+	}
+	immediate = {
+		name = super.8.a
+		log = "[GetDateText]: [This.GetName]: super.7.a executed"
+		
+        set_global_flag = SHT_vedaet_united_amerika
+		set_global_flag = Super_Event_Visible
+		
+		play_song = "SHT_vedaet_united_amerika"
 	}
 }
 

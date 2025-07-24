@@ -100,4 +100,25 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = tik.3
+	title = tik.3.t
+	desc = tik.3.d
+	picture = GFX_report_event_picture_BTK_4
+	
+	major = no
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = tik.3.a
+		hidden_effect = {
+			SHT = {
+				transfer_state = 386
+				transfer_state = 385
+			}
+		}
+	}
+}
 

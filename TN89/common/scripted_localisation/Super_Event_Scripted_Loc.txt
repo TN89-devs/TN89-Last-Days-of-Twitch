@@ -67,7 +67,12 @@ defined_text = {
         }
         localization_key = "sp_event_stintler_returns"
     }
-    
+    text = {
+        trigger = {
+            has_global_flag = SHT_vedaet_united_amerika
+        }
+        localization_key = "sp_event_shtefanov_vedaet_united_america"
+    }
 
 }
 
@@ -141,6 +146,12 @@ defined_text = {
         }
         localization_key = "sp_event_stintler_returns_remark"
     }
+    text = {
+        trigger = {
+            has_global_flag = SHT_vedaet_united_amerika
+        }
+        localization_key = "sp_event_shtefanov_vedaet_united_america_remark"
+    }
 	
 }
 
@@ -213,5 +224,11 @@ defined_text = {
             has_global_flag = GON_stintler_returns
         }
         localization_key = "sp_event_stintler_returns_quote"
+    }
+    text = {
+        trigger = {
+            has_global_flag = SHT_vedaet_united_amerika
+        }
+        localization_key = "sp_event_shtefanov_vedaet_united_america_quote"
     }
 }
