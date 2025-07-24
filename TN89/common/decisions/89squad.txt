@@ -8,7 +8,8 @@ form_BTK_89_cat = {
 		cost = 0
 	
 		allowed = {
-			original_tag = BTK 
+			original_tag = BTK
+			has_completed_focus = BTK_obedinenie 
 		}
 	
 		available = {
@@ -56,6 +57,8 @@ form_BTK_89_cat = {
 				controls_state = 57
 				controls_state = 50
 				controls_state = 978
+				controls_state = 8
+				controls_state = 28
 				#controls_state = 845
 				#controls_state = 3
 			}
@@ -66,6 +69,8 @@ form_BTK_89_cat = {
 				controls_state = 54
 				controls_state = 60
 				controls_state = 65
+				controls_state = 52
+				controls_state = 53
 				
 				
 			}
@@ -107,9 +112,16 @@ form_BTK_89_cat = {
 
 				state = 54
 				state = 60
+				state = 53
+				state = 8
+				state = 28
+				state = 52
 				state = 65
 				state = 1020
 				state = 1022
+
+				state = 909
+				state = 912
 			}
 			highlight_color_while_active = 3
 			highlight_color_before_active = 2
@@ -144,16 +156,6 @@ form_BTK_89_cat = {
 				ideology = democratic
 				portrait = GFX_BTK_89
 			}
-			# Chicken-Bekonia
-			#155 = { add_core_of = ROOT }
-			#43 = { add_core_of = ROOT }
-			#154 = { add_core_of = ROOT }
-			#973 = { add_core_of = ROOT }
-			#974 = { add_core_of = ROOT }
-			
-			# Reich
-			#52 = { add_core_of = ROOT }
-			#53 = { add_core_of = ROOT }
 		}
 	
 		ai_will_do = {
@@ -164,54 +166,168 @@ form_BTK_89_cat = {
 			}
 		}
 	}
-	Vernut_stariy = {
+	annex_derzko = {
+		icon = generic_form_nation
+		#picture = GFX_decision_cat_picture_form_greater_greece
+		
+		fire_only_once = yes
+		cost = 0
+	
+		allowed = {
+			original_tag = BTK 
+		}
+		available = {
+			is_subject = no
+			has_equipment = {
+    			infantry_equipment_1 > 2499
+			}
+		}
+		
+		highlight_states = {
+			highlight_state_targets = {
+
+				state = 909
+				state = 912
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+	
+		visible = {
+			original_tag = BTK
+			has_completed_focus = BTK_restart_89_squad
+		}
+		complete_effect = {
+			BTK = {
+				annex_country = {
+					target = DER
+					transfer_troops = yes
+				}
+				add_state_core = 909
+				add_state_core = 912
+			}
+
+		}
+	}
+	pismo_shd = {
 		icon = generic_form_nation
 		#picture = GFX_decision_cat_picture_form_greater_greece
 		
 		fire_only_once = yes
 		cost = 100
+		days_remove = 7
 	
 		allowed = {
 			original_tag = BTK
 		}
 		visible = {
-			has_cosmetic_tag = BTK_89
-			OR = {
-				owns_state = 54
-				owns_state = 50
-			}
-			NOT = {
-				owns_state = 52
-				owns_state = 53
-			}
+			original_tag = BTK
+			has_completed_focus = BTK_pismo_shadowkek
 		}
 		ai_will_do = {
-			factor = 200
+			factor = 0
 			modifier = {
-				factor = 0
+				factor = 200
 				is_historical_focus_on = yes
 			}
 		}
 		highlight_states = {
 			highlight_state_targets = {
-				state = 52
-				state = 53
+				state = 86
+				state = 87
+				state = 807
+				state = 85
+				state = 5
+				state = 98
+				state = 763
+				state = 188
 				
 			}
 			highlight_color_while_active = 3
 			highlight_color_before_active = 2
 		}
-		complete_effect = {
-			transfer_state = 52
-			transfer_state = 53
-			53 = {
-				set_demilitarized_zone = no
-			}
-			52 = {
-				set_demilitarized_zone = no
+		remove_effect = {
+			SHD = {country_event=btk_exp.1}
+		}
+	}
+	pismo_deffki = {
+		icon = generic_form_nation
+		#picture = GFX_decision_cat_picture_form_greater_greece
+		
+		fire_only_once = yes
+		cost = 100
+		days_remove = 7
+	
+		allowed = {
+			original_tag = BTK
+		}
+		visible = {
+			original_tag = BTK
+			has_completed_focus = BTK_pismo_devochki
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
 			}
 		}
-
+		highlight_states = {
+			highlight_state_targets = {
+				state = 51
+				state = 55
+				state = 42
+				state = 57
+				state = 978
+				state = 1022
+				state = 8
+				state = 28
+				state = 59
+				state = 56
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		remove_effect = {
+			TND = {country_event=btk_exp.4}
+		}
+	}
+	pismo_jhf = {
+		icon = generic_form_nation
+		#picture = GFX_decision_cat_picture_form_greater_greece
+		
+		fire_only_once = yes
+		cost = 100
+		days_remove = 7
+	
+		allowed = {
+			original_tag = BTK
+		}
+		visible = {
+			original_tag = BTK
+			has_completed_focus = BTK_pismo_jojo
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 54
+				state = 53
+				state = 52
+				state = 50
+				state = 1020
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		remove_effect = {
+			JHF = {country_event=btk_exp.7}
+		}
 	}
 }
 BTK_council_cat = {
@@ -368,5 +484,8 @@ BTK_council_cat = {
 			add_stability = -0.06
 		}
 	}
+}
+BTK_reform89_cat = {
+	
 }
 

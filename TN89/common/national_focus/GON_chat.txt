@@ -1,0 +1,862 @@
+focus_tree = {
+	id = GON_chat
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ST2
+		}
+	}
+	continuous_focus_position = { x = 2850 y = 1520 }
+	shared_focus = GON_prom_nach
+	shared_focus = GON_modernize_army
+	default = no
+	focus = {
+		id = GON_unite_with_modders
+		icon = GFX_goal_generic_national_unity
+		cost = 0,00
+		x = 15
+		y = 0
+
+	}
+	
+	focus = {
+		id = GON_form_national_guard
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 0,00
+		prerequisite = {
+			focus = GON_unite_with_modders
+		}
+		x = 15
+		y = 1
+
+	}
+	focus = {
+		id = GON_propagand_our_enemy
+		icon = GFX_goal_generic_propaganda
+		cost = 0,00
+		prerequisite = {
+			focus = GON_form_national_guard
+		}
+		x = 15
+		y = 2
+
+	}
+	focus = {
+		id = GON_prepare_for_attack_on_capital
+		icon = GFX_goal_generic_military_deal
+		cost = 0,00
+		prerequisite = {
+			focus = GON_propagand_our_enemy
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = ST2_akkuratno
+		icon = GFX_focus_generic_horse_studs
+		cost = 10,00
+		prerequisite = {
+			focus = GON_prepare_for_attack_on_capital
+		}
+		mutually_exclusive = {
+			focus = ST2_priglasit_stintlera
+		}
+		x = 7
+		y = 4
+
+	}
+	focus = {
+		id = ST2_priglasit_stintlera
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_prepare_for_attack_on_capital
+		}
+		mutually_exclusive = {
+			focus = ST2_akkuratno
+		}
+		x = 23
+		y = 4
+
+	}
+	focus = {
+		id = ST2_ataka_na_social_set
+		icon = GFX_focus_ARG_american_allyship
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_akkuratno
+			focus = ST2_priglasit_stintlera
+		}
+		x = 15
+		y = 5
+
+	}
+	focus = {
+		id = ST2_botnet
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_ataka_na_social_set
+		}
+		x = 13
+		y = 6
+
+	}
+	focus = {
+		id = ST2_polniy_pizdotrax
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_ataka_na_social_set
+		}
+		x = 15
+		y = 6
+
+	}
+	focus = {
+		id = ST2_sponsorstvo
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_polniy_pizdotrax
+		}
+		x = 15
+		y = 7
+
+	}
+	focus = {
+		id = ST2_obyavit_konkurs
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_botnet
+		}
+		x = 13
+		y = 7
+
+	}
+	focus = {
+		id = ST2_neyro_narezki
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_ataka_na_social_set
+		}
+		x = 17
+		y = 6
+
+	}
+	focus = {
+		id = ST2_new_tactiks
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_neyro_narezki
+		}
+		x = 17
+		y = 7
+
+	}
+	focus = {
+		id = ST2_otkryt_pozhertvovania
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_obyavit_konkurs
+		}
+		prerequisite = {
+			focus = ST2_sponsorstvo
+		}
+		prerequisite = {
+			focus = ST2_new_tactiks
+		}
+		x = 15
+		y = 8
+
+	}
+	focus = {
+		id = ST2_nachalo_sturm
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_priglasit_stintlera
+		}
+		x = 23
+		y = 5
+
+	}
+	focus = {
+		id = ST2_obrashenie_k_strimersm
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_nachalo_sturm
+		}
+		x = 19
+		y = 6
+
+	}
+	focus = {
+		id = ST2_help_from_strimers
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_obrashenie_k_strimersm
+		}
+		x = 18
+		y = 8
+
+	}
+	focus = {
+		id = ST2_vskrut_oruzhue
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_nachalo_sturm
+		}
+		x = 23
+		y = 6
+
+	}
+	focus = {
+		id = ST2_perehvat_zoloto
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_vskrut_oruzhue
+		}
+		x = 21
+		y = 7
+
+	}
+	focus = {
+		id = ST2_inosranniy_runok
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_obrashenie_k_strimersm
+			focus = ST2_perehvat_zoloto
+		}
+		prerequisite = {
+			focus = ST2_obrashenie_k_strimersm
+		}
+		x = 20
+		y = 8
+
+	}
+	focus = {
+		id = ST2_obsuzhdenie_o_intervent
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_inosranniy_runok
+			focus = ST2_perehvat_zoloto
+		}
+		prerequisite = {
+			focus = ST2_inosranniy_runok
+		}
+		prerequisite = {
+			focus = ST2_help_from_strimers
+		}
+		x = 19
+		y = 9
+
+	}
+	focus = {
+		id = ST2_form_strong_army
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_vskrut_oruzhue
+		}
+		x = 23
+		y = 7
+
+	}
+	focus = {
+		id = ST2_novuy_oruzhie
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_form_strong_army
+		}
+		x = 22
+		y = 8
+
+	}
+	focus = {
+		id = ST2_verbovka_v_army
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_form_strong_army
+		}
+		x = 24
+		y = 8
+
+	}
+	focus = {
+		id = ST2_net_problem_armiya
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_verbovka_v_army
+		}
+		prerequisite = {
+			focus = ST2_novuy_oruzhie
+		}
+		x = 23
+		y = 9
+
+	}
+	focus = {
+		id = ST2_plan_west
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_net_problem_armiya
+		}
+		mutually_exclusive = {
+			focus = ST2_plan_centr
+			focus = ST2_plan_east
+		}
+		x = 21
+		y = 10
+
+	}
+	focus = {
+		id = ST2_plan_centr
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_net_problem_armiya
+		}
+		mutually_exclusive = {
+			focus = ST2_plan_west
+			focus = ST2_plan_east
+		}
+		x = 23
+		y = 10
+
+	}
+	focus = {
+		id = ST2_plan_east
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_net_problem_armiya
+		}
+		mutually_exclusive = {
+			focus = ST2_plan_centr
+			focus = ST2_plan_west
+		}
+		x = 25
+		y = 10
+
+	}
+	focus = {
+		id = ST2_last_push
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_plan_west
+			focus = ST2_plan_centr
+			focus = ST2_plan_east
+		}
+		x = 23
+		y = 11
+
+	}
+	focus = {
+		id = ST2_kontaktu_na_granicy
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_vskrut_oruzhue
+		}
+		x = 25
+		y = 7
+
+	}
+	focus = {
+		id = ST2_partizani
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_nachalo_sturm
+		}
+		x = 27
+		y = 6
+
+	}
+	focus = {
+		id = ST2_spec_plan_operatsia
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_partizani
+		}
+		x = 27
+		y = 7
+
+	}
+	focus = {
+		id = ST2_vtoroy_front
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_spec_plan_operatsia
+		}
+		prerequisite = {
+			focus = ST2_kontaktu_na_granicy
+		}
+		x = 27
+		y = 8
+
+	}
+	focus = {
+		id = ST2_svyaz_s_89
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_vtoroy_front
+		}
+		mutually_exclusive = {
+			focus = ST2_obyedineniye
+		}
+		x = 26
+		y = 9
+
+	}
+	focus = {
+		id = ST2_new_way_politota
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_mirovoe_priznanie
+		}
+		prerequisite = {
+			focus = ST2_pervie_vubory
+		}
+		prerequisite = {
+			focus = ST2_demobilizatsia
+		}
+		x = 15
+		y = 15
+
+	}
+	focus = {
+		id = ST2_nachat_perviy_zakon
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_stolica_nasha
+		}
+		x = 18
+		y = 13
+
+	}
+	focus = {
+		id = ST2_stolica_nasha
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_last_push
+			focus = ST2_posledniy_sturm
+			focus = ST2_konec_voynu
+		}
+		x = 15
+		y = 12
+
+	}
+	focus = {
+		id = ST2_rework_stroika
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_stolica_nasha
+		}
+		x = 12
+		y = 13
+
+	}
+	focus = {
+		id = ST2_new_gosapparat
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_stolica_nasha
+		}
+		x = 14
+		y = 13
+
+	}
+	focus = {
+		id = ST2_sudy
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_stolica_nasha
+		}
+		x = 16
+		y = 13
+
+	}
+	focus = {
+		id = ST2_mirovoe_priznanie
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_rework_stroika
+		}
+		prerequisite = {
+			focus = ST2_new_gosapparat
+		}
+		x = 13
+		y = 14
+
+	}
+	focus = {
+		id = ST2_pervie_vubory
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_new_gosapparat
+		}
+		prerequisite = {
+			focus = ST2_sudy
+		}
+		x = 15
+		y = 14
+
+	}
+	focus = {
+		id = ST2_demobilizatsia
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_sudy
+		}
+		prerequisite = {
+			focus = ST2_nachat_perviy_zakon
+		}
+		x = 17
+		y = 14
+
+	}
+	focus = {
+		id = ST2_form_provis_goverment
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_akkuratno
+		}
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = ST2_socdem
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_form_provis_goverment
+		}
+		mutually_exclusive = {
+			focus = ST2_democrat
+			focus = ST2_authorian
+		}
+		x = 5
+		y = 6
+
+	}
+	focus = {
+		id = ST2_democrat
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_form_provis_goverment
+		}
+		mutually_exclusive = {
+			focus = ST2_socdem
+			focus = ST2_authorian
+		}
+		x = 7
+		y = 6
+
+	}
+	focus = {
+		id = ST2_authorian
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_form_provis_goverment
+		}
+		mutually_exclusive = {
+			focus = ST2_democrat
+			focus = ST2_socdem
+		}
+		x = 9
+		y = 6
+
+	}
+	focus = {
+		id = ST2_hypecratia
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_form_provis_goverment
+		}
+		x = 3
+		y = 6
+
+	}
+	focus = {
+		id = ST2_put_kompromisa
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_socdem
+			focus = ST2_democrat
+			focus = ST2_authorian
+		}
+		mutually_exclusive = {
+			focus = ST2_put_sily
+		}
+		x = 6
+		y = 7
+
+	}
+	focus = {
+		id = ST2_put_sily
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_authorian
+			focus = ST2_democrat
+			focus = ST2_socdem
+		}
+		mutually_exclusive = {
+			focus = ST2_put_kompromisa
+		}
+		x = 8
+		y = 7
+
+	}
+	focus = {
+		id = ST2_reorg_nat_guard
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_put_kompromisa
+			focus = ST2_put_sily
+		}
+		x = 7
+		y = 8
+
+	}
+	focus = {
+		id = ST2_planirovanie
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_put_sily
+		}
+		x = 10
+		y = 8
+
+	}
+	focus = {
+		id = ST2_poisk_soyuznikov
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_put_kompromisa
+		}
+		x = 4
+		y = 8
+
+	}
+	focus = {
+		id = ST2_podgotovka
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_planirovanie
+		}
+		x = 11
+		y = 9
+
+	}
+	focus = {
+		id = ST2_zagovor
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_poisk_soyuznikov
+		}
+		x = 3
+		y = 9
+
+	}
+	focus = {
+		id = ST2_otrkut_skladu
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_podgotovka
+		}
+		x = 10
+		y = 10
+
+	}
+	focus = {
+		id = ST2_nabor_oficerov
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_podgotovka
+		}
+		x = 12
+		y = 10
+
+	}
+	focus = {
+		id = ST2_sphiony
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_zagovor
+		}
+		x = 4
+		y = 10
+
+	}
+	focus = {
+		id = ST2_progret_goev
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_zagovor
+		}
+		x = 2
+		y = 10
+
+	}
+	focus = {
+		id = ST2_agitacia
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_reorg_nat_guard
+		}
+		x = 7
+		y = 9
+
+	}
+	focus = {
+		id = ST2_konec_voynu
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_progret_goev
+		}
+		prerequisite = {
+			focus = ST2_sphiony
+		}
+		x = 3
+		y = 11
+
+	}
+	focus = {
+		id = ST2_posledniy_sturm
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_otrkut_skladu
+		}
+		prerequisite = {
+			focus = ST2_nabor_oficerov
+		}
+		x = 11
+		y = 11
+
+	}
+	focus = {
+		id = ST2_voenniy_perevorot
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_form_provis_goverment
+		}
+		x = 11
+		y = 6
+
+	}
+	focus = {
+		id = ST2_no_content
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_hypecratia
+		}
+		x = 3
+		y = 7
+
+	}
+	focus = {
+		id = ST2_new_oficers
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_reorg_nat_guard
+		}
+		x = 5
+		y = 9
+
+	}
+	focus = {
+		id = ST2_v_plen_ne_brat
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_reorg_nat_guard
+		}
+		x = 9
+		y = 9
+
+	}
+	focus = {
+		id = ST2_polnuy_vpered
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_new_oficers
+		}
+		prerequisite = {
+			focus = ST2_agitacia
+		}
+		prerequisite = {
+			focus = ST2_v_plen_ne_brat
+		}
+		x = 7
+		y = 10
+
+	}
+	focus = {
+		id = ST2_obyedineniye
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_vtoroy_front
+		}
+		mutually_exclusive = {
+			focus = ST2_svyaz_s_89
+		}
+		x = 28
+		y = 9
+
+	}
+}

@@ -1,0 +1,516 @@
+#АРМИЯ ГРАЖДАНСКАЯ ВОЙНА
+shared_focus = {
+    id = GON_prom_nach
+    x = 5
+    y = 0
+    icon = GFX_goal_generic_construction2
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward = {
+        add_political_power = 100
+    }
+	offset = {
+			x = 35
+			trigger = {
+				has_focus_tree = GON_mod
+			}
+		}
+		offset = {
+			x = 30
+			trigger = {
+				has_focus_tree = GON_chat
+			}
+		}
+}	
+shared_focus = {
+		id = GON_food_for_people
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 0,00
+		prerequisite = {
+			focus = GON_prom_nach
+		}
+		relative_position_id = GON_prom_nach
+		x = -2
+		y = 1
+
+}
+shared_focus = {
+		id = GON_develop_infrastructure
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 0,00
+		prerequisite = {
+			focus = GON_prom_nach
+		}
+		relative_position_id = GON_prom_nach
+		x = 0
+		y = 1
+
+}
+shared_focus = {
+		id = GON_develop_army_production
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 0,00
+		prerequisite = {
+			focus = GON_prom_nach
+		}
+		relative_position_id = GON_prom_nach
+		x = 2
+		y = 1
+
+	}
+shared_focus = {
+		id = GON_develop_our_city
+		icon = GFX_goal_generic_construction
+		cost = 0,00
+		prerequisite = {
+			focus = GON_develop_infrastructure
+		}
+		relative_position_id = GON_prom_nach
+		x = 0
+		y = 2
+
+	}
+shared_focus = {
+		id = GON_food_for_people_2
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 0,00
+		prerequisite = {
+			focus = GON_develop_our_city
+		}
+		relative_position_id = GON_prom_nach
+		x = -2
+		y = 3
+
+	}
+shared_focus = {
+		id = GON_develop_infrastructure_2
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 0,00
+		prerequisite = {
+			focus = GON_develop_our_city
+		}
+		relative_position_id = GON_prom_nach
+		x = 0
+		y = 3
+
+	}
+shared_focus = {
+		id = GON_develop_army_production_2
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 0,00
+		prerequisite = {
+			focus = GON_develop_army_production
+		}
+		relative_position_id = GON_prom_nach
+		x = 2
+		y = 2
+
+	}
+shared_focus = {
+		id = GON_develop_army_production_3
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 0,00
+		prerequisite = {
+			focus = GON_develop_army_production_2
+		}
+		prerequisite = {
+			focus = GON_develop_our_city
+		}
+		relative_position_id = GON_prom_nach
+		x = 2
+		y = 3
+
+	}
+shared_focus = {
+		id = GON_finish_plan
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 0,00
+		prerequisite = {
+			focus = GON_food_for_people_2
+		}
+		prerequisite = {
+			focus = GON_develop_army_production_3
+		}
+		prerequisite = {
+			focus = GON_develop_infrastructure_2
+		}
+		relative_position_id = GON_prom_nach
+		x = 0
+		y = 4
+
+}
+#ПРОМКА ГРАЖДАНСКАЯ ВОЙНА
+shared_focus = {
+		id = GON_modernize_army
+		icon = GFX_goal_generic_army_doctrines
+		cost = 0,00
+		x = 5
+		y = 7
+		offset = {
+			x = 35
+			trigger = {
+				has_focus_tree = GON_mod
+			}
+		}
+		offset = {
+			x = 30
+			trigger = {
+				has_focus_tree = GON_chat
+			}
+		}
+		
+
+	}
+	
+shared_focus = {
+		id = GON_wolfs_in_sky
+		icon = GFX_goal_generic_air_fighter
+		cost = 0,00
+		prerequisite = {
+			focus = GON_modernize_army
+		}
+		relative_position_id = GON_modernize_army
+		x = -2
+		y = 1
+
+	}
+shared_focus = {
+		id = GON_bombini_gusini
+		icon = GFX_goal_generic_air_bomber
+		cost = 0,00
+		prerequisite = {
+			focus = GON_wolfs_in_sky
+		}
+		relative_position_id = GON_modernize_army
+		x = -2
+		y = 2
+
+	}
+shared_focus = {
+		id = GON_air_xp
+		icon = GFX_goal_generic_air_doctrine
+		cost = 0,00
+		prerequisite = {
+			focus = GON_bombini_gusini
+		}
+		relative_position_id = GON_modernize_army
+		x = -2
+		y = 3
+
+	}
+shared_focus = {
+		id = GON_modernize_army_1
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 0,00
+		prerequisite = {
+			focus = GON_modernize_army
+		}
+		relative_position_id = GON_modernize_army
+		x = 0
+		y = 1
+
+	}
+shared_focus = {
+		id = GON_use_artilery
+		icon = GFX_goal_generic_army_artillery2
+		cost = 0,00
+		prerequisite = {
+			focus = GON_modernize_army_1
+		}
+		relative_position_id = GON_modernize_army
+		x = 0
+		y = 2
+	}
+shared_focus = {
+		id = GON_tanks_usage
+		icon = GFX_goal_generic_army_tanks
+		cost = 0,00
+		prerequisite = {
+			focus = GON_use_artilery
+		}
+		relative_position_id = GON_modernize_army
+		x = 0
+		y = 3
+
+	}
+shared_focus = {
+		id = GON_modernize_navy
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 0,00
+		prerequisite = {
+			focus = GON_modernize_army
+		}
+		relative_position_id = GON_modernize_army
+		x = 2
+		y = 1
+
+	}
+shared_focus = {
+		id = GON_wolfs_in_water
+		icon = GFX_goal_generic_navy_submarine
+		cost = 0,00
+		prerequisite = {
+			focus = GON_modernize_navy
+		}
+		relative_position_id = GON_modernize_army
+		x = 2
+		y = 3
+
+}
+
+#ЗАВОЕВАНИЕ = ПОСЛЕ ГВ
+shared_focus = {
+	id = GON_rearment
+	icon = GFX_focus_generic_manpower
+	cost = 10,00
+	x = 15
+	y = 0
+
+}
+shared_focus = {
+	id = GON_realpolitik
+	icon = GFX_goal_molotov_ribbentrop_pact
+	cost = 10,00
+	prerequisite = {
+		focus = GON_rearment
+	}
+	mutually_exclusive = {
+		focus = GON_expansionism
+	}
+	x = 2
+	y = 1
+	relative_position_id = GON_rearment
+}
+shared_focus = {
+	id = GON_expansionism
+	icon = GFX_goal_generic_political_pressure
+	cost = 10,00
+	prerequisite = {
+		focus = GON_rearment
+	}
+	mutually_exclusive = {
+		focus = GON_realpolitik
+	}
+	x = -2
+	y = 1
+	relative_position_id = GON_rearment
+}
+shared_focus = {
+	id = GON_seek_allies
+	icon = GFX_goal_generic_intelligence_exchange
+	cost = 10,00
+	prerequisite = {
+		focus = GON_realpolitik
+		focus = GON_expansionism
+	}
+	x = -3
+	y = 2
+	relative_position_id = GON_rearment
+}
+shared_focus = {
+	id = GON_secure_Nelya
+	icon = GFX_goal_unknown
+	cost = 10,00
+	prerequisite = {
+		focus = GON_realpolitik
+		focus = GON_expansionism
+		focus = GON_realpolitik
+		focus = GON_expansionism
+	}
+	x = -1
+	y = 2
+	relative_position_id = GON_rearment
+}
+shared_focus = {
+	id = GON_secure_colonies
+	icon = GFX_goal_unknown
+	cost = 10,00
+	prerequisite = {
+		focus = GON_realpolitik
+		focus = GON_expansionism
+		focus = GON_realpolitik
+		focus = GON_expansionism
+	}
+	x = 1
+	y = 2
+	relative_position_id = GON_rearment
+}
+shared_focus = {
+	id = GON_pohod_na_morphie
+	icon = GFX_goal_unknown
+	cost = 10,00
+	prerequisite = {
+		focus = GON_secure_colonies
+		focus = GON_secure_Nelya
+	}
+	x = -3
+	y = 3
+	relative_position_id = GON_rearment
+}
+shared_focus = {
+	id = GON_italia
+	icon = GFX_goal_unknown
+	cost = 10,00
+	prerequisite = {
+		focus = GON_secure_Nelya
+		focus = GON_secure_colonies
+	}
+	x = 0
+	y = 3
+	relative_position_id = GON_rearment
+}
+shared_focus = {
+	id = GON_ultimatum_zolo
+	icon = GFX_goal_unknown
+	cost = 10,00
+	prerequisite = {
+		focus = GON_italia
+	}
+	x = 1
+	y = 4
+	relative_position_id = GON_rearment
+}
+shared_focus = {
+	id = GON_konec_dippens
+	icon = GFX_goal_unknown
+	cost = 10,00
+	prerequisite = {
+		focus = GON_pohod_na_morphie
+	}
+	x = -4
+	y = 4
+	relative_position_id = GON_rearment
+}
+shared_focus = {
+	id = GON_gate_to_albion
+	icon = GFX_goal_unknown
+	cost = 10,00
+	prerequisite = {
+		focus = GON_konec_dippens
+	}
+	x = -3
+	y = 5
+	relative_position_id = GON_rearment
+}
+shared_focus = {
+	id = GON_etner_polkovnik
+	icon = GFX_goal_unknown
+	cost = 10,00
+	prerequisite = {
+		focus = GON_secure_colonies
+		focus = GON_secure_Nelya
+	}
+	x = 4
+	y = 3
+	relative_position_id = GON_rearment
+}
+shared_focus = {
+	id = GON_322_situation
+	icon = GFX_goal_unknown
+	cost = 10,00
+	prerequisite = {
+		focus = GON_etner_polkovnik
+	}
+	x = 6
+	y = 5
+	relative_position_id = GON_rearment
+}
+shared_focus = {
+	id = GON_gonduras_acad_sciens
+	icon = GFX_goal_tfv_generic_tech_sharing
+	cost = 10,00
+	prerequisite = {
+		focus = GON_expansionism
+		focus = GON_realpolitik
+	}
+	x = 3
+	y = 2
+	relative_position_id = GON_rearment
+}
+shared_focus = {
+	id = GON_dobrovolno
+	icon = GFX_goal_unknown
+	cost = 10,00
+	prerequisite = {
+		focus = GON_etner_polkovnik
+	}
+	mutually_exclusive = {
+		focus = GON_vpered
+	}
+	x = 3
+	y = 4
+	relative_position_id = GON_rearment
+}
+shared_focus = {
+	id = GON_vpered
+	icon = GFX_goal_unknown
+	cost = 10,00
+	prerequisite = {
+		focus = GON_etner_polkovnik
+	}
+	mutually_exclusive = {
+		focus = GON_dobrovolno
+	}
+	x = 5
+	y = 4
+	relative_position_id = GON_rearment
+}
+shared_focus = {
+	id = GON_africankommisariat
+	icon = GFX_goal_unknown
+	cost = 10,00
+	prerequisite = {
+		focus = GON_dobrovolno
+		focus = GON_vpered
+	}
+	x = 4
+	y = 5
+	relative_position_id = GON_rearment
+}
+shared_focus = {
+	id = GON_sdelka_s_silazhik
+	icon = GFX_goal_unknown
+	cost = 10,00
+	prerequisite = {
+		focus = GON_italia
+	}
+	x = -1
+	y = 4
+	relative_position_id = GON_rearment
+}
+shared_focus = {
+	id = GON_secure_nekoglai
+	icon = GFX_goal_unknown
+	cost = 10,00
+	prerequisite = {
+		focus = GON_italia
+	}
+	x = 0
+	y = 5
+	relative_position_id = GON_rearment
+}
+shared_focus = {
+	id = GON_new_shef_89
+	icon = GFX_goal_unknown
+	cost = 10,00
+	prerequisite = {
+		focus = GON_secure_nekoglai
+	}
+	prerequisite = {
+		focus = GON_gate_to_albion
+	}
+	prerequisite = {
+		focus = GON_africankommisariat
+	}
+	x = 0
+	y = 6
+	relative_position_id = GON_rearment
+}
+
+
+#ЭКОНОМИКА = ПОСЛЕ ГВ
+
+#ПРОМКА = ПОСЛЕ ГВ
+
+

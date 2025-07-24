@@ -1,0 +1,1069 @@
+focus_tree = {
+	id = GON_mod
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ST2
+		}
+	}
+	continuous_focus_position = { x = 2850 y = 1600 }
+	shared_focus = GON_prom_nach
+	shared_focus = GON_modernize_army
+	default = no
+	focus = {
+		id = ST2_unite_with_chatters
+		icon = GFX_goal_generic_national_unity
+		cost = 0,00
+		x = 18
+		y = 0
+
+	}
+	
+	focus = {
+		id = GON_form_genstab
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 29
+		y = 9
+
+	}
+	focus = {
+		id = ST2_form_national_guard
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 0,00
+		prerequisite = {
+			focus = ST2_unite_with_chatters
+		}
+		x = 18
+		y = 1
+
+	}
+	focus = {
+		id = ST2_propagand_our_enemy
+		icon = GFX_goal_generic_propaganda
+		cost = 0,00
+		prerequisite = {
+			focus = ST2_form_national_guard
+		}
+		x = 18
+		y = 2
+
+	}
+	focus = {
+		id = ST2_attack_lisboa
+		icon = GFX_goal_generic_major_war
+		cost = 0,00
+		prerequisite = {
+			focus = ST2_propagand_our_enemy
+		}
+		mutually_exclusive = {
+			focus = ST2_attack_sevilia
+		}
+		x = 6
+		y = 3
+
+	}
+	focus = {
+		id = GON_stick_with_emperor
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_attack_lisboa
+		}
+		mutually_exclusive = {
+			focus = GON_stick_with_modders
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = GON_koronaci
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_stick_with_emperor
+		}
+		x = 2
+		y = 5
+
+	}
+	focus = {
+		id = GON_new_monarch_zakon
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_koronaci
+		}
+		x = 0
+		y = 6
+
+	}
+	focus = {
+		id = GON_de_republikanism
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_new_monarch_zakon
+		}
+		x = 1
+		y = 7
+
+	}
+	focus = {
+		id = GON_new_const
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_koronaci
+		}
+		x = 4
+		y = 6
+
+	}
+	focus = {
+		id = GON_rastrelyat_staruyu_elita
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_new_const
+		}
+		x = 3
+		y = 7
+
+	}
+	focus = {
+		id = GON_stick_with_modders
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_attack_lisboa
+		}
+		mutually_exclusive = {
+			focus = GON_stick_with_emperor
+		}
+		x = 7
+		y = 4
+
+	}
+	focus = {
+		id = GON_pervy_vybory
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_stick_with_modders
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = GON_levuye_modders
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_pervy_vybory
+		}
+		mutually_exclusive = {
+			focus = GON_pravuye_modders
+		}
+		x = 10
+		y = 6
+
+	}
+	focus = {
+		id = GON_social_zashita
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_levuye_modders
+		}
+		x = 8
+		y = 7
+
+	}
+	focus = {
+		id = GON_pravuye_modders
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_pervy_vybory
+		}
+		mutually_exclusive = {
+			focus = GON_levuye_modders
+		}
+		x = 12
+		y = 6
+
+	}
+	focus = {
+		id = GON_ubit_neloyal_elite
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_pravuye_modders
+		}
+		x = 14
+		y = 7
+
+	}
+	focus = {
+		id = GON_secure_regime
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_ubit_neloyal_elite
+		}
+		x = 15
+		y = 8
+
+	}
+	focus = {
+		id = ST2_attack_sevilia
+		icon = GFX_goal_generic_major_war
+		cost = 0,00
+		prerequisite = {
+			focus = ST2_propagand_our_enemy
+		}
+		mutually_exclusive = {
+			focus = ST2_attack_lisboa
+		}
+		x = 29
+		y = 3
+
+	}
+	focus = {
+		id = GON_new_taktik
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_attack_lisboa
+			focus = ST2_attack_sevilia
+		}
+		x = 18
+		y = 4
+
+	}
+	focus = {
+		id = GON_new_naerzka
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_new_taktik
+		}
+		x = 16
+		y = 5
+
+	}
+	focus = {
+		id = GON_start_stint_prop
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_new_naerzka
+		}
+		x = 17
+		y = 6
+
+	}
+	focus = {
+		id = GON_nabor_v_moders
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_new_taktik
+		}
+		x = 18
+		y = 5
+
+	}
+	focus = {
+		id = GON_inostrann_invest
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_new_taktik
+		}
+		x = 20
+		y = 5
+
+	}
+	focus = {
+		id = GON_resursu_na_oruzh
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_inostrann_invest
+		}
+		x = 19
+		y = 6
+
+	}
+	focus = {
+		id = GON_obrashenie_k_strimeram
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_nabor_v_moders
+		}
+		prerequisite = {
+			focus = GON_start_stint_prop
+		}
+		prerequisite = {
+			focus = GON_resursu_na_oruzh
+		}
+		x = 18
+		y = 7
+
+	}
+	focus = {
+		id = GON_podnyat_redbanner
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ST2_attack_sevilia
+		}
+		x = 29
+		y = 4
+
+	}
+	focus = {
+		id = GON_proglasit_shabanova
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_podnyat_redbanner
+		}
+		mutually_exclusive = {
+			focus = GON_anarchikal_communism
+			focus = GON_party_control
+		}
+		x = 27
+		y = 5
+
+	}
+	focus = {
+		id = GON_plan_nastup
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_proglasit_shabanova
+		}
+		x = 24
+		y = 6
+
+	}
+	focus = {
+		id = GON_politizacia_guard
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_plan_nastup
+		}
+		x = 23
+		y = 7
+
+	}
+	focus = {
+		id = GON_formirovanie_elit
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_plan_nastup
+		}
+		x = 25
+		y = 7
+
+	}
+	focus = {
+		id = GON_condemn_party
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_proglasit_shabanova
+		}
+		x = 28
+		y = 6
+
+	}
+	focus = {
+		id = GON_anarchikal_communism
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_podnyat_redbanner
+		}
+		mutually_exclusive = {
+			focus = GON_proglasit_shabanova
+			focus = GON_party_control
+		}
+		x = 29
+		y = 5
+
+	}
+	focus = {
+		id = GON_party_control
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_podnyat_redbanner
+		}
+		mutually_exclusive = {
+			focus = GON_anarchikal_communism
+			focus = GON_proglasit_shabanova
+		}
+		x = 31
+		y = 5
+
+	}
+	focus = {
+		id = GON_ban_shabanov
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_party_control
+		}
+		x = 30
+		y = 6
+
+	}
+	focus = {
+		id = GON_help_from_internacional
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_condemn_party
+			focus = GON_ban_shabanov
+		}
+		x = 29
+		y = 7
+
+	}
+	focus = {
+		id = GON_inostranny_dobrovolcy
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_help_from_internacional
+		}
+		x = 27
+		y = 8
+
+	}
+	focus = {
+		id = GON_inostranniy_specialist
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_help_from_internacional
+		}
+		x = 31
+		y = 8
+
+	}
+	focus = {
+		id = GON_sov_east
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_form_genstab
+		}
+		mutually_exclusive = {
+			focus = GON_sov_centr
+			focus = GON_sov_west
+		}
+		x = 31
+		y = 10
+
+	}
+	focus = {
+		id = GON_analiz_situacii
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_party_control
+		}
+		x = 34
+		y = 6
+
+	}
+	focus = {
+		id = GON_kolhkoz
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_analiz_situacii
+		}
+		x = 33
+		y = 7
+
+	}
+	focus = {
+		id = GON_form_smychka
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_kolhkoz
+		}
+		x = 33
+		y = 8
+
+	}
+	
+	focus = {
+		id = GON_reform_natguard
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_stick_with_emperor
+			focus = GON_stick_with_modders
+		}
+		x = 6
+		y = 5
+
+	}
+	focus = {
+		id = GON_nabor_oficerov
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_reform_natguard
+		}
+		x = 6
+		y = 6
+
+	}
+	focus = {
+		id = GON_mass_priziv
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_nabor_oficerov
+		}
+		x = 6
+		y = 7
+
+	}
+	focus = {
+		id = GON_bozhe_hrani_stinta
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_de_republikanism
+		}
+		prerequisite = {
+			focus = GON_rastrelyat_staruyu_elita
+		}
+		prerequisite = {
+			focus = GON_mon_propoganda
+		}
+		x = 2
+		y = 8
+
+	}
+	focus = {
+		id = GON_mon_nastup
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_bozhe_hrani_stinta
+		}
+		x = 2
+		y = 9
+
+	}
+	focus = {
+		id = GON_centr
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_mon_nastup
+		}
+		mutually_exclusive = {
+			focus = GON_east
+			focus = GON_west
+		}
+		x = 2
+		y = 10
+
+	}
+	focus = {
+		id = GON_east
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_mon_nastup
+		}
+		mutually_exclusive = {
+			focus = GON_centr
+			focus = GON_west
+		}
+		x = 4
+		y = 10
+
+	}
+	focus = {
+		id = GON_west
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_mon_nastup
+		}
+		mutually_exclusive = {
+			focus = GON_centr
+			focus = GON_east
+		}
+		x = 0
+		y = 10
+
+	}
+	focus = {
+		id = GON_last_push
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_west
+			focus = GON_centr
+			focus = GON_east
+		}
+		x = 2
+		y = 11
+
+	}
+	focus = {
+		id = GON_mon_propoganda
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_koronaci
+		}
+		x = 2
+		y = 6
+
+	}
+	focus = {
+		id = GON_socializacia_zakonov
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_levuye_modders
+		}
+		x = 10
+		y = 7
+
+	}
+	focus = {
+		id = GON_kickstart_new_army
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_levuye_modders
+			focus = GON_pravuye_modders
+		}
+		x = 11
+		y = 8
+
+	}
+	focus = {
+		id = GON_vskrut_sklad
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_kickstart_new_army
+		}
+		x = 11
+		y = 9
+
+	}
+	focus = {
+		id = GON_new_modders_elite
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_social_zashita
+		}
+		x = 7
+		y = 8
+
+	}
+	focus = {
+		id = GON_sovetskaya_mobilizacia
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_socializacia_zakonov
+		}
+		prerequisite = {
+			focus = GON_social_zashita
+		}
+		x = 9
+		y = 8
+
+	}
+	focus = {
+		id = GON_vernut_staruye_poryadki
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_pravuye_modders
+		}
+		x = 12
+		y = 7
+
+	}
+	focus = {
+		id = GON_new_emperialism
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_vernut_staruye_poryadki
+		}
+		prerequisite = {
+			focus = GON_ubit_neloyal_elite
+		}
+		x = 13
+		y = 8
+
+	}
+	focus = {
+		id = GON_totalsturme
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_vskrut_sklad
+		}
+		x = 11
+		y = 10
+
+	}
+	focus = {
+		id = GON_form_soc_genshtab
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_new_modders_elite
+		}
+		prerequisite = {
+			focus = GON_sovetskaya_mobilizacia
+		}
+		x = 8
+		y = 9
+
+	}
+	focus = {
+		id = GON_form_fas_genstab
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_new_emperialism
+		}
+		prerequisite = {
+			focus = GON_secure_regime
+		}
+		x = 14
+		y = 9
+
+	}
+	focus = {
+		id = GON_akkuratno
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_form_soc_genshtab
+		}
+		mutually_exclusive = {
+			focus = GON_aktivno
+		}
+		x = 7
+		y = 10
+
+	}
+	focus = {
+		id = GON_aktivno
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_form_soc_genshtab
+		}
+		mutually_exclusive = {
+			focus = GON_akkuratno
+		}
+		x = 9
+		y = 10
+
+	}
+	focus = {
+		id = GON_ponlomashtabno
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_form_fas_genstab
+		}
+		mutually_exclusive = {
+			focus = GON_volksturm
+		}
+		x = 13
+		y = 10
+
+	}
+	focus = {
+		id = GON_volksturm
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_form_fas_genstab
+		}
+		mutually_exclusive = {
+			focus = GON_ponlomashtabno
+		}
+		x = 15
+		y = 10
+
+	}
+	focus = {
+		id = GON_vpered_k_pobede
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_akkuratno
+			focus = GON_aktivno
+			focus = GON_ponlomashtabno
+			focus = GON_volksturm
+		}
+		prerequisite = {
+			focus = GON_totalsturme
+		}
+		x = 11
+		y = 11
+
+	}
+	focus = {
+		id = GON_propoganda_protivnika
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_formirovanie_elit
+		}
+		x = 25
+		y = 8
+
+	}
+	focus = {
+		id = GON_reform_guard
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_novaya_konst
+		}
+		x = 35
+		y = 8
+
+	}
+	focus = {
+		id = GON_novaya_konst
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_analiz_situacii
+		}
+		x = 35
+		y = 7
+
+	}
+	focus = {
+		id = GON_form_new_prav
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_politizacia_guard
+		}
+		x = 23
+		y = 8
+
+	}
+	focus = {
+		id = GON_big_purge
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_form_new_prav
+		}
+		prerequisite = {
+			focus = GON_propoganda_protivnika
+		}
+		x = 24
+		y = 9
+
+	}
+	focus = {
+		id = GON_arest_czaristov
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_form_smychka
+		}
+		prerequisite = {
+			focus = GON_reform_guard
+		}
+		x = 34
+		y = 9
+
+	}
+	focus = {
+		id = GON_inostranniy_capital
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_help_from_internacional
+		}
+		x = 29
+		y = 8
+
+	}
+	focus = {
+		id = GON_sov_west
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_form_genstab
+		}
+		mutually_exclusive = {
+			focus = GON_sov_centr
+			focus = GON_sov_east
+		}
+		x = 27
+		y = 10
+
+	}
+	focus = {
+		id = GON_sov_centr
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_form_genstab
+		}
+		mutually_exclusive = {
+			focus = GON_sov_east
+			focus = GON_sov_west
+		}
+		x = 29
+		y = 10
+
+	}
+	focus = {
+		id = GON_stolica_vernulac
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_vpered_k_pobede
+			focus = GON_last_push
+			focus = GON_fire_inda_holl
+		}
+		x = 18
+		y = 12
+
+	}
+	focus = {
+		id = GON_start_reconstr
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_stolica_vernulac
+		}
+		x = 15
+		y = 13
+
+	}
+	focus = {
+		id = GON_new_apparat
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_stolica_vernulac
+		}
+		x = 17
+		y = 13
+
+	}
+	focus = {
+		id = GON_sudey_process
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_stolica_vernulac
+		}
+		x = 19
+		y = 13
+
+	}
+	focus = {
+		id = GON_new_zakon
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_stolica_vernulac
+		}
+		x = 21
+		y = 13
+
+	}
+	focus = {
+		id = GON_write_new_const
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_sudey_process
+		}
+		prerequisite = {
+			focus = GON_new_zakon
+		}
+		x = 20
+		y = 14
+
+	}
+	focus = {
+		id = GON_obrashenie_k_strimers
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_new_apparat
+		}
+		prerequisite = {
+			focus = GON_start_reconstr
+		}
+		x = 16
+		y = 14
+
+	}
+	focus = {
+		id = GON_new_politiks
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_obrashenie_k_strimers
+		}
+		prerequisite = {
+			focus = GON_write_new_const
+		}
+		prerequisite = {
+			focus = GON_stolica_vernulac
+		}
+		x = 18
+		y = 15
+
+	}
+	focus = {
+		id = GON_fire_inda_holl
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GON_sov_west
+			focus = GON_sov_east
+			focus = GON_sov_centr
+		}
+		x = 29
+		y = 11
+
+	}
+}

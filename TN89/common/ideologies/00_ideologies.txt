@@ -15,14 +15,6 @@ ideologies = {
 			socialism = {
 				color = { 167 51 63 }
 			}
-
-			socdem = {
-				color = { 194 39 83 }
-			}
-
-			libertarian = {
-				color = { 250 230 10 }
-			}
 			
 		}
 
@@ -140,6 +132,8 @@ ideologies = {
 		}
 
 	}
+	
+	
 
 	fascism = {
 
@@ -160,10 +154,10 @@ ideologies = {
 			rexism = {
 				
 			}
-
 			vedy = {
 				color = { 255 231 13 }
 			}
+
 		}
 
 		dynamic_faction_names = {

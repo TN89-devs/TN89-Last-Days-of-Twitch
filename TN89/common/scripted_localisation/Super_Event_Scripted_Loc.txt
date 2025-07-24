@@ -57,12 +57,6 @@ defined_text = {
     }
 	text = {
         trigger = {
-            has_global_flag = kaz_america
-        }
-        localization_key = "sp_event_america_obiedinena_pod_katzom"
-    }
-	text = {
-        trigger = {
             has_global_flag = HSU_war
         }
         localization_key = "sp_event_HSU_war"
@@ -137,12 +131,6 @@ defined_text = {
     }
 	text = {
         trigger = {
-            has_global_flag = kaz_america
-        }
-        localization_key = "sp_event_america_obiedinena_pod_katzom_remark"
-    }
-	text = {
-        trigger = {
             has_global_flag = HSU_war
         }
         localization_key = "sp_event_HSU_war_remark"
@@ -213,12 +201,6 @@ defined_text = {
             has_global_flag = BTK_top_squad
         }
         localization_key = "sp_event_top_squad_quote"
-    }
-	text = {
-        trigger = {
-            has_global_flag = kaz_america
-        }
-        localization_key = "sp_event_america_obiedinena_pod_katzom_quote"
     }
 	text = {
         trigger = {

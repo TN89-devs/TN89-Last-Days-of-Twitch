@@ -27,57 +27,7 @@ characters = {
 			id=-1
 		}
 	}
-	universal_hype_svi = {
-		name = "Емеля Жирни"
-		portraits={
-			civilian={
-				large=GFX_unknown_char_small
-				small=GFX_unknown_char_small
-			}
-		}
-		
-		advisor={
-			slot = political_advisor
-			idea_token = universal_hype_svi
-			allowed = {
-				always = yes
-			}	
-			traits  = {
-				hypecratia_booster
-			}	
-			cost = 100
-			do_effect = {
-				NOT = {
-					has_government = hypecratia # You can only select it if your current ideology isn't your new one
-				}
-			}
-		}
-	}
-	evgeniyZryagoshin ={ 
-        name = "Зрягожин Женя"
-        portraits= {
-            army = {
-                large = "GFX_svi_zrya_large"
-				small = "GFX_svi_zrya_small"
-            }
-        }
-        field_marshal = {
-			traits = { scavenger ambusher desert_fox skilled_staffer }
-            skill = 5
-            attack_skill = 4
-            defense_skill = 2
-            planning_skill = 3
-            logistics_skill = 3
-            legacy_id = -1
-       }
-	   advisor = {
-           slot = army_chief
-           idea_token = GFX_svi_zrya_small
-           ledger = army
-           allowed = { original_tag = SVI } # Optional, doesn't change anything.
-           traits = { army_chief_offensive_3 army_chief_organizational_3 }
-       }
-    }
+	
 	
     relanit ={ 
         name = "Relanit"

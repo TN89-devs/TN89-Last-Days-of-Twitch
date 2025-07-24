@@ -32,8 +32,8 @@ music = {
 	file = "SP/limuzin.ogg"
 }
 music = {
-	name = "top_squad"
-	file = "SP/the_great_war.ogg"
+	name = "top_squad89"
+	file = "SP/top_squad.ogg"
 }
 music = {
 	name = "HSU_war"
@@ -67,9 +67,4 @@ music = {
 music = {
 	name = "hamster_criminal"
 	file = "SP/hamster_criminal.ogg"
-}
-
-music = {
-	name = "amsterdam_castle"
-	file = "SP/amsterdam_castle.ogg"
 }

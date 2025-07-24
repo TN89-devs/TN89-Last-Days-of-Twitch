@@ -1,0 +1,13 @@
+DRE_EMPIRE = {
+    color = rgb { 76 22 82 }
+    color_ui = rgb { 76 22 82 }
+}
+SVI_BUSTER = {
+	color = rgb { 186 107 22 }
+	color_ui = rgb { 186 107 22 }
+}
+BTK_89 = {
+	color = rgb { 89 65 169 }
+	color_ui = rgb { 89 65 169 }
+}
+

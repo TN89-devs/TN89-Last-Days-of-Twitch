@@ -7,6 +7,11 @@ opinion_modifiers = {
 	svinland_comm_friend = {
 		value = 135
 	}
+	TS_betrayed_volunteers = {
+		value = -25
+		min_trust = -30	
+		decay = 1
+	}
 	
 	BTK_hametova_yes = {
 		value = 100

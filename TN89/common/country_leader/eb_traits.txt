@@ -253,9 +253,5 @@ leader_traits = {
 		}
 	}
 
-	shtefanov_kotik = {
-		random = no
-	}
-
 	
 }

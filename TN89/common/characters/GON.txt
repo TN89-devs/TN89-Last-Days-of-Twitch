@@ -1,30 +1,5 @@
 characters = {
-	universal_hype_gon = {
-		name = "Великий Гондурасский Хайпократ"
-		portraits={
-			civilian={
-				large=GFX_unknown_char_small
-				small=GFX_unknown_char_small
-			}
-		}
-		
-		advisor = {
-			slot = political_advisor
-			idea_token = universal_hype_gon
-			allowed = {
-				always = yes
-			}	
-			traits  = {
-				hypecratia_booster
-			}	
-			cost = 100
-			do_effect = {
-				NOT = {
-					has_government = hypecratia # You can only select it if your current ideology isn't your new one
-				}
-			}
-		}
-	}
+	
 	
 	WizeBot = {
 		name = WizeBot
@@ -88,50 +63,7 @@ characters = {
 			cost = 150
 		}
 	}
-	maksim_iosif_shabanov = {
-		name = "Максим Иосиф Стинтлерьев"
-		
-		portraits = {
-			civilian = {
-				large = GFX_portrait_maksim_stintlerev
-			}
-			army = {
-				small="GFX_gon_shabanov_com_small"
-			}
-		}
-		country_leader = {
-			ideology = stalinism
-			expire = "1965.1.1.1"
-			id = -1
-			traits = {
-				
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = maksim_iosif_shabanov
-			allowed = {
-				original_tag = GON 
-			}	
-			visible = {
-				has_country_flag = GON_shaban_invite
-			}
-			available = {
-				has_country_flag = GON_shaban_invite
-				
-				NOT = {
-					has_country_leader = {
-						ruling_only = yes
-						character = maksim_iosif_shabanov
-					}
-				}
-			}
-			traits  = {
-				revolutionary_author
-			}	
-			cost = 100
-		}
-	}	
+	
 	
 	afsygga ={ 
         name = "aFsyGGA"
@@ -160,11 +92,11 @@ characters = {
        }
     }
 	
-	stint ={ 
-        name = "Стинт"
+	stintler ={ 
+        name = "Стинтлер"
         portraits= {
             army = {
-                large = "GFX_portrait_stint"
+                large = "GFX_portrait_stintler"
 				small = "GFX_moder_small"
             }
         }

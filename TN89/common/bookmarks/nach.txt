@@ -6,9 +6,9 @@ bookmarks = {
 		picture = "GFX_select_date_1936"
 		default_country = "BTK"
 		default = yes
-		ARA={
+		HSU={
 			history = ""
-			ideology = hypecratia
+			ideology = democratic
 			ideas = {
 				defeted_at_wwone
 				ARA_national_catastrophe
@@ -35,7 +35,7 @@ bookmarks = {
 		}
 		DRE={
 			history = ""
-			ideology = hypecratia
+			ideology = democratic
 			ideas = {
 				DRE_treaty_of_triannon_aat
 				defeted_at_wwone
@@ -54,14 +54,6 @@ bookmarks = {
 			}
 			focuses = {
 				#
-			}
-		}
-		HAM={
-			history = ""
-			ideology = hypecratia
-			ideas = {
-			}
-			focuses = {
 			}
 		}
 		BTK={
@@ -97,58 +89,6 @@ bookmarks = {
 
 		"---"={
 			history = ""
-		}
-		
-		"MPK"={
-			minor = yes
-			history = ""
-			ideology = hypecratia
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		
-		"LAG"={
-			minor = yes
-			history = ""
-			ideology = neutrality
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		
-		"CVD" = {
-			minor = yes
-			history = ""
-			ideology = hypecratia
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		
-		"PYA" = {
-			minor = yes
-			history = ""
-			ideology = fascism
-			ideas = {
-				dva_disa
-				sp_crisis
-			}
-			focuses = {
-			}
-		}
-		
-		"HSU" = {
-			minor = yes
-			history = ""
-			ideology = democratic
-			ideas = {
-			}
-			focuses = {
-			}
 		}
 		
 		effect = {
