@@ -14,14 +14,21 @@ state = {
 			12223 1
 		}
 
+		victory_points = {
+			12149 3
+		}
+
 		buildings = {
 			infrastructure = 2
+			12149 = {
+				naval_base = 6
+			}
 		}
 
 	}
 	
 	provinces = {
-		1356 4419 4769 7893 12223 13160 
+		1356 4419 4769 7291 7893 9601 12149 12223 13160 
 	}
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000

@@ -23,8 +23,8 @@ add_ideas = {
 }
 
 set_popularities = {
-	
-	democratic = 10
+	hypecratia = 6
+	democratic = 4
 	communism = 10
 	fascism = 11
 	neutrality = 69

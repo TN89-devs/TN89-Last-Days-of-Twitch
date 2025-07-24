@@ -14,17 +14,21 @@ state = {
 	history = {
 
 		owner = HSU
-		add_core_of = HSU
+		add_core_of = KAC
 
 		buildings = {
 			infrastructure = 2
 
-			# Hoover Dam
-			}
+		}
+
+		victory_points = {
+			4799 5 # Las Vegas
+		}
 		
 	}
-	provinces = { 
-		1862   4736  4816 7756 7827 7879  10591  12399  
+
+	provinces = {
+		1862 4736 4816 7756 7827 7879 10591 12399
 	}
 
 	local_supplies = 0.0 

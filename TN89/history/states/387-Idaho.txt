@@ -17,13 +17,14 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = HSU
+		add_core_of = SVC
 		victory_points = {
 			9616 1
 		}
 	}
+
 	provinces={
-		1789 1832 3781 4778 7845 9616  10556 10602 10672 12124  12607 
+		1789 7845 9616 10556 10602 12607 
 	}
 	
 

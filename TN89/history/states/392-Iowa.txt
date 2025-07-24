@@ -12,20 +12,12 @@ state={
 			infrastructure = 3 #was: 6
 			industrial_complex = 4
 		}
-		add_core_of = HSU
-		victory_points = {
-			7458 3 
-		}
+		add_core_of = GRP
 
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 5
-			}
-		}
+	}
 
-	} 
 	provinces={
-		   1831 4691 7306 7458 7539  9910 10478   11971 12418  
+		1831 4691 7306 7458 7539 9910 10478 11971 12418
 	}
 
 	local_supplies=6.0 

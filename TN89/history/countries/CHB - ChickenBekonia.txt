@@ -101,9 +101,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Илья Мазелофф"
+	name = "Мазеловвв"
 	desc = "POLITICS_PRINCE_PAUL_DESC"
-	picture = "mzlff.dds"
+	picture = "Mazelovik.dds"
 	expire = "2000.1.1"
 	ideology = gen_nazism
 	traits = {
@@ -134,9 +134,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "MZLFF"
+	name = "MZLF"
 	desc = "POLITICS_PRINCE_PAUL_DESC"
-	picture = "Mazelovik.dds"
+	picture = "MZLF.dds"
 	expire = "2000.1.1"
 	ideology = oligarchism
 	traits = {
@@ -145,9 +145,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Илья Мазелловв"
+	name = "Мазяка"
 	desc = "POLITICS_PRINCE_PAUL_DESC"
-	picture = "MZLF.dds"
+	picture = "Mazyaka.dds"
 	expire = "2000.1.1"
 	ideology = hypetiktok
 	traits = {

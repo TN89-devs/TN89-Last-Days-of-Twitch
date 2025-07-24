@@ -2,7 +2,7 @@
 state={
 	id=371
 	name="STATE_371"
-	manpower = 2101592
+	manpower = 1875613
 	
 	state_category = city
 	
@@ -19,13 +19,13 @@ state={
 		}
 		add_core_of = HSU
 		victory_points = {
-			1643 1
+			12489 2 			
 		}
 
 	}
-	
+
 	provinces={
-	 1528 1559 1643 4507 4522 7555 7599 12313 12401 
+		1503 1528 1559 1643 4444 4507 4522 7485 7543 7555 7599 10355 12313 12401 12458 12489
 	}
 
 	local_supplies=0.0 
