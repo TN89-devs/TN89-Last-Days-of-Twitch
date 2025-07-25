@@ -54,8 +54,9 @@ set_politics = {
 set_popularities = {
 	democratic = 25
 	fascism = 15
-	communism = 10
+	communism = 2
 	neutrality = 50
+	hypecratia = 8
 }
 
 #create_country_leader = {

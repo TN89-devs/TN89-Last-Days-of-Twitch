@@ -1,6 +1,6 @@
 set_stability = 1
 set_war_support = 0.65
-capital=55
+capital=8
 
 
 set_research_slots = 1
@@ -30,9 +30,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Императрица Tenderlybae"
+	name = "Наместник Ростовский"
 	desc = "POLITICS_PRINCE_PAUL_DESC"
-	picture = "tenderlybae.dds"
+	picture = "Baron.dds"
 	expire = "2000.1.1"
 	ideology = stalinism
 	traits = {
@@ -41,9 +41,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Императрица Tenderlybae"
+	name = "Наместник Ростовский"
 	desc = "POLITICS_PRINCE_PAUL_DESC"
-	picture = "tenderlybae.dds"
+	picture = "Baron.dds"
 	expire = "2000.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -54,7 +54,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Императрица Tenderlybae"
 	desc = "POLITICS_PRINCE_PAUL_DESC"
-	picture = "tenderlybae.dds"
+	picture = "tenderly.dds"
 	expire = "2000.1.1"
 	ideology = despotism
 	traits = {
@@ -63,9 +63,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Императрица Tenderlybae"
+	name = "Наместник Ростовский"
 	desc = "POLITICS_PRINCE_PAUL_DESC"
-	picture = "tenderlybae.dds"
+	picture = "Baron.dds"
 	expire = "2000.1.1"
 	ideology = liberalism
 	traits = {
@@ -74,9 +74,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Императрица Tenderlybae"
+	name = "Царь всея Ростова"
 	desc = "POLITICS_PRINCE_PAUL_DESC"
-	picture = "tenderlybae.dds"
+	picture = "Baron.dds"
 	expire = "2000.1.1"
 	ideology = hypetiktok
 	traits = {

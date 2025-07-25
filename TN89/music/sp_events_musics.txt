@@ -29,7 +29,7 @@ song = "limuzin"
 chance = { factor = 0 }}
 
 music = {
-song = "top_squad89"
+song = "top_squad"
 chance = { factor = 0 }}
 
 music = {
@@ -59,3 +59,8 @@ chance = { factor = 0 }}
 music = {
 song = "hamster_criminal"
 chance = { factor = 0 }}
+
+music = {
+	song = "SHT_vedaet_united_amerika"
+	chance = { factor = 0 }
+}

@@ -1,4 +1,4 @@
-capital = 4 
+capital = 4
 set_research_slots = 3
 
 oob = "DRE_1936"
@@ -20,7 +20,7 @@ recruit_character = amnyam
 recruit_character = dre_donald_trump
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = hypecratia
 	last_election = "1936.1.1"
 	elections_allowed = no
 }
@@ -53,7 +53,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Денис фон дэ Кал"
 	desc = "POLITICS_PRINCE_PAUL_DESC"
-	picture = "drake.dds"
+	picture = "drake_fascism.dds"
 	expire = "2000.1.1"
 	ideology = rexism
 	traits = {
@@ -75,7 +75,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Денис Дрейк"
 	desc = "POLITICS_PRINCE_PAUL_DESC"
-	picture = "Portrait_Hungary_Drake.dds"
+	picture = "drake_democratic.dds"
 	expire = "2000.1.1"
 	ideology = liberalism
 	traits = {

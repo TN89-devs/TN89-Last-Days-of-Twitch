@@ -22,7 +22,8 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 34
+	hypecratia = 24
+	democratic = 10
 	neutrality = 56
 	communism = 4
 	fascism = 6

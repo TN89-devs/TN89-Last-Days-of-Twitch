@@ -1,6 +1,6 @@
 ﻿l_russian: 
 
- dre_supreme_tt: "Дрейк сменит свой портрет!"
+
  chb_policits_effort: "Развитие Политики Чикен-Беконии"
  chb_policits_effort_decs: "Для влияния на внешний мир, для начала надо всё устроить в нашем государстве"
  chb_communism_effort: "Сила коллективизма"
@@ -1352,5 +1352,35 @@
  integrate_lagoda: "Интегрировать Лагоду"
  integrate_vapers: "Интегрировать Вейперов"
  
- 
- 
+
+ #ШТЕФАНОВ#
+ vibory_vibory: "Выборы!"
+ vibory_vibory_desc: ""
+ za_shtefanova: "Компания за Штефанова"
+ za_shtefanova_desc: ""
+ za_svetova: "Компания за Светова"
+ za_svetova_desc: ""
+ prava_rabochim: "Права рабочим!"
+ prava_rabochim_desc: ""
+ prava_predprinimateley: "Права предпринимателям!"
+ prava_predprinimateley_desc: ""
+ svobodu_grazdanam: "Свободу гражданам!"
+ svobodu_grazdanam_desc: ""
+ svobodu_kapitalu: "Свободу капиталу!"
+ svobodu_kapitalu_desc: ""
+ mask_optimization: "Учредить департамент эффективности"
+ mask_optimization_desc: ""
+ umnoe_golosovanie: "Умное голосование"
+ umnoe_golosovanit_desc: ""
+ uchrezhdeniye_profsoyuzov: "Учреждение гос.профсоюзов"
+ uchrezhdeniye_profsoyuzov_desc: ""
+ otmeny_nalogov: "Налоговые поблажки"
+ otmeny_nalogov_desc: ""
+ podvedem_itogi: "Подсчитаем голоса"
+ podvedem_itogi_desc: ""
+ pobedim_lyboy_cenoy: "Победим любой ценой!"
+ pobedim_lyboy_cenoy_desc: ""
+ rashireniye_soc_podderzki: "Расширение соц.поддержки"
+ rashireniye_soc_podderzki_desc: ""
+ shtefanov_burocratisation: "Бюрократизация"
+ shtefanov_burocratisation_desc:

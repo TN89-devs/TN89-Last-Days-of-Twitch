@@ -5307,15 +5307,6 @@ focus = {
 			set_rule = {
 				can_create_factions = yes
 			}
-			hidden_effect = {
-				set_country_leader_portrait = {
-					ideology = hypecratia
-					portrait = GFX_DRE_Colonel
-				}
-			}
-			effect_tooltip = {
-				tooltip=dre_supreme_tt
-			}
 			if = {
 				limit = {
 					has_country_leader_with_trait = DRE_supreme_commander_armed_forces
@@ -5399,7 +5390,7 @@ focus = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			JHF = {
+			BTK = {
 				country_event = { id = drek.5 days = 3 }
 			}
 		}
@@ -5445,37 +5436,6 @@ focus = {
 			LAG = {
 				country_event = { id = drek.10 days = 3}
 			}
-		}
-	}
-	focus = {
-		id = DRE_help_stint
-		icon = GFX_goal_unknown
-		cost = 5,00
-			
-		relative_position_id = DRE_supreme_leader
-		prerequisite = { focus = DRE_bavaria_or_war focus = DRE_fate_of_silashik }
-		x = -1
-		y = 1
-
-		ai_will_do = {
-			factor = 50
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			#
 		}
 	}
 

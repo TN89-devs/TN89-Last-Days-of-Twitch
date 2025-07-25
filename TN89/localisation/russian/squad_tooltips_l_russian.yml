@@ -24,3 +24,8 @@
   DRE_hamster_criminal_deletion_tt: "§OЭта идея будет убрана у вас начнётся война!§!"
   amnam_divisions_tt: "Будут созданы 4 дивизии Дреффен-АМ"
   DRE_rostov_peregovory_trigger_tt: "Влияние на Ростов в решениях больше §O70§!"
+  vibory_svetov: "Выиграл Светов"
+  vibory_shtefanov: "Выиграл Штефанов"
+  rashireniye_soc_podderzki_tt: "\nБудет добавлена идея §Y"Увеличенный фонд соц.поддержки"§! на срок §Y365§! дн., что даст нам:\n  Фактор фабрик, производящих товары народного потребления: §Y+10%§!\n  Ежедневный прирост популярности £GFX_sdp_logo §tСДП§!: §G+0,05%§!"
+  red_party_gui_text: "Поддержка §tСДП§! £GFX_sdp_logo (Штефанова): §Y[?ROOT.party_popularity@democratic|Y%2]§!"
+  blue_party_gui_text: "Поддержка §HЛибертарианцев§! £GFX_libertarian_logo (Светова):§Y[?ROOT.party_popularity@hypecratia|Y%2]§!"

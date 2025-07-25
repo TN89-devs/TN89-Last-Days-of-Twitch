@@ -1,0 +1,57 @@
+shtefanov_vibory_factions = {
+	shtefanov_hod = {
+		icon = GFX_decision_icon_default
+		days_mission_timeout = 14
+		is_good = no
+		available = {
+			NOT = {
+				has_country_flag = vibory_svetov
+			}
+		}
+		fire_only_once = no
+		visible = {
+			NOT = {
+				has_country_flag = vibory_shtefanov
+			}
+			has_country_flag = vibory_neutral
+			always = no
+		}
+
+		timeout_effect = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	svetov_hod = {
+		icon = GFX_decision_icon_default
+		days_mission_timeout = 14	
+		is_good = no
+		available = {
+			NOT = {
+				has_country_flag = vibory_shtefanov
+			}
+		}
+		fire_only_once = no
+		visible = {
+			has_country_flag = vibory_shtefanov
+		}
+
+		timeout_effect = {
+			add_popularity = {
+				ideology = hypecratia
+				popularity = 0.05
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

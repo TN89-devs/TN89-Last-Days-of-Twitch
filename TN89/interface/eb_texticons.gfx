@@ -1,0 +1,11 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sdp_logo"
+		texturefile = "gfx/texticons/SHT/sdp_logo.png"
+	}
+
+	spriteType = {
+		name = "GFX_libertarian_logo"
+		texturefile = "gfx/texticons/SHT/libertarian_logo.png"
+	}
+}

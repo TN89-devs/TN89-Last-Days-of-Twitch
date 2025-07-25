@@ -1,0 +1,27 @@
+ideas = {
+	country = {
+		vremennoye_pravitelstvo = {
+			picture = shtefanov_vremennoye_pravitelstvo
+			allowed = {
+				original_tag = SHT
+				always = no
+			}
+
+			modifier = {
+				political_power_gain = -0.1
+			}
+		}
+		uvelicheniye_soc_podderzki = {
+			picture = idea_uvelicheniye_soc_podderzki
+			allowed = {
+				original_tag = SHT
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				democratic_drift = 0.05
+			}
+		}
+	}
+}

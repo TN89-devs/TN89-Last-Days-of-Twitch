@@ -15,6 +15,14 @@ ideologies = {
 			socialism = {
 				color = { 167 51 63 }
 			}
+
+			socdem = {
+				color = { 194 39 83 }
+			}
+
+			libertarian = {
+				color = { 250 230 10 }
+			}
 			
 		}
 
@@ -133,7 +141,68 @@ ideologies = {
 
 	}
 	
-	
+	hypecratia = {
+
+		types = {
+
+			hypelikee = {
+				color = { 255 117 207 } # Optional - if dont has, subideology has color of ideology.
+			}
+
+			hypetiktok = {
+				color = { 117 255 232 }
+			}
+			
+			hypeclown = {
+				color = { 184 24 69 }
+			}
+			42ideology = {
+				color = { 240 186 10 }
+			}
+			twitcherizm={
+				color = { 106 44 112 }
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_HYPE_1"
+			"FACTION_NAME_HYPE_2"
+			"FACTION_NAME_HYPE_3"
+			"FACTION_NAME_HYPE_4"
+			"FACTION_NAME_HYPE_5"
+		}
+
+		color = { 254 190 9 }
+
+		war_impact_on_world_tension = 0.65
+		faction_impact_on_world_tension = 0.5
+
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+
+		can_collaborate = yes
+
+		modifiers = {
+			# puppet_cost_factor = -0.3 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
+			#generate_wargoal_tension = 0.05
+			justify_war_goal_when_in_major_war_time = -0.80
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 8.5
+			navy_intel_to_others = 10.5
+			airforce_intel_to_others = 8.5
+			hidden_modifier = { join_faction_tension = -0.1 }
+			embargo_threshold_factor = 0.1
+			lend_lease_tension = 0.25
+		}
+
+		faction_modifiers = {
+
+		}
+
+	}
 
 	fascism = {
 
@@ -154,10 +223,10 @@ ideologies = {
 			rexism = {
 				
 			}
+
 			vedy = {
 				color = { 255 231 13 }
 			}
-
 		}
 
 		dynamic_faction_names = {

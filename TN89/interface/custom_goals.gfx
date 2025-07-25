@@ -1197,4 +1197,79 @@ spriteTypes = {
 	name = "GFX_goal_chb_noschool"
 	texturefile = "gfx/interface/goals/focus_chb_noschool.dds"			
 	}
+
+	spriteType = {
+		name = "GFX_goal_vibory_vibory"
+		texturefile = "gfx/interface/goals/SHT_vibory_vibory.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goal_za_shtefanova"
+		texturefile = "gfx/interface/goals/SHT_za_shtefanova.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goal_za_svetova"
+		texturefile = "gfx/interface/goals/SHT_za_svetova.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goal_prava_rabochim"
+		texturefile = "gfx/interface/goals/SHT_prava_rabochim.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goal_prava_predprinimateley"
+		texturefile = "gfx/interface/goals/SHT_prava_predprinimateley.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goal_svobodu_grazdanam"
+		texturefile = "gfx/interface/goals/SHT_svobodu_grazdanam.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goal_svobodu_kapitalu"
+		texturefile = "gfx/interface/goals/SHT_svobodu_kapitalu.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goal_podvedem_itogi"
+		texturefile = "gfx/interface/goals/SHT_podvedem_itogi_neutral.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goal_podvedem_itogi_svetov"
+		texturefile = "gfx/interface/goals/SHT_podvedem_itogi_svetov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goal_podvedem_itogi_shtefanov"
+		texturefile = "gfx/interface/goals/SHT_podvedem_itogi_shtefanov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goal_mask_optimization"
+		texturefile = "gfx/interface/goals/SHT_mask_optimization.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_goal_umnoe_golosovanie"
+		texturefile = "gfx/interface/goals/SHT_umnoe_golosovanie.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_goal_uchrezhdeniye_profsoyuzov"
+		texturefile = "gfx/interface/goals/SHT_uchrezhdeniye_profsoyuzov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goal_rashireniye_soc_podderzki"
+		texturefile = "gfx/interface/goals/SHT_rashireniye_soc_podderzki.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_goal_shtefanov_burocratisation"
+		texturefile = "gfx/interface/goals/SHT_shtefanov_burocratisation.dds"
+	}
 }

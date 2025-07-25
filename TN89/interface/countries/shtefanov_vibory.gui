@@ -1,0 +1,29 @@
+guiTypes = {
+    containerWindowType = {
+        name = "party_influence_container"
+        position = { x = 5 y = 0 }
+        size = { width = 100% height= 210 }
+      
+        instantTextBoxType = {
+            name = "red_party_text"
+            position = { x = 6% y = 0 }
+            maxWidth = 210
+			maxHeight = 23
+            font = "hoi_18mbs"
+            text = "red_party_gui_text"
+            pdx_tooltip = "red_party_info_tooltip_name"
+			pdx_tooltip_delayed = "red_party_info_tooltip"
+        }
+      
+        instantTextBoxType = {
+            name = "blue_party_text"
+            position = { x = 6% y = 45 }
+            maxWidth = 210
+			maxHeight = 23
+            font = "hoi_18mbs"
+            text = "blue_party_gui_text"
+            pdx_tooltip = "blue_party_info_tooltip_name"
+			pdx_tooltip_delayed = "blue_party_info_tooltip"
+        }   
+    }
+}   

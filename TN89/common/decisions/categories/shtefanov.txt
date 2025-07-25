@@ -1,0 +1,14 @@
+shtefanov_vibory_factions = {
+	priority = 10
+	icon = power_struggle
+	visible_when_empty = yes
+	scripted_gui = shtefanov_vibory_decision_ui
+	visible = {
+		has_country_flag = shtefanov_vibory
+		tag = SHT
+	}
+
+	allowed = {
+		tag = SHT
+	}
+}
