@@ -1,4 +1,5 @@
 characters = {
+	
 	luckyAbob ={ 
         name = "luckyABOB"
         portraits= {
@@ -119,5 +120,4 @@ characters = {
 		}
 	}
 
-	
 }

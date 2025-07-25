@@ -1,6 +1,3 @@
-#!gfx:interface\custom_goals.gfx
-#!gfx:interface\custom_goals_shine.gfx
-
 focus_tree = {
 	id = shtefanov
 	country = {
@@ -27,7 +24,7 @@ focus_tree = {
 	focus = { #Компания Zа Штефанова
 		id = za_shtefanova
 		icon = GFX_goal_za_shtefanova
-		cost = 2
+		cost = 5
 		x = 5
 		y = 1
 		prerequisite = {
@@ -36,19 +33,13 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = za_svetova
 		}
-		completion_reward = {
-			add_popularity = {
-				ideology = democratic
-				popularity = 0.05
-			}
-			add_political_power = 50
-		}
+		completion_reward = { }
 	}
 
 	focus = {
 		id = prava_rabochim
 		icon = GFX_goal_prava_rabochim
-		cost = 2
+		cost = 5
 		x = 4
 		y = 2
 		prerequisite = {
@@ -60,7 +51,7 @@ focus_tree = {
 	focus = {
 		id = svobodu_grazdanam
 		icon = GFX_goal_svobodu_grazdanam
-		cost = 2
+		cost = 5
 		x = 6
 		y = 2
 		prerequisite = {
@@ -70,20 +61,38 @@ focus_tree = {
 	}
 
 	focus = {
-		id = uchrezhdeniye_profsoyuzov
-		icon = GFX_goal_uchrezhdeniye_profsoyuzov
+		id = SHT_6
+		icon = GFX_surrender_tiny_flag
 		cost = 5
 		x = 3
 		y = 3
 		prerequisite = {
 			focus = prava_rabochim
 		}
+		prerequisite = {
+			focus = svobodu_grazdanam
+		}
 		completion_reward = { }
 	}
 
 	focus = {
-		id = rashireniye_soc_podderzki
-		icon = GFX_goal_rashireniye_soc_podderzki
+		id = SHT_7
+		icon = GFX_surrender_tiny_flag
+		cost = 5
+		x = 5
+		y = 3
+		prerequisite = {
+			focus = prava_rabochim
+		}
+		prerequisite = {
+			focus = svobodu_grazdanam
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SHT_8
+		icon = GFX_surrender_tiny_flag
 		cost = 5
 		x = 7
 		y = 3
@@ -93,42 +102,20 @@ focus_tree = {
 		prerequisite = {
 			focus = svobodu_grazdanam
 		}
-		completion_reward = {
-			add_stability = 0.1
-			custom_effect_tooltip = rashireniye_soc_podderzki_tt
-			
-			hidden_effect = {
-				add_timed_idea = {
-					idea = uvelicheniye_soc_podderzki
-					days = 365
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = shtefanov_burocratisation
-		icon = GFX_goal_shtefanov_burocratisation
-		cost = 5
-		x = 5
-		y = 3
-		prerequisite = {
-			focus = svobodu_grazdanam
-		}
 		completion_reward = { }
 	}
 
 	focus = {
-		id = umnoe_golosovanie
-		icon = GFX_goal_umnoe_golosovanie
+		id = SHT_9
+		icon = GFX_surrender_tiny_flag
 		cost = 5
 		x = 6
 		y = 4
 		prerequisite = {
-			focus = rashireniye_soc_podderzki
+			focus = SHT_7
 		}
 		prerequisite = {
-			focus = shtefanov_burocratisation
+			focus = SHT_8
 		}
 		completion_reward = { }
 	}
@@ -149,8 +136,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = svobodu_kapitalu
-		icon = GFX_goal_svobodu_kapitalu
+		id = SHT_10
+		icon = GFX_surrender_tiny_flag
 		cost = 5
 		x = 10
 		y = 2
@@ -161,8 +148,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = prava_predprinimateley
-		icon = GFX_goal_prava_predprinimateley
+		id = SHT_11
+		icon = GFX_surrender_tiny_flag
 		cost = 5
 		x = 12
 		y = 2
@@ -173,55 +160,61 @@ focus_tree = {
 	}
 
 	focus = {
-		id = snyzheniye_rashodov
-		icon = GFX_goal_snyzheniye_rashodov
+		id = SHT_12
+		icon = GFX_surrender_tiny_flag
 		cost = 5
 		x = 9
 		y = 3
 		prerequisite = {
-			focus = svobodu_kapitalu
+			focus = SHT_10
+		}
+		prerequisite = {
+			focus = SHT_11
 		}
 		completion_reward = { }
 	}
 
 	focus = {
-		id = mask_optimization
-		icon = GFX_goal_mask_optimization
+		id = SHT_13
+		icon = GFX_surrender_tiny_flag
 		cost = 5
 		x = 11
 		y = 3
 		prerequisite = {
-			focus = svobodu_kapitalu
+			focus = SHT_10
 		}
 		prerequisite = {
-			focus = prava_predprinimateley
+			focus = SHT_11
 		}
 		completion_reward = { }
 	}
 	
 	focus = {
-		id = otmeny_nalogov
+		id = SHT_14
 		icon = GFX_surrender_tiny_flag
 		cost = 5
 		x = 13
 		y = 3
 		prerequisite = {
-			focus = prava_predprinimateley
+			focus = SHT_10
+		}
+		prerequisite = {
+			focus = SHT_11
 		}
 		completion_reward = { }
 	}
 	
 	focus = {
-		id = pobedim_lyboy_cenoy
+		id = SHT_15
 		icon = GFX_surrender_tiny_flag
 		cost = 5
 		x = 10
 		y = 4
 		prerequisite = {
-			focus = snyzheniye_rashodov
+			focus = SHT_12
 		}
 		prerequisite = {
-			focus = mask_optimization
+			focus = SHT_13
 		}
 		completion_reward = { }
 	}
@@ -250,8 +243,8 @@ focus_tree = {
 		x = 8
 		y = 5
 		prerequisite = {
-			focus = umnoe_golosovanie
-			focus = pobedim_lyboy_cenoy
+			focus = SHT_9
+			focus = SHT_15
 		}
 		completion_reward = { }
 	}

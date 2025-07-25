@@ -1423,7 +1423,8 @@ focus = {
 			SNR = {
 				every_owned_state = {
 					limit = {
-						any_neighbor_state = { owner = CHB }
+						any_neighbor_state = { #owner = CHB
+		owner = ZUS }
 					}
 					add_building_construction = {
 						type = bunker
@@ -1440,7 +1441,8 @@ focus = {
 			HNR = {
 				every_owned_state = {
 					limit = {
-						any_neighbor_state = { owner = CHB }
+						any_neighbor_state = { #owner = CHB
+		owner = ZUS }
 					}
 					add_building_construction = {
 						type = bunker
@@ -3531,7 +3533,8 @@ focus = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					create_unit = {
 						division = "name = \"1. Light Division\" division_template = \"Light Division\" start_experience_factor = 1.0" 
-						owner = DRE
+						#owner = DRE
+		owner = ZUS
 					}
 				}
 			}
@@ -5307,6 +5310,15 @@ focus = {
 			set_rule = {
 				can_create_factions = yes
 			}
+			hidden_effect = {
+				set_country_leader_portrait = {
+					ideology = hypecratia
+					portrait = GFX_DRE_Colonel
+				}
+			}
+			effect_tooltip = {
+				tooltip=dre_supreme_tt
+			}
 			if = {
 				limit = {
 					has_country_leader_with_trait = DRE_supreme_commander_armed_forces
@@ -5390,7 +5402,7 @@ focus = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			BTK = {
+			JHF = {
 				country_event = { id = drek.5 days = 3 }
 			}
 		}
@@ -5436,6 +5448,37 @@ focus = {
 			LAG = {
 				country_event = { id = drek.10 days = 3}
 			}
+		}
+	}
+	focus = {
+		id = DRE_help_stint
+		icon = GFX_goal_unknown
+		cost = 5,00
+			
+		relative_position_id = DRE_supreme_leader
+		prerequisite = { focus = DRE_bavaria_or_war focus = DRE_fate_of_silashik }
+		x = -1
+		y = 1
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			#
 		}
 	}
 

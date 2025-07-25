@@ -1059,7 +1059,7 @@ ideas = {
 		}
 		
 
-		
+		#старый контент разработки
 		GON_Legalais = {
 			picture = GON_Legalais
 
@@ -1107,6 +1107,413 @@ ideas = {
 				war_support_factor = -0.2
 				training_time_army_factor = -0.9
 				political_power_factor = -0.1
+			}
+		}
+		#Новый контент разработки
+		GON_cw_nach = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
+			}
+		}
+		GON_cw_pro_chatters = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
+			}
+		}
+		GON_cw_pro_modders = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
+			}
+		}
+		GON_slaba_imperia = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
+			}
+		}
+		GON_gerontokratia = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
+			}
+		}
+		GON_boost_cw_moder = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
+			}
+		}
+		GON_boost_cw_chat = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
+			}
+		}
+		GON_boost_cw_chat = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
+			}
+		}
+		GON_zarplata_moderam = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
+			}
+		}
+		GON_policiya = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
+			}
+		}
+		GON_chistki = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
+			}
+		}
+		GON_nat_gvard = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
+			}
+		}
+		GON_perviy_sturm = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
+			}
+		}
+		GON_partizany = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
+			}
+		}
+		GON_nat_gvard_2 = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
+			}
+		}
+		GON_nat_gvard_3 = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
+			}
+		}
+		GON_army_chat = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
+			}
+		}
+		GON_plan_w = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
+			}
+		}
+		GON_plan_c = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
+			}
+		}
+		GON_plan_e = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
+			}
+		}
+		GON_svyashennaya_voyna = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
+			}
+		}
+		GON_kikstart_promka = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
+			}
+		}
+		GON_new_gosapparat = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
+			}
+		}
+		GON_perviye_zakony = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
+			}
+		}
+		GON_botnet = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
+			}
+		}
+		GON_neyro_narezki = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
+			}
+		}
+		GON_new_taktiks = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
+			}
+		}
+		GON_pozhertvovania = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
+			}
+		}
+		GON_zoloto = {
+			picture = GON_cw_nach
+
+			allowed = {
+				original_tag = GON
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#
 			}
 		}
 	}

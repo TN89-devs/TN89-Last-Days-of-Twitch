@@ -1,3 +1,0 @@
-CHB_peace_deals_category = {
-	
-}

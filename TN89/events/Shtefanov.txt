@@ -15,14 +15,7 @@ country_event = {
 			complete_national_focus = za_shtefanova
 			clr_country_flag = vibory_neutral
 			set_country_flag = vibory_shtefanov
-			set_country_flag = shtefanov_vibory
 			mark_focus_tree_layout_dirty = yes
-			set_variable = { 
-				party_influence_red = 0.5
-			}
-			set_variable = { 
-				party_influence_blue =  0.5
-			}
 		}
 	}
 
@@ -33,14 +26,7 @@ country_event = {
 			complete_national_focus = za_svetova
 			clr_country_flag = vibory_neutral
 			set_country_flag = vibory_svetov
-			set_country_flag = shtefanov_vibory
 			mark_focus_tree_layout_dirty = yes
-			set_variable = { 
-				party_influence_red = 50
-			}
-			set_variable = { 
-				party_influence_blue =  50
-			}
 		}
 	}
 }

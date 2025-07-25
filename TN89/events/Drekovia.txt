@@ -184,9 +184,12 @@ country_event = {
 	option = {
 		name = drek.5.a #yes
 		ai_chance = {
-			factor = 60
+			base = 30
+			modifier = {
+				factor={is_ai=no}
+				add = 60
+			}
 		}
-		
 		DRE = {
 			transfer_state = 52
 			transfer_state = 53
@@ -196,9 +199,16 @@ country_event = {
 		name = drek.5.b #no
 
 		ai_chance = {
-			factor = 30
+			base = 60
 		}
-		
+		DRE = {
+			add_state_claim = 52
+			add_state_claim = 53
+			declare_war_on = {
+				target = JHF
+				type = annex_everything
+			}
+		}
 	}
 
 }

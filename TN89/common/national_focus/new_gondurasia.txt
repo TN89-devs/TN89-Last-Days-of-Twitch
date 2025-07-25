@@ -5,7 +5,7 @@ focus_tree = {
 		factor = 0
 		
 		modifier = {
-			add = 100
+			add = 9
 			tag = GON
 		}
 	}
@@ -276,11 +276,13 @@ focus_tree = {
 				random_owned_controlled_state = {
 					create_unit = { 
 						division = "name = \"1. Дивизия ГоНеПа\" division_template = \"GON_gonep_division\" start_experience_factor = 0.75" 
-						owner = GON
+						#owner = GON
+		owner = ZUS
 					}
 					create_unit = { 
 						division = "name = \"2. Дивизия ГоНеПа\" division_template = \"GON_gonep_division\" start_experience_factor = 0.75" 
-						owner = GON
+						#owner = GON
+		owner = ZUS
 					}
 				}
 			}

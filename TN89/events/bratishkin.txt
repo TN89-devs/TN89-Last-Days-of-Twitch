@@ -1,218 +1,159 @@
 add_namespace = btk
+add_namespace = btk_exp
+add_namespace = btk_lore
 #КОнтент для других стран
-country_event = {
-	id = btk.21
-	title = btk.0.t
-	desc = btk.0.d
-	picture = GFX_report_event_picture_BTK_4
-	
-	major = no
-	
-	is_triggered_only = yes
-	option = {
-		name = btk.0.a
-		
-		hidden_effect = {
-			BTK = {
-				declare_war_on = {
-					target = JHF
-					type = annex_everything
-				}
-			}
-		}
-	}
-	option = {
-		name = btk.0.b
-		
-		hidden_effect = {
-			BTK = {
-				annex_country = {
-					target = JHF
-					transfer_troops = yes
-				}
-			}
-		}
-	}
-}
-country_event = {
-	id = btk.22
-	title = btk.0.t
-	desc = btk.0.d
-	picture = GFX_report_event_picture_BTK_4
-	
-	major = no
-	
-	is_triggered_only = yes
-	option = {
-		name = btk.0.a
-		
-		hidden_effect = {
-			BTK = {
-				declare_war_on = {
-					target = GNS
-					type = annex_everything
-				}
-			}
-		}
-	}
-	option = {
-		name = btk.0.b
-		
-		hidden_effect = {
-			BTK = {
-				annex_country = {
-					target = GNS
-					transfer_troops = yes
-				}
-			}
-		}
-	}
-}
-country_event = {
-	id = btk.23
-	title = btk.0.t
-	desc = btk.0.d
-	picture = GFX_report_event_picture_BTK_4
-	
-	major = no
-	
-	is_triggered_only = yes
-	option = {
-		name = btk.0.a
-		
-		hidden_effect = {
-			BTK = {
-				declare_war_on = {
-					target = GCH
-					type = annex_everything
-				}
-			}
-		}
-	}
-	option = {
-		name = btk.0.b
-		
-		hidden_effect = {
-			BTK = {
-				annex_country = {
-					target = GCH
-					transfer_troops = yes
-				}
-			}
-			BTK = {
-				declare_war_on = {
-					target = GNS
-					type = annex_everything
-				}
-			}
-		}
-	}
-	option = {
-		name = btk.0.c
-		
-		hidden_effect = {
-			BTK = {
-				transfer_state = 50
-				transfer_state = 978
-			}
-		}
-	}
-}
-country_event = {
-	id = btk.24
-	title = btk.0.t
-	desc = btk.0.d
-	picture = GFX_report_event_picture_BTK_4
-	
-	major = no
-	
-	is_triggered_only = yes
-	option = {
-		name = btk.0.a
-		
-		hidden_effect = {
-			BTK = {
-				declare_war_on = {
-					target = SHD
-					type = annex_everything
-				}
-			}
-		}
-	}
-	option = {
-		name = btk.0.b
-		
-		hidden_effect = {
-			BTK = {
-				annex_country = {
-					target = SHD
-					transfer_troops = yes
-				}
-			}
-		}
-	}
-}
-country_event = {
-	id = btk.25
-	title = btk.0.t
-	desc = btk.0.d
-	picture = GFX_report_event_picture_BTK_4
-	
-	major = no
-	
-	is_triggered_only = yes
-	option = {
-		name = btk.0.a
-		
-		hidden_effect = {
-			BTK = {
-				declare_war_on = {
-					target = ST9
-					type = annex_everything
-				}
-			}
-		}
-	}
-	option = {
-		name = btk.0.b
-		
-		hidden_effect = {
-			BTK = {
-				annex_country = {
-					target = ST9
-					transfer_troops = yes
-				}
-			}
-		}
-	}
-}
-country_event = {
-	id = btk.26
-	title = btk.0.t
-	desc = btk.0.d
-	picture = GFX_report_event_picture_BTK_4
-	
-	major = no
-	
-	is_triggered_only = yes
-	option = {
-		name = btk.0.a
-		
-		hidden_effect = {
-			BTK = {
-				transfer_state = 909
-				add_state_core = 909
-				diplomatic_relation = {
-					country = DER
-					relation = guarantee
-					active = yes
-				}
-			}
-			DER = {
-				remove_state_core = 909
 
-			}
+#shadowkek
+country_event = {
+	id = btk_exp.1
+	title = btk.0.t
+	desc = btk.0.d
+	picture = GFX_report_event_picture_BTK_4
+	
+	major = no
+	
+	is_triggered_only = yes
+	option = {
+		name = btk.0.a
+		BTK = {
+			country_event=btk_exp.2
 		}
+	}
+	option = {
+		name = btk.0.b
+		BTK = {
+			country_event=btk_exp.3
+		}
+	}
+}
+country_event = {
+	id = btk_exp.2
+	title = btk.0.t
+	desc = btk.0.d
+	picture = GFX_report_event_picture_BTK_4
+	
+	major = no
+	
+	is_triggered_only = yes
+	option = {
+		name = btk_exp.2.a
+		BTK = { complete_national_focus = BTK_dogovor_s_lagoda}
+	}
+}
+country_event = {
+	id = btk_exp.3
+	title = btk.0.t
+	desc = btk.0.d
+	picture = GFX_report_event_picture_BTK_4
+	
+	major = no
+	
+	is_triggered_only = yes
+	option = {
+		name = btk_exp.3.a
+		BTK = { complete_national_focus = BTK_obyed}
+	}
+}
+#deffki
+country_event = {
+	id = btk_exp.4
+	title = btk.0.t
+	desc = btk.0.d
+	picture = GFX_report_event_picture_BTK_4
+	
+	major = no
+	
+	is_triggered_only = yes
+	option = {
+		name = btk.0.a
+		BTK = {
+			country_event=btk_exp.5
+		}
+	}
+	option = {
+		name = btk.0.b
+		BTK = {
+			country_event=btk_exp.6
+		}
+	}
+}
+country_event = {
+	id = btk_exp.5
+	title = btk.0.t
+	desc = btk.0.d
+	picture = GFX_report_event_picture_BTK_4
+	
+	major = no
+	
+	is_triggered_only = yes
+	option = {
+		name = btk_exp.2.a
+		BTK = { complete_national_focus = BTK_dogovor_s_deepins}
+	}
+}
+country_event = {
+	id = btk_exp.6
+	title = btk.0.t
+	desc = btk.0.d
+	picture = GFX_report_event_picture_BTK_4
+	
+	major = no
+	
+	is_triggered_only = yes
+	option = {
+		name = btk_exp.3.a
+		BTK = { complete_national_focus = BTK_yesmanchi}
+	}
+}
+#jojo
+country_event = {
+	id = btk_exp.7
+	title = btk.0.t
+	desc = btk.0.d
+	picture = GFX_report_event_picture_BTK_4
+	
+	major = no
+	
+	is_triggered_only = yes
+	option = {
+		name = btk.0.a
+		BTK = {
+			country_event=btk_exp.8
+		}
+	}
+	option = {
+		name = btk.0.b
+		BTK = {
+			country_event=btk_exp.9
+		}
+	}
+}
+country_event = {
+	id = btk_exp.8
+	title = btk.0.t
+	desc = btk.0.d
+	picture = GFX_report_event_picture_BTK_4
+	
+	major = no
+	
+	is_triggered_only = yes
+	option = {
+		name = btk_exp.2.a
+		BTK = { complete_national_focus = BTK_dogovor_s_dreykom}
+	}
+}
+country_event = {
+	id = btk_exp.9
+	title = btk.0.t
+	desc = btk.0.d
+	picture = GFX_report_event_picture_BTK_4
+	
+	major = no
+	
+	is_triggered_only = yes
+	option = {
+		name = btk_exp.3.a
+		BTK = { complete_national_focus = BTK_yes_jojo}
 	}
 }
 
@@ -749,39 +690,7 @@ country_event = {
 		custom_effect_tooltip = BTK_89_nach_tt
 	}
 }
-country_event = {
-	id = btk.14
-	title = btk.14.t
-	desc = btk.14.d
-	picture = GFX_report_event_picture_BTK_3
-	
-	major = no
-	
-	is_triggered_only = yes
-	option = {
-		name = btk.14.a
-		custom_effect_tooltip = BTK_nach_army
-	}
-}
-#тестовый только для теста
-country_event = {
-	id = btk.11
-	title = btk.9.t
-	desc = btk.9.d
-	picture = GFX_report_event_picture_BTK_3
-	
-	major = no
-	
-	is_triggered_only = yes
-	option = {
-		name = btk.0.a
-		add_ideas = BTK_emiss
-	}
-	option = {
-		name = btk.0.b
-		remove_ideas = BTK_emiss
-	}
-}
+
 #Решение о тактике борьбы
 country_event = {
 	id = btk.10
@@ -902,27 +811,36 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = btk.13.a
-		random_owned_controlled_state = {
-			create_unit = { 
-				division = "name = \"1. Модераторский дивизион\" division_template = \"Infanterie-Division\" start_experience_factor = 0.5" 
-				owner = ROOT
-			}
-			create_unit = { 
-				division = "name = \"2. Модераторский дивизион\" division_template = \"Infanterie-Division\" start_experience_factor = 0.5" 
-				owner = ROOT
-			}
-			create_unit = { 
-				division = "name = \"3. Модераторский дивизион\" division_template = \"Infanterie-Division\" start_experience_factor = 0.5" 
-				owner = ROOT
-			}
-			create_unit = { 
-				division = "name = \"4. Модераторский дивизион\" division_template = \"Infanterie-Division\" start_experience_factor = 0.5" 
-				owner = ROOT
-			}
-			create_unit = { 
-				division = "name = \"5. Модераторский дивизион\" division_template = \"Infanterie-Division\" start_experience_factor = 0.5" 
-				owner = ROOT
-			}
-		}
+		
+	}
+}
+
+#lore
+country_event = {
+	id = btk_lore.1
+	title = btk.14.t
+	desc = btk.14.d
+	picture = GFX_report_event_picture_BTK_3
+	
+	major = no
+	
+	is_triggered_only = yes
+	option = {
+		name = btk.14.a
+		custom_effect_tooltip = BTK_nach_army
+	}
+}
+country_event = {
+	id = btk_lore.2
+	title = btk_lore.2.t
+	desc = btk_lore.2.d
+	picture = GFX_report_event_picture_BTK_3
+	
+	major = no
+	
+	is_triggered_only = yes
+	option = {
+		name = btk_lore.2.a
+		custom_effect_tooltip = BTK_nach_army
 	}
 }

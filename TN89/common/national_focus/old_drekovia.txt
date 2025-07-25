@@ -1373,7 +1373,8 @@ focus_tree = {
 			CHD = {
 				every_owned_state = {
 					limit = {
-						any_neighbor_state = { owner = CHB }
+						any_neighbor_state = { #owner = CHB
+		owner = ZUS }
 					}
 					add_building_construction = {
 						type = bunker
@@ -3497,7 +3498,8 @@ focus_tree = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					create_unit = {
 						division = "name = \"1. Light Division\" division_template = \"Light Division\" start_experience_factor = 1.0" 
-						owner = DRE
+						#owner = DRE
+		owner = ZUS
 					}
 				}
 			}

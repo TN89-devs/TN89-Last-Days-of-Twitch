@@ -361,23 +361,28 @@ focus_tree = {
 				random_owned_controlled_state = {
 					create_unit = { 
 						division = "name = \"1. Дивизия ТикТок войск\" division_template = \"ARA_tt_01\" start_experience_factor = 0.7" 
-						owner = ARA
+						#owner = ARA
+		owner = ZUS
 					}
 					create_unit = { 
 						division = "name = \"2. Дивизия ТикТок войск\" division_template = \"ARA_tt_01\" start_experience_factor = 0.7" 
-						owner = ARA
+						#owner = ARA
+		owner = ZUS
 					}
 					create_unit = { 
 						division = "name = \"3. Дивизия ТикТок войск\" division_template = \"ARA_tt_01\" start_experience_factor = 0.7" 
-						owner = ARA
+						#owner = ARA
+		owner = ZUS
 					}
 					create_unit = { 
 						division = "name = \"4. Дивизия ТикТок войск\" division_template = \"ARA_tt_01\" start_experience_factor = 0.7" 
-						owner = ARA
+						#owner = ARA
+		owner = ZUS
 					}
 					create_unit = { 
 						division = "name = \"5. Дивизия ТикТок войск\" division_template = \"ARA_tt_01\" start_experience_factor = 0.7" 
-						owner = ARA
+						#owner = ARA
+		owner = ZUS
 					}
 				}
 			}
