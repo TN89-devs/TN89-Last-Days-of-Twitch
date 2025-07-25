@@ -6,7 +6,7 @@ state={
 	}
 	state_category = town
 	history={
-		owner = DPN
+		owner = MOY
 		victory_points = {
 			11600 5
 		}
@@ -17,7 +17,7 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = DPN
+		add_core_of = MOY
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

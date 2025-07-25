@@ -13,7 +13,7 @@ state={
 			industrial_complex = 11
 			air_base = 3
 		}
-		add_core_of = GRP
+		add_core_of = HSU
 		victory_points = {
 			9450 30.0
 		}

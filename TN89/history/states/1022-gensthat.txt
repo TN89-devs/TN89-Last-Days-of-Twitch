@@ -29,9 +29,6 @@ state={
 			industrial_complex = 1
 			air_base = 3
 
-			# Edersee Dam
-			11533 = { dam = 1 }
-
 		}
 
 		1939.1.1 = {

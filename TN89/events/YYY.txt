@@ -23,7 +23,7 @@ country_event = {
 				transfer_state = 464
 				transfer_state = 465
 			}
-			CUT = {
+			STS = {
 				transfer_state = 378
 				transfer_state = 1061
 				transfer_state = 1060
@@ -65,7 +65,7 @@ country_event = {
 				transfer_state = 1054
 				transfer_state = 1055
 			}
-			SRS = {
+			SHT = {
 				transfer_state = 386
 				transfer_state = 385
 			}

@@ -7,7 +7,7 @@ HAM = "countries/Hametova.txt"
 CHB = "countries/ChickenBekonia.txt"
 SVI = "countries/Svinland.txt"
 BTK = "countries/Bratishkiya.txt"
-TIK = "countries/TikTok.txt"
+
 GON = "countries/Gondurussia.txt"
 LOM = "countries/Lomakia.txt"
 FLA = "countries/Flack.txt"
@@ -15,27 +15,27 @@ LAG = "countries/Lagoda.txt"
 CVD = "countries/Cvadrobia.txt"
 SLA = "countries/Silazik.txt"
 DPN = "countries/Dipins.txt"
-KRU = "countries/Kruglistan.txt"
+
 ZOL = "countries/Zolo.txt"
-ROS = "countries/Rostov.txt"
+
 NEK = "countries/Nekoglay.txt"
 ARA = "countries/Arastosik.txt"
 MOY = "countries/Morphe.txt"
 NEL = "countries/Nelya.txt"
-SVE = "countries/Solar.txt"
+
 ZUS = "countries/Zusuli.txt"
-PIE = "countries/Piecedec.txt"
-KIS = "countries/Kisson.txt"
-BUS = "countries/Bustergrad.txt"
+
+
+
 RAZ = "countries/RazDva.txt"
 RAB = "countries/Rabotyagi.txt"
 VAH = "countries/Zubarev.txt"
 KUS = "countries/Kussia.txt"
 DIK = "countries/Dinik.txt"
-HYP = "countries/Hypercore.txt"
+
 CHD = "countries/CHD.txt"
 DRE = "countries/Drekovia.txt"
-MPK = "countries/MisterPyatopia.txt"
+
 PBU = "countries/Buster.txt"
 BAT = "countries/Batya.txt"
 GRA = "countries/Graf.txt"
@@ -67,7 +67,3 @@ ST2 = "countries/Stintia_2.txt"
 SHT = "countries/Shtefanov.txt"
 KAC = "countries/Kaz.txt"
 
-AMN = "countries/AmNam.txt"
-DOR = "countries/Dora.txt"
-SNR = "countries/SNR.txt"
-HNR = "countries/HNR.txt"
