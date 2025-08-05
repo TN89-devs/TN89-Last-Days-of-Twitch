@@ -1,4 +1,4 @@
-<a href="https://t.me/TN89_hoi4"><img src="https://i.ibb.co/C5TcbFLn/2025-08-05-11-59-03.gif" alt="2025-08-05-11-59-03" border="0" width="970" height="550"></a>
+<a href="https://t.me/TN89_hoi4"><img src="https://i.postimg.cc/gJ0dVqfq/temp-Image-B0-UHya.avif" alt="Наш мод" border="0" width="970" height="550"></a>
 
 # 👾 **The New 89: Last Days of Twitch**  
 _Глобальная стратегия. Локальные мемы. Альтернативный Twitch-мир._
