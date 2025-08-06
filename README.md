@@ -56,7 +56,7 @@ git clone https://github.com/Hearts-of-Twitch/The-New-89.git
 
 | 📡 Канал новостей | 📝 Teletype | 🛠️ GitHub | 🎮 Steam Beta (будет позже) | 🎮 Steam Release (будет позже) |
 |------------------|-----------|-----------|-------------------------|-------------------------|
-| [@TN89_hoi4](https://t.me/TN89_hoi4) | [Teletype](https://teletype.in/@tn89/hello) | [GitHub](https://github.com/Hearts-of-Twitch) | *в разработке* | *в разработке* |     
+| [@TN89_hoi4](https://t.me/TN89_hoi4) | [Teletype](https://teletype.in/@tn89/hello) | [GitHub](https://github.com/Hearts-of-Twitch) | [Steam Beta](https://steamcommunity.com/sharedfiles/filedetails/?id=3542956733) | *в разработке* |     
 
 ---
 
