@@ -7,6 +7,6 @@ tags={
 	"Ideologies"
 }
 name="TN89"
-picture="thumbnail.png"
+picture="thumbnail.gif"
 replace_path="gfx/loadingscreens"
 supported_version="1.16.*"
