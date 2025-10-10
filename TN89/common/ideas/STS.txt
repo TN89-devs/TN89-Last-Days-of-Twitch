@@ -1,0 +1,45 @@
+ideas = {
+	country = {
+		STS_soc_twich_stas = {
+			removal_cost = -1
+			
+			picture = STS_soc_twich
+
+			modifier = {
+				war_support_factor = 0.05
+				stability_factor = 0.05
+				political_power_gain = -0.5
+			}
+		}	
+		
+		STS_sosiv_soveta_stas = {
+			removal_cost = -1
+			
+			picture = STS_sosiv_soveta
+
+			modifier = {
+				war_support_factor = 0.05
+			}
+		}
+		
+		STS_stas_dictator_stas = {
+			removal_cost = -1
+			
+			picture = STS_stas_dictator
+
+			modifier = {
+				war_support_factor = 0.05
+			}
+		}
+		
+		STS_represi_stas = {
+			removal_cost = -1
+			
+			picture = STS_represi
+
+			modifier = {
+				war_support_factor = 0.05
+			}
+		}
+	}
+}
