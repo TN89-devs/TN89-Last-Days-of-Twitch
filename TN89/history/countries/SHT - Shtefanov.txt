@@ -19,13 +19,11 @@ set_politics = {
 set_popularities = {
 	democratic = 68
 	fascism = 0
-	communism = 0
+	communism = 24
 	neutrality = 0
-	hypecratia = 32
+	hypecratia = 8
 }
 
 recruit_character = alexander_shtefanov
 recruit_character = alexander_shtefanov_vedaet
 recruit_character = placeholder
-
-add_ideas = vremennoye_pravitelstvo

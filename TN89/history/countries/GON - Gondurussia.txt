@@ -2,22 +2,18 @@ capital = 41
 
 oob = "SPR_1936"
 
-set_research_slots = 4
+set_research_slots = 2
 
 add_ideas = { 
-	stint_divided
-	GON_gamer
-	GON_Legalais
-	closed_economy
-	isolation
-	GON_kotel_shabanova
-	GON_legends_of_stintler
-	demografic_problems
-	GON_political_corruption
-	GON_infamous_decade
+	GON_aristocratic_VIPs
+	GON_Corruption_among_VIPs
+	GON_The_Chatters_Fifth_Column_Light_Threat
+	GON_the_legendary_stintik_channel_chat
+	GON_The_Great_Father_of_Honduras
 }
-
-recruit_character = universal_hype_gon
+		
+recruit_character = Stinterius_II
+recruit_character = Stinterius_II_new
 recruit_character = WizeBot
 recruit_character = ModBoty
 recruit_character = aFsQQ
@@ -26,6 +22,9 @@ recruit_character = afsygga
 recruit_character = cherepaxa_o5
 recruit_character = maksim_iosif_shabanov
 recruit_character = universal_sea
+recruit_character = Stinterius_III
+recruit_character = Maksimilian_Stintler
+recruit_character = Moderators_stintik
 
 # Starting tech
 set_technology = {
@@ -95,72 +94,18 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = twicherism
 	last_election = "1936.1.1"
 	election_frequency = 34
-	elections_allowed = yes
-}
-
-create_country_leader = {
-	name = "Стинтлер"
-	desc = "POLITICS_PRINCE_PAUL_DESC"
-	picture = "stintler.dds"
-	expire = "2000.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Стинт"
-	desc = "POLITICS_PRINCE_PAUL_DESC"
-	picture = "stint_neutrality.dds"
-	expire = "2000.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Абсолютно точно не Стинтлер"
-	desc = "POLITICS_PRINCE_PAUL_DESC"
-	picture = "stint_democratic.dds"
-	expire = "2000.1.1"
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Стинтик"
-	desc = "POLITICS_PRINCE_PAUL_DESC"
-	picture = "stint_hype.dds"
-	expire = "2000.1.1"
-	ideology = hypetiktok
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Стинтик"
-	desc = "POLITICS_PRINCE_PAUL_DESC"
-	picture = "stint_hype.dds"
-	expire = "2000.1.1"
-	ideology = hypetiktok
-	traits = {
-		#
-	}
+	elections_allowed = no
 }
 
 set_popularities = {
-	hypecratia = 9
-	democratic = 17
-	fascism = 14
-	communism = 8
-	neutrality = 52
+	twicherism = 97
+	hypecratia = 1
+	fascism = 1
+	communism = 1
+	neutrality = 0
 }
 
 create_field_marshal = {

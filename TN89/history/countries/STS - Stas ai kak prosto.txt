@@ -1,4 +1,4 @@
-capital = 384
+capital = 378
 
 set_stability = 0.1
 set_war_support = 1
@@ -6,7 +6,7 @@ set_war_support = 1
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = hypecratia
+	ruling_party = hypecratia 
 	last_election = "1936.1.1"
 	election_frequency = 34
 	elections_allowed = no
@@ -20,4 +20,4 @@ set_popularities = {
 	hypecratia = 89
 }
 
-recruit_character = alexey_shevcov
+recruit_character = stas_vasilyev
