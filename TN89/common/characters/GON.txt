@@ -1,5 +1,30 @@
 characters = {
-	
+	universal_hype_gon = {
+		name = "Великий Гондурасский Хайпократ"
+		portraits={
+			civilian={
+				large=GFX_unknown_char_small
+				small=GFX_unknown_char_small
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			idea_token = universal_hype_gon
+			allowed = {
+				always = yes
+			}	
+			traits  = {
+				hypecratia_booster
+			}	
+			cost = 100
+			do_effect = {
+				NOT = {
+					has_government = hypecratia # You can only select it if your current ideology isn't your new one
+				}
+			}
+		}
+	}
 	
 	WizeBot = {
 		name = WizeBot
@@ -63,7 +88,91 @@ characters = {
 			cost = 150
 		}
 	}
-	
+	Stinterius_II = {
+		name = "Стинтериус II"
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Stinterius_II
+			}
+		}
+		
+		country_leader = {
+			ideology = stintik_twicherism
+			expire = "2000.1.1.1"
+			id = 433
+			traits = {
+				
+			}
+		}
+	}
+	Stinterius_II_new = {
+		name = "Стинтериус II"
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Stinterius_II_2
+			}
+		}
+		
+		country_leader = {
+			ideology = stintik_twicherism
+			expire = "2000.1.1.1"
+			id = 434
+			traits = {
+				
+			}
+		}
+	}
+	Stinterius_III = {
+		name = "Стинтериус III"
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Stinterius_III
+			}
+		}
+		
+		country_leader = {
+			ideology = stintik_twicherism
+			expire = "2000.1.1.1"
+			id = 435
+			traits = {
+				
+			}
+		}
+	}
+	Maksimilian_Stintler = {
+		name = "Максимильян Стинтлер"
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Maksimilian_Stintler
+			}
+		}
+		
+		country_leader = {
+			ideology = stintler_twicherism
+			expire = "2000.1.1.1"
+			id = 436
+			traits = {
+				
+			}
+		}
+	}
+	Moderators_stintik = {
+		name = "Модераторы канала stintik"
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Moderators_stintik
+			}
+		}
+		
+		country_leader = {
+			ideology = moderator_twicherism
+			expire = "2000.1.1.1"
+			id = 437
+			traits = {
+				
+			}
+		}
+	}
 	
 	afsygga ={ 
         name = "aFsyGGA"
@@ -92,11 +201,11 @@ characters = {
        }
     }
 	
-	stintler ={ 
-        name = "Стинтлер"
+	stint ={ 
+        name = "Стинт"
         portraits= {
             army = {
-                large = "GFX_portrait_stintler"
+                large = "GFX_portrait_stint"
 				small = "GFX_moder_small"
             }
         }

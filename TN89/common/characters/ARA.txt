@@ -1,5 +1,30 @@
 characters = {
-	
+	universal_hype_ara = {
+		name = "Рейхс-Хайпократ"
+		portraits={
+			civilian={
+				large=GFX_unknown_char_small
+				small=GFX_unknown_char_small
+			}
+		}
+		
+		advisor={
+			slot = political_advisor
+			idea_token = universal_hype_ara
+			allowed = {
+				always = yes
+			}	
+			traits  = {
+				hypecratia_booster
+			}	
+			cost = 100
+			do_effect = {
+				NOT = {
+					has_government = hypecratia # You can only select it if your current ideology isn't your new one
+				}
+			}
+		}
+	}
 	luckyAbob ={ 
         name = "luckyABOB"
         portraits= {
@@ -120,4 +145,35 @@ characters = {
 		}
 	}
 
+	hypecratia_president = {
+		name = "Президент Аратоссик"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_aratoss_fuhrer
+			}
+		}
+		country_leader = {
+			ideology = hypetiktok
+			traits = {
+				#
+			}
+			id=1234
+		}
+	}
+
+	hypecratia_parlament = {
+		name = "Хайпократический парламент"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_aratoss_parlament
+			}
+		}
+		country_leader = {
+			ideology = hypetiktok
+			traits = {
+				#
+			}
+			id=1235
+		}
+	}
 }
