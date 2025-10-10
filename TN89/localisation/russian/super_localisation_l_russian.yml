@@ -26,7 +26,7 @@
   sp_event_top_squad:0 "89сквад сново обьеденён"
   sp_event_top_squad_remark:0 "Восставший из могил"
   sp_event_top_squad_quote:0 "Обьеденение 89сквада, это не вопрос времени, референдумов или резолюций, это ответ железом и кровью!"
-
-  sp_event_shtefanov_vedaet_united_america: "Штефамир объединил ПШТ"
-  sp_event_shtefanov_vedaet_united_america_remark: "Ура!"
-  sp_event_shtefanov_vedaet_united_america_quote: "Мы заставим весь мир ведать! \n- Штефамир"
+  
+  sp_event_HSU_war:0 "Коммунисты берут власть в ПШТ"
+  sp_event_HSU_war_remark:0 "Серьёзный игрок"
+  sp_event_HSU_war_quote:0 "Социал-Твичеризм есть высшая ступень развития социализма, когда люди работают из сознания необходимости работать на общую пользу"

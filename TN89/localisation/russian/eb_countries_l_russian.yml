@@ -480,8 +480,8 @@
 
  GON_fascism: "Стинтовый империум"
  GON_fascism_DEF: "Стинтовый империум"
- GON_democratic: "Свободная Республика Стинтлэнд"
- GON_democratic_DEF: "Республика Стинтлэнд"
+ GON_twicherism: "Гондурассия"
+ GON_twicherism_DEF: "Гондурассия"
  GON_neutrality: "Королевство Стинтия"
  GON_neutrality_DEF: "Стинтия"
  GON_hypecratia: "Хайперкор дэль Стинтия"
@@ -801,3 +801,12 @@
  SVC_hypecratia: "Правый Сектор Шевцова"
  SVC_hypecratia_DEF: "Правый Сектор Шевцова"
  SVC_hypecratia_ADJ: "Шевцовск."
+ 
+ STS_hypecratia: "Твичерская Комунна"
+ STS_hypecratia_DEF: "Твичерская Комунна"
+ STS_hypecratia_ADJ: "Шевцовск."
+ 
+ KAC_hypecratia: "Либеральный Альянс Твича"
+ KAC_hypecratia_DEF: "Либеральный Альянс Твича"
+ KAC_hypecratia_ADJ: "Шевцовск."
+ 
