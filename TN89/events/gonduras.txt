@@ -1,0 +1,66 @@
+add_namespace = gonduras
+
+country_event = {
+	id = gonduras.999
+	title = gonduras.999.t
+	desc = gonduras.999.d
+	picture = GFX_report_event_picture_BTK_4
+	
+	option = {
+		name = gonduras.999.a
+		trigger = {
+			is_power_balance_in_range = {
+				id = Stinterius_support
+				range = left_side_range_stinterius
+				}
+			}
+			hidden_effect = {
+				load_focus_tree = yyy_f
+			}
+	}
+	
+	option = {
+		name = gonduras.999.b
+		trigger = {
+			is_power_balance_in_range = {
+				id = Stinterius_support
+				range = right_side_range_moder
+				range = left_side_range_moder
+				range = moderator_stint_range
+				}
+			}
+		hidden_effect = {
+		load_focus_tree = yyy_f
+		set_party_name = {
+			ideology = twicherism
+			long_name = Диктатура верховного регнте и главнокомандующего Максимильяна Стинтлера
+			name = Диктатура Стинтлера
+		}
+		promote_character = {
+			character = Maksimilian_Stintler
+			ideology = stintler_twicherism
+			}
+		}
+	}	
+	option = {
+		name = gonduras.999.c
+		trigger = {
+			is_power_balance_in_range = {
+				id = Stinterius_support
+				range = right_side_range_stintler
+				}
+			}
+		hidden_effect = {
+		load_focus_tree = yyy_f
+		set_party_name = {
+			ideology = twicherism
+			long_name = Военная хунта модераторов stintik
+			name = Хунта модераторов stintik
+		}
+		promote_character = {
+			character = Moderators_stintik
+			ideology = moderator_twicherism
+			}
+		}
+	}
+}

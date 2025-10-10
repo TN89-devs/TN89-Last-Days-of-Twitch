@@ -12,58 +12,12 @@ country_event = {
 	
 	option = {
 		name = db.1.a
-		load_focus_tree = brat_exp
-		mark_focus_tree_layout_dirty = yes
+		
 		
 	}
 	option = {
 		name = db.1.b
-		load_focus_tree = brat
-		mark_focus_tree_layout_dirty = yes
 		
-	}
-}
-country_event = {
-	id = db.2
-	title = tik.2.t
-	desc = tik.2.d
-	picture = GFX_report_event_picture_BTK_3
-	
-	major = no
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = db.2.a
-		load_focus_tree = stint
-		mark_focus_tree_layout_dirty = yes
-		
-	}
-	option = {
-		name = db.2.b
-		load_focus_tree = gondurassia_focus
-		mark_focus_tree_layout_dirty = yes
-		
-	}
-}
-country_event = {
-	id = db.3
-	title = tik.2.t
-	desc = tik.2.d
-	picture = GFX_report_event_picture_BTK_3
-	
-	major = no
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = db.2.a
-		recruit_character = stintler
-	}
-	option = {
-		name = db.2.b
-		load_focus_tree = gondurassia_focus
-		mark_focus_tree_layout_dirty = yes
 		
 	}
 }
