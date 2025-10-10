@@ -1,0 +1,60 @@
+category = {
+	name = "Voices"
+ 	soundeffects = {
+		GON_infantry_idle
+		GON_infantry_neutral_combat
+		GON_infantry_positive_combat
+		GON_infantry_retreat
+		GON_infantry_move_out
+ 	}
+}
+
+sound = { name = "gon_idle_001"         file = "gon/GON_idle_001.wav" }
+sound = { name = "gon_idle_002"         file = "gon/GON_idle_002.wav" }
+sound = { name = "gon_move_out_001"         file = "gon/GON_move_out_001.wav" }
+sound = { name = "gon_neutral_combat_001"         file = "gon/GON_neutral_combat_001.wav" }
+sound = { name = "gon_neutral_combat_002"         file = "gon/GON_neutral_combat_002.wav" }
+sound = { name = "gon_neutral_combat_003"         file = "gon/GON_neutral_combat_003.wav" }
+sound = { name = "gon_positive_combat_001"         file = "gon/GON_positive_combat_001.wav" }
+sound = { name = "gon_positive_combat_002"         file = "gon/GON_positive_combat_002.wav" }
+sound = { name = "gon_positive_combat_003"         file = "gon/GON_positive_combat_003.wav" }
+sound = { name = "gon_retreat_001"         file = "gon/GON_retreat_001.wav" }
+sound = { name = "gon_retreat_002"         file = "gon/GON_retreat_002.wav" }
+
+
+soundeffect = {
+	name = "GON_infantry_idle"
+	sounds = {
+		sound = "gon_idle_001"
+		sound = "gon_idle_002"
+	}
+}
+soundeffect = {
+	name = "GON_infantry_move_out"
+	sounds = {
+		sound = "gon_move_out_001"
+	}
+}
+soundeffect = {
+	name = "GON_infantry_neutral_combat"
+	sounds = {
+		sound = "gon_neutral_combat_001"
+		sound = "gon_neutral_combat_002"
+		sound = "gon_neutral_combat_003"
+	}
+}
+soundeffect = {
+	name = "GON_infantry_positive_combat"
+	sounds = {
+		sound = "gon_positive_combat_001"
+		sound = "gon_positive_combat_002"
+		sound = "gon_positive_combat_003"
+	}
+}
+soundeffect = {
+	name = "GON_infantry_retreat"
+	sounds = {
+		sound = "gon_retreat_001"
+		sound = "gon_retreat_002"
+	}
+}
