@@ -14,13 +14,13 @@ GON_civilwar_bop = {
 			if = {
 				limit={NOT={has_idea=GON_civilwar_stoproc}}
 			}
-			add_ideas = GON_cw_nach
+			add_ideas = GON_civilwar_stoproc
 		}
 		on_deactivate = {
 			if = {
 				limit={has_idea=GON_civilwar_stoproc}
 			}
-			remove_ideas = GON_cw_nach
+			remove_ideas = GON_civilwar_stoproc
 		}
     }
 
@@ -38,13 +38,13 @@ GON_civilwar_bop = {
 				if = {
 					limit={NOT={has_idea=GON_civilwar_chatters}}
 				}
-				add_ideas = GON_cw_pro_chatters
+				add_ideas = GON_civilwar_chatters
 			}
 			on_deactivate = {
 				if = {
 					limit={has_idea=GON_civilwar_chatters}
 				}
-				remove_ideas = GON_cw_pro_chatters
+				remove_ideas = GON_civilwar_chatters
 			}
 			
         }
@@ -57,10 +57,10 @@ GON_civilwar_bop = {
             }
 			on_activate = {
 				if = {
-					limit={has_idea=GON_cw_pro_chatters}
+					limit={has_idea=GON_civilwar_chatters}
 				}
-				remove_ideas = GON_cw_pro_chatters
-				country_event = stint_civilwar.3
+				remove_ideas = GON_civilwar_chatters
+				country_event = stn.3
 			}
         }
     }
@@ -76,15 +76,15 @@ GON_civilwar_bop = {
             }
 			on_activate = {
 				if = {
-					limit={NOT={has_idea=GON_cw_pro_modders}}
+					limit={NOT={has_idea=GON_civilwar_modder}}
 				}
-				add_ideas = GON_cw_pro_modders
+				add_ideas = GON_civilwar_modder
 			}
 			on_deactivate = {
 				if = {
-					limit={has_idea=GON_cw_pro_modders}
+					limit={has_idea=GON_civilwar_modder}
 				}
-				remove_ideas = GON_cw_pro_modders
+				remove_ideas = GON_civilwar_modder
 			}
         }
 		range = {
@@ -96,10 +96,10 @@ GON_civilwar_bop = {
             }
 			on_activate = {
 				if = {
-					limit={has_idea=GON_cw_pro_modders}
+					limit={has_idea=GON_civilwar_modder}
 				}
-				remove_ideas = GON_cw_pro_modders
-				country_event = stint_civilwar.4
+				remove_ideas = GON_civilwar_modder
+				country_event = stn.4
 			}
         }
     }

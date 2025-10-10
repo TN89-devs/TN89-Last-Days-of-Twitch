@@ -4,75 +4,20 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "BTK"
+		default_country = "GON"
 		default = yes
-		HSU={
-			history = ""
-			ideology = democratic
-		}
-		SVI={
-			history = ""
-			ideology = democratic
-			ideas = {
-				svinland_ru
-				SVI_buster_oposite
-			}
-			focuses = {
-				SVI_destroy_busters
-				SVI_hype_hypercore_rise
-				SVI_razvitie_arov
-			}
-		}
-		DRE={
-			history = ""
-			ideology = democratic
-			ideas = {
-				DRE_treaty_of_triannon_aat
-				defeted_at_wwone
-			}
-			focuses = {
-				DRE_own_way
-				DRE_svo_chb_start
-				DRE_svergnut_dreyka
-			}
-		}
-		CHB={
-			history = ""
-			ideology = fascism
-			ideas = {
-				CHB_hungary_problem
-			}
-			focuses = {
-				#
-			}
-		}
-		BTK={
-			history = ""
-			ideology = fascism
-			ideas = {
-				BTK_bad_government
-				BTK_parlament
-				slay_2023_king
-			}
-			focuses = {
-				BTK_restart_89_squad
-				BTK_dead_economy
-				BTK_loyal_narezka
-			}
-		}
 		
 		GON={
 			history = ""
-			ideology = neutrality
+			ideology = twicherism
 			ideas = {
-				GON_kotel_shabanova
-				GON_legends_of_stintler
-				demografic_problems
+				GON_The_Chatters_Fifth_Column_Light_Threat
+				GON_the_legendary_stintik_channel_chat
+				GON_The_Great_Father_of_Honduras	
 			}
 			focuses = {
-				GON_scrit_vse_uliki
-				GON_kill_monarchy
-				GON_great_gondurasia_freedom
+				GON_The_Proud_Crown_of_Honduras
+				GON_convene_the_all_Honduran_stream
 			}
 		}
 
@@ -81,7 +26,57 @@ bookmarks = {
 			history = ""
 		}
 		
+		"MPK"={
+			minor = yes
+			history = ""
+			ideology = hypecratia
+			ideas = {
+			}
+			focuses = {
+			}
+		}
 		
+		"LAG"={
+			minor = yes
+			history = ""
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"CVD" = {
+			minor = yes
+			history = ""
+			ideology = hypecratia
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"PYA" = {
+			minor = yes
+			history = ""
+			ideology = fascism
+			ideas = {
+				dva_disa
+				sp_crisis
+			}
+			focuses = {
+			}
+		}
+		
+		"HSU" = {
+			minor = yes
+			history = ""
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
 		
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

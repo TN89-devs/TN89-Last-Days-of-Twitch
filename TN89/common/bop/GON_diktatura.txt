@@ -1,0 +1,44 @@
+
+GON_war_balance = {
+	initial_value = 0.25
+	left_side = Stinterius_support
+	right_side = Stintler_support
+	decision_category = GON_Gondurasia_balance_category
+	range = {
+		id = moderator_stint_range
+		min = -0.3
+		max = 0.3
+		modifier = {
+			war_support_weekly = 0.01
+			stability_weekly = 0.01
+			}
+		}
+		
+	side = {
+		id = Stinterius_support
+		icon = GFX_bop_GON_stinterius_support
+		
+		range = {
+			id = stinterius_range
+			min = -1
+			max = -0.4
+			modifier = {
+				stability_weekly = 0.1
+			}
+		}
+	}
+	side = {
+		id = Stintler_support
+		icon = GFX_bop_GON_stintler_support
+		
+		range = {
+			id = stintler_range
+			min = 0.4
+			max = 1
+			modifier = {
+				war_support_weekly = 0.9
+			}
+		}
+	}
+}
+
