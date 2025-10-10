@@ -9086,6 +9086,275 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_BEL_order_of_the_golden_lion.dds"
 	}
 	SpriteType = {
+		name = "GFX_focus_STS_start1"
+		texturefile = "gfx/interface/goals/STS/focus_STS_start1.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_start2"
+		texturefile = "gfx/interface/goals/STS/focus_STS_start2.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_start3"
+		texturefile = "gfx/interface/goals/STS/focus_STS_start3.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_start4"
+		texturefile = "gfx/interface/goals/STS/focus_STS_start4.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_start5"
+		texturefile = "gfx/interface/goals/STS/focus_STS_start5.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_start6"
+		texturefile = "gfx/interface/goals/STS/focus_STS_start6.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_start7"
+		texturefile = "gfx/interface/goals/STS/focus_STS_start7.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_start8"
+		texturefile = "gfx/interface/goals/STS/focus_STS_start8.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_start9"
+		texturefile = "gfx/interface/goals/STS/focus_STS_start9.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_start10"
+		texturefile = "gfx/interface/goals/STS/focus_STS_start10.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_start11"
+		texturefile = "gfx/interface/goals/STS/focus_STS_start11.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_start12"
+		texturefile = "gfx/interface/goals/STS/focus_STS_start12.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_start13"
+		texturefile = "gfx/interface/goals/STS/focus_STS_start13.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_start14"
+		texturefile = "gfx/interface/goals/STS/focus_STS_start14.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_start15"
+		texturefile = "gfx/interface/goals/STS/focus_STS_start15.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_start16"
+		texturefile = "gfx/interface/goals/STS/focus_STS_start16.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_start17"
+		texturefile = "gfx/interface/goals/STS/focus_STS_start17.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_start18"
+		texturefile = "gfx/interface/goals/STS/focus_STS_start18.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_start19"
+		texturefile = "gfx/interface/goals/STS/focus_STS_start19.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_start20"
+		texturefile = "gfx/interface/goals/STS/focus_STS_start20.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_start21"
+		texturefile = "gfx/interface/goals/STS/focus_STS_start21.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_start22"
+		texturefile = "gfx/interface/goals/STS/focus_STS_start22.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_start23"
+		texturefile = "gfx/interface/goals/STS/focus_STS_start23.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_start24"
+		texturefile = "gfx/interface/goals/STS/focus_STS_start24.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_start25"
+		texturefile = "gfx/interface/goals/STS/focus_STS_start25.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_start26"
+		texturefile = "gfx/interface/goals/STS/focus_STS_start26.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_start27"
+		texturefile = "gfx/interface/goals/STS/focus_STS_start27.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_economic1"
+		texturefile = "gfx/interface/goals/STS/focus_STS_economic1.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_economic2"
+		texturefile = "gfx/interface/goals/STS/focus_STS_economic2.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_economic3"
+		texturefile = "gfx/interface/goals/STS/focus_STS_economic3.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_economic4"
+		texturefile = "gfx/interface/goals/STS/focus_STS_economic4.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_economic5"
+		texturefile = "gfx/interface/goals/STS/focus_STS_economic5.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_economic6"
+		texturefile = "gfx/interface/goals/STS/focus_STS_economic6.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_economic7"
+		texturefile = "gfx/interface/goals/STS/focus_STS_economic7.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_economic8"
+		texturefile = "gfx/interface/goals/STS/focus_STS_economic8.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_economic9"
+		texturefile = "gfx/interface/goals/STS/focus_STS_economic9.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_economic10"
+		texturefile = "gfx/interface/goals/STS/focus_STS_economic10.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_economic11"
+		texturefile = "gfx/interface/goals/STS/focus_STS_economic11.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_economic12"
+		texturefile = "gfx/interface/goals/STS/focus_STS_economic12.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_economic13"
+		texturefile = "gfx/interface/goals/STS/focus_STS_economic13.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_economic14"
+		texturefile = "gfx/interface/goals/STS/focus_STS_economic14.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_economic15"
+		texturefile = "gfx/interface/goals/STS/focus_STS_economic15.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_STS_economic16"
+		texturefile = "gfx/interface/goals/STS/focus_STS_economic16.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_GON_civilwar"
+		texturefile = "gfx/interface/goals/GON/focus_GON_civilwar.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_GON_civilwar1"
+		texturefile = "gfx/interface/goals/GON/focus_GON_civilwar1.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_GON_civilwar2"
+		texturefile = "gfx/interface/goals/GON/focus_GON_civilwar2.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_GON_civilwar3"
+		texturefile = "gfx/interface/goals/GON/focus_GON_civilwar3.dds"
+	}
+	SpriteType = {
+		name = "GFX_GON_Arrest_of_Unwanted_VIPs"
+		texturefile = "gfx/interface/goals/GON/GON_Arrest_of_Unwanted_VIPs.dds"
+	}
+	SpriteType = {
+		name = "GFX_GON_Father_of_All_Honduras"
+		texturefile = "gfx/interface/goals/GON/GON_Father_of_All_Honduras.dds"
+	}
+	SpriteType = {
+		name = "GFX_GON_Grant_more_rights_to_moderators"
+		texturefile = "gfx/interface/goals/GON/GON_Grant_more_rights_to_moderators.dds"
+	}
+	SpriteType = {
+		name = "GFX_GON_strengthen_chat_moderation"
+		texturefile = "gfx/interface/goals/GON/GON_strengthen_chat_moderation.dds"
+	}
+	SpriteType = {
+		name = "GFX_GON_The_Cryptoinvestor_of_All_of_Honduras"
+		texturefile = "gfx/interface/goals/GON/GON_The_Cryptoinvestor_of_All_of_Honduras.dds"
+	}
+	SpriteType = {
+		name = "GFX_GON_The_Proud_Crown_of_Honduras"
+		texturefile = "gfx/interface/goals/GON/GON_The_Proud_Crown_of_Honduras.dds"
+	}
+	SpriteType = {
+		name = "GFX_GON_ban_sleep"
+		texturefile = "gfx/interface/goals/GON/GON_ban_sleep.dds"
+	}
+	SpriteType = {
+		name = "GFX_GON_form_an_anti_chater_campaign"
+		texturefile = "gfx/interface/goals/GON/GON_form_an_anti_chater_campaign.dds"
+	}
+	SpriteType = {
+		name = "GFX_GON_not_subscribed_pay_up"
+		texturefile = "gfx/interface/goals/GON/GON_not_subscribed_pay_up.dds"
+	}
+	SpriteType = {
+		name = "GFX_GON_The_law_of_eternal_streaming"
+		texturefile = "gfx/interface/goals/GON/GON_The_law_of_eternal_streaming.dds"
+	}
+	SpriteType = {
+		name = "GFX_GON_Step_into_a_better_future"
+		texturefile = "gfx/interface/goals/GON/GON_Step_into_a_better_future.dds"
+	}
+	SpriteType = {
+		name = "GFX_GON_The_collapse_of_order"
+		texturefile = "gfx/interface/goals/GON/GON_The_collapse_of_order.dds"
+	}
+	SpriteType = {
+		name = "GFX_GON_convene_the_all_Honduran_stream"
+		texturefile = "gfx/interface/goals/GON/GON_convene_the_all_Honduran_stream.dds"
+	}
+	SpriteType = {
+		name = "GFX_GON_Continuation_of_the_Shabanovs_rule"
+		texturefile = "gfx/interface/goals/GON/GON_Continuation_of_the_Shabanovs_rule.dds"
+	}
+	SpriteType = {
+		name = "GFX_GON_To_convene_a_council_of_moderators"
+		texturefile = "gfx/interface/goals/GON/GON_To_convene_a_council_of_moderators.dds"
+	}
+	SpriteType = {
+		name = "GFX_GON_Establish_a_military_council"
+		texturefile = "gfx/interface/goals/GON/GON_Establish_a_military_council.dds"
+	}
+	SpriteType = {
+		name = "GFX_GON_to_fund_schools_of_moderation"
+		texturefile = "gfx/interface/goals/GON/GON_to_fund_schools_of_moderation.dds"
+	}
+	SpriteType = {
+		name = "GFX_GON_To_use_the_Stieter_doctrine"
+		texturefile = "gfx/interface/goals/GON/GON_To_use_the_Stieter_doctrine.dds"
+	}
+	SpriteType = {
+		name = "GFX_GON_withdraw_Banhamer_10000"
+		texturefile = "gfx/interface/goals/GON/GON_withdraw_Banhamer_10000.dds"
+	}
+
+
+
+	
+	SpriteType = {
 		name = "GFX_focus_COG_force_publique_mutiny"
 		texturefile = "gfx/interface/goals/focus_COG_force_publique_mutiny.dds"
 	}

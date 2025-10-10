@@ -1,14 +1,14 @@
 guiTypes = {
 	containerWindowType = {
-		name = "classic_faceplate"
-		position = { x=0 y=0 }
+		name = "prosto_radio"
+		position = { x =0 y=0 }
 		size = { width = 590 height = 46 }
-
+		
 		iconType ={
 			name ="musicplayer_header_bg"
 			spriteType = "GFX_musicplayer_header_bg"
 			position = { x= 0 y = 0 }
-			alwaystransparent = yes
+			allwaystransparent = yes
 		}
 		
 		instantTextboxType = {
@@ -20,7 +20,7 @@ guiTypes = {
 			maxHeight = 25
 			format = center
 		}
-
+		
 		instantTextboxType = {
 			name = "track_elapsed"
 			position = { x = 124 y = 30 }
@@ -99,7 +99,7 @@ guiTypes = {
 				pdx_tooltip = "MUSICPLAYER_ADJUST_VOL"
 			}
 		}
-
+		
 		buttonType = {
 			name = "shuffle_button"
 			position = { x = 425 y = 20 }
@@ -109,6 +109,16 @@ guiTypes = {
 			clicksound = click_close
 		}
 	}
-
 	
+	containerWindowType={
+		name = "prosto_radio_stations_entry"
+		size = { width = 162 height = 130 }
+		
+		checkBoxType = {
+			name = "select_station_button"
+			position = { x = 0 y = 0 }
+			quadTextureSprite = "КАРТИНКА" 
+			clicksound = decisions_ui_button
+		}
+	}
 }

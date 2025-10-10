@@ -19,15 +19,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/ideology_twitcherizm.dds"
 	}
 	spriteType = {
-		name = "GFX_ideology_hype_cuterock"
-		texturefile = "gfx/interface/ideologies/ideology_hype_cuterock.dds"
+		name = "GFX_ideology_stintik_twicherism"
+		texturefile = "gfx/interface/ideologies/ideology_stintik_twicherism.dds"
 	}
 	spriteType = {
-		name = "GFX_ideology_socdem"
-		texturefile = "gfx/interface/ideologies/ideology_socdem.png"
+		name = "GFX_ideology_moderator_twicherism"
+		texturefile = "gfx/interface/ideologies/ideology_moderator_twicherism.dds"
 	}
 	spriteType = {
-		name = "GFX_ideology_soctwitcherizm"
-		texturefile = "gfx/interface/ideologies/ideology_soctwitcherizm.png"
+		name = "GFX_ideology_stintler_twicherism"
+		texturefile = "gfx/interface/ideologies/ideology_stintler_twicherism.dds"
 	}
 }

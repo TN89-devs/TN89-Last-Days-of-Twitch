@@ -1,0 +1,441 @@
+guiTypes = {
+	containerWindowType = {
+		name = "stint_insult"
+        position = { x = -10 y = 0 }
+		
+		buttonType = {
+			name = "insult"
+			position = { x = 425 y = 8 }			
+			quadTextureSprite = "GFX_insult_open_button"
+			clicksound = click_default
+			Orientation = UPPER_LEFT
+			pdx_tooltip = "stint_button_tooltip"
+		}
+    }
+
+	containerWindowType = {
+		name = "stint_insult_view"
+		position = { x = -425 y = 100 }	
+		
+		size = { width = 617 height = 423 }
+		
+		fade_time = 300
+		fade_type = linear
+		moveable = yes
+		show_sound = menu_open_window
+		click_to_front = yes
+        
+		orientation = CENTER_UP
+        
+		background = {
+			name = "info_Background"		
+			quadTextureSprite = "GFX_info_background"
+		}
+		##################################################################
+		instantTextboxType = {
+			name = "brain_status_title"
+			position = { x = 235 y = 50 }
+			font = "DIV"
+			borderSize = {x = 0 y = 0}
+			text = "Состаяние Мозга:"
+			maxWidth = 240
+			maxHeight = 20
+			format = center	
+		}
+
+		instantTextboxType = {
+			name = "brain_status_green_light"
+			position = { x = 260 y = 80 }
+			font = "DIV_green_light"
+			borderSize = {x = 0 y = 0}
+			text = "Удовлитворительное"
+			maxWidth = 240
+			maxHeight = 20
+			format = center
+		}
+
+		instantTextboxType = {
+			name = "brain_status_green"
+			position = { x = 240 y = 80 }
+			font = "DIV_green"
+			borderSize = {x = 0 y = 0}
+			text = "Средная Тяжесть"
+			maxWidth = 240
+			maxHeight = 20
+			format = center
+		}
+
+		instantTextboxType = {
+			name = "brain_status_yellow"
+			position = { x = 240 y = 80 }
+			font = "DIV_yellow"
+			borderSize = {x = 0 y = 0}
+			text = "Тяжёлое"
+			maxWidth = 240
+			maxHeight = 20
+			format = center	
+		}
+
+		instantTextboxType = {
+			name = "brain_status_yellow_dark"
+			position = { x = 240 y = 80 }
+			font = "DIV_yellow_dark"
+			borderSize = {x = 0 y = 0}
+			text = "Крайне Тяжёлое"
+			maxWidth = 240
+			maxHeight = 20
+			format = center	
+		}
+
+		instantTextboxType = {
+			name = "brain_status_red"
+			position = { x = 240 y = 80 }
+			font = "DIV_red"
+			borderSize = {x = 0 y = 0}
+			text = "Терминальное"
+			maxWidth = 240
+			maxHeight = 20
+			format = center	
+		}
+		#################################################################
+		instantTextboxType = {
+			name = "heart_status_title"
+			position = { x = 243 y = 130 }
+			font = "DIV"
+			borderSize = {x = 0 y = 0}
+			text = "Состояния Сердца:"
+			maxWidth = 240
+			maxHeight = 20
+			format = center	
+		}
+
+		instantTextboxType = {
+			name = "heart_status_green_light"
+			position = { x = 260 y = 160 }
+			font = "DIV_green_light"
+			borderSize = {x = 0 y = 0}
+			text = "Удовлитворительное"
+			maxWidth = 240
+			maxHeight = 20
+			format = center	
+		}
+
+		instantTextboxType = {
+			name = "heart_status_green"
+			position = { x = 243 y = 160 }
+			font = "DIV_green"
+			borderSize = {x = 0 y = 0}
+			text = "Средная Тяжесть"
+			maxWidth = 240
+			maxHeight = 20
+			format = center	
+		}
+
+		instantTextboxType = {
+			name = "heart_status_yellow"
+			position = { x = 243 y = 160 }
+			font = "DIV_yellow"
+			borderSize = {x = 0 y = 0}
+			text = "Тяжёлое"
+			maxWidth = 240
+			maxHeight = 20
+			format = center	
+		}
+
+		instantTextboxType = {
+			name = "heart_status_yellow_dark"
+			position = { x = 243 y = 160 }
+			font = "DIV_yellow_dark"
+			borderSize = {x = 0 y = 0}
+			text = "Крайне Тяжёлое"
+			maxWidth = 240
+			maxHeight = 20
+			format = center	
+		}
+
+		instantTextboxType = {
+			name = "heart_status_red"
+			position = { x = 243 y = 160 }
+			font = "DIV_red"
+			borderSize = {x = 0 y = 0}
+			text = "Терминальное"
+			maxWidth = 240
+			maxHeight = 20
+			format = center	
+		}
+		####################################################################
+		instantTextboxType = {
+			name = "lungs_status_title"
+			position = { x = 240 y = 220 }
+			font = "DIV"
+			borderSize = {x = 0 y = 0}
+			text = "Состояния Лёгких:"
+			maxWidth = 240
+			maxHeight = 20
+			format = center	
+		}
+
+		instantTextboxType = {
+			name = "lungs_status_green_light"
+			position = { x = 260 y = 250 }
+			font = "DIV_green_light"
+			borderSize = {x = 0 y = 0}
+			text = "Удовлитворительное"
+			maxWidth = 240
+			maxHeight = 20
+			format = center	
+		}
+
+		instantTextboxType = {
+			name = "lungs_status_green"
+			position = { x = 240 y = 250 }
+			font = "DIV_green"
+			borderSize = {x = 0 y = 0}
+			text = "Средная Тяжесть"
+			maxWidth = 240
+			maxHeight = 20
+			format = center	
+		}
+
+		instantTextboxType = {
+			name = "lungs_status_yellow"
+			position = { x = 240 y = 250 }
+			font = "DIV_yellow"
+			borderSize = {x = 0 y = 0}
+			text = "Тяжёлое"
+			maxWidth = 240
+			maxHeight = 20
+			format = center	
+		}
+
+		instantTextboxType = {
+			name = "lungs_status_yellow_dark"
+			position = { x = 240 y = 250 }
+			font = "DIV_yellow_dark"
+			borderSize = {x = 0 y = 0}
+			text = "Крайне Тяжёлое"
+			maxWidth = 240
+			maxHeight = 20
+			format = center	
+		}
+
+		instantTextboxType = {
+			name = "lungs_status_red"
+			position = { x = 240 y = 250 }
+			font = "DIV_red"
+			borderSize = {x = 0 y = 0}
+			text = "Терминальное"
+			maxWidth = 240
+			maxHeight = 20
+			format = center	
+		}
+		######################################################################
+
+		instantTextBoxType = {
+			name = "general_condition"
+			position = { x = 330 y = 285 }
+			font = "DIV"
+			borderSize = {x = 0 y = 0}
+			text = "Общее Состаяние:"
+			maxWidth = 200
+			maxHeight = 20
+			format = center
+		}
+		#####################################################################
+
+
+		instantTextBoxType = {
+			name = "general_condition_name_cancer_of_lungs_3"
+			position = { x = 280 y = 320 }
+			font = "DIV_small"
+			borderSize = {x = 0 y = 0}
+			text = "Рак лёгких 3-й степени."
+			maxWidth = 300
+			maxHeight = 55
+			format = center
+		}
+
+		instantTextBoxType = {
+			name = "general_condition_description_cancer_of_lungs_3"
+			position = { x = 280 y = 340 }
+			font = "DIV_small"
+			borderSize = {x = 0 y = 0}
+			text = "Симптомы: Сильный кашель, Хрип, Среднее Кровохарканье, Сильная Отдышка и Потеря аппетита"
+			maxWidth = 300
+			maxHeight = 50
+			format = center
+		}
+
+		instantTextBoxType = {
+			name = "general_condition_name_cancer_of_lungs_4"
+			position = { x = 280 y = 320 }
+			font = "DIV_small"
+			borderSize = {x = 0 y = 0}
+			text = "Рак лёгких 4-й степени."
+			maxWidth = 300
+			maxHeight = 55
+			format = center
+		}
+
+		instantTextBoxType = {
+			name = "general_condition_description_cancer_of_lungs_4"
+			position = { x = 280 y = 340 }
+			font = "DIV_small"
+			borderSize = {x = 0 y = 0}
+			text = "Симптомы: Сильный кашель с кровью, Сильная боль в грудной клетке, Плеврит, Рак Печени и Метастазы"
+			maxWidth = 300
+			maxHeight = 50
+			format = center
+		}
+
+		instantTextBoxType = {
+			name = "general_condition_name_death_by_cancer_of_lungs"
+			position = { x = 280 y = 320 }
+			font = "DIV_small"
+			borderSize = {x = 0 y = 0}
+			text = "Летальный Исход"
+			maxWidth = 300
+			maxHeight = 55
+			format = center
+		}
+
+		instantTextBoxType = {
+			name = "general_condition_description_death_by_cancer_of_lungs"
+			position = { x = 280 y = 340 }
+			font = "DIV_small"
+			borderSize = {x = 0 y = 0}
+			text = "Биологическая смерть пациента. Причина: Рак Лёгких 4-й степени"
+			maxWidth = 300
+			maxHeight = 50
+			format = center
+		}
+		##################################################################################
+
+		instantTextBoxType = {
+			name = "general_condition_name_schizalzheimer_insult_1"
+			position = { x = 280 y = 320 }
+			font = "DIV_small"
+			borderSize = {x = 0 y = 0}
+			text = "Ранная Шизофрения с Предеменцией"
+			maxWidth = 300
+			maxHeight = 55
+			format = center
+		}
+
+		instantTextBoxType = {
+			name = "general_condition_description_schizalzheimer_insult_1"
+			position = { x = 280 y = 340 }
+			font = "DIV_small"
+			borderSize = {x = 0 y = 0}
+			text = "Симптомы: Расстройство памяти, Малозаметные проблемы исполнительных функций"
+			maxWidth = 300
+			maxHeight = 50
+			format = center
+		}
+
+		
+		instantTextBoxType = {
+			name = "general_condition_name_schizalzheimer_insult_cancer_lungs_2"
+			position = { x = 280 y = 320 }
+			font = "DIV_small"
+			borderSize = {x = 0 y = 0}
+			text = "Ранная Шизофрения с Предеменцией и Рак лёгких 1-й степени."
+			maxWidth = 300
+			maxHeight = 55
+			format = center
+		}
+
+		instantTextBoxType = {
+			name = "general_condition_description_schizalzheimer_insult_cancer_lungs_2"
+			position = { x = 280 y = 340 }
+			font = "DIV_small"
+			borderSize = {x = 0 y = 0}
+			text = "Симптомы: Расстройство памяти, Малозаметные проблемы когнитивных функций, Частый Кашель, Хрип, Отдышка и Незначительная потеря аппетита"
+			maxWidth = 300
+			maxHeight = 50
+			format = center
+		}
+
+		instantTextBoxType = {
+			name = "general_condition_name_schizalzheimer_insult_2"
+			position = { x = 280 y = 320 }
+			font = "DIV_small"
+			borderSize = {x = 0 y = 0}
+			text = "Ранная Шизофрения с Умеренной деменцией"
+			maxWidth = 300
+			maxHeight = 55
+			format = center
+		}
+
+		instantTextBoxType = {
+			name = "general_condition_description_schizalzheimer_insult_2"
+			position = { x = 280 y = 340 }
+			font = "DIV_small"
+			borderSize = {x = 0 y = 0}
+			text = "Симптомы: Псевдогаллюцинации, Расстройство памяти, Средние проблемы исполнительных функций и Афазия"
+			maxWidth = 300
+			maxHeight = 50
+			format = center
+		}
+
+		instantTextBoxType = {
+			name = "general_condition_name_schizalzheimer_insult_3"
+			position = { x = 280 y = 320 }
+			font = "DIV_small"
+			borderSize = {x = 0 y = 0}
+			text = "Шизофрения с Деменцией"
+			maxWidth = 300
+			maxHeight = 55
+			format = center
+		}
+
+		instantTextBoxType = {
+			name = "general_condition_description_schizalzheimer_insult_3"
+			position = { x = 280 y = 340 }
+			font = "DIV_small"
+			borderSize = {x = 0 y = 0}
+			text = "Симптомы: Сильные Псевдогаллюцинации, Шизоидное расстройство личности, потеря памяти, проблемы исполнительных функций и Полная утрата вербальных навыков"
+			maxWidth = 300
+			maxHeight = 50
+			format = center
+		}
+
+		instantTextBoxType = {
+			name = "general_condition_name_death_by_insult"
+			position = { x = 280 y = 320 }
+			font = "DIV_small"
+			borderSize = {x = 0 y = 0}
+			text = "Летальный Исход"
+			maxWidth = 300
+			maxHeight = 55
+			format = center
+		}
+
+		instantTextBoxType = {
+			name = "general_condition_description_death_by_insult"
+			position = { x = 280 y = 340 }
+			font = "DIV_small"
+			borderSize = {x = 0 y = 0}
+			text = "Патологическая смерть пациента. Причина: Смерть в старости вместе с пролежневой язвой"
+			maxWidth = 300
+			maxHeight = 50
+			format = center
+		}
+
+		#######################################################################
+		buttonType = {
+			name = "button_close"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_sort_button_100x29_2"
+            frame = 2
+			buttonFont = "hoi_16mbs"
+			buttonText = "Exit"
+			clicksound = click_close
+			shortcut = "ESCAPE"
+			pdx_tooltip = "CLOSE"
+			Orientation = UPPER_LEFT
+		}
+    }
+
+	
+}

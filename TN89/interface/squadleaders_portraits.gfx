@@ -89,5 +89,25 @@ SpriteTypes = {
 		name = "GFX_portrait_stas_vasilyev"
 		texturefile = "gfx/leaders/STS/Stas_Vasilev.dds"
 	}
+	spriteType = {
+		name = "GFX_Portrait_Stinterius_III"
+		texturefile = "gfx/leaders/GON/Portrait_Stinterius_III.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Stinterius_II"
+		texturefile = "gfx/leaders/GON/Portrait_Stinterius_II_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Stinterius_II_2"
+		texturefile = "gfx/leaders/GON/Portrait_Stinterius_II_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Maksimilian_Stintler"
+		texturefile = "gfx/leaders/GON/Portrait_Maksimilian_Stintler.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Moderators_stintik"
+		texturefile = "gfx/leaders/GON/Portrait_Moderators_stintik.dds"
+	}
 	
 }

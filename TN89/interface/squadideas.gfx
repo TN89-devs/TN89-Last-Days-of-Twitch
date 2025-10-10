@@ -278,6 +278,22 @@ spriteTypes = {
         texturefile = "gfx/interface/ideas/BTK_part.dds"
     }
 	spriteType = {
+        name = "GFX_idea_STS_soc_twich"
+        texturefile = "gfx/interface/ideas/STS_soc_twich.dds"
+    }  	
+	spriteType = {
+        name = "GFX_idea_STS_sosiv_soveta"
+        texturefile = "gfx/interface/ideas/STS_sosiv_soveta.dds"
+    }  	
+	spriteType = {
+        name = "GFX_idea_STS_stas_dictator"
+        texturefile = "gfx/interface/ideas/STS_stas_dictator.dds"
+    }  	
+	spriteType = {
+        name = "GFX_idea_STS_represi"
+        texturefile = "gfx/interface/ideas/STS_represi.dds"
+    }  	
+	spriteType = {
 		name = "GFX_portrait_PYA_Eka_small"
 		textureFile = "gfx/interface/ideas/portrait_PYA_Eka_small.dds"
 	}
@@ -526,6 +542,41 @@ spriteTypes = {
         name = "GFX_idea_GON_liberation_theology"
         texturefile = "gfx/interface/ideas/idea_GON_liberation_theology.dds"
     }  
+#Гондурасия
+	
+	spriteType = {
+        name = "GFX_idea_GON_aristocratic_VIPs"
+        texturefile = "gfx/interface/ideas/GON/idea_GON_aristocratic_VIPs.dds"
+    }  
+	
+	spriteType = {
+        name = "GFX_idea_GON_Corruption_among_VIPs"
+        texturefile = "gfx/interface/ideas/GON/idea_GON_Corruption_among_VIPs.dds"
+    }  
+	
+	spriteType = {
+        name = "GFX_idea_GON_Fifth_Column_threat_is_medium"
+        texturefile = "gfx/interface/ideas/GON/idea_GON_Fifth_Column_threat_is_medium.dds"
+    }  
+	
+	spriteType = {
+        name = "GFX_idea_GON_The_Chatters_Fifth_Column_Light_Threat"
+        texturefile = "gfx/interface/ideas/GON/idea_GON_The_Chatters_Fifth_Column_Light_Threat.dds"
+    }  
+	
+	spriteType = {
+        name = "GFX_idea_GON_the_legendary_stintik_channel_chat"
+        texturefile = "gfx/interface/ideas/GON/idea_GON_the_legendary_stintik_channel_chat.dds"
+    }  
+	
+	spriteType = {
+        name = "GFX_idea_GON_The_Great_Father_of_Honduras"
+        texturefile = "gfx/interface/ideas/GON/idea_GON_The_Great_Father_of_Honduras.dds"
+    }  
+	spriteType = {
+        name = "GFX_idea_GON_Honduras_is_on_fire"
+        texturefile = "gfx/interface/ideas/GON/idea_GON_Honduras_is_on_fire.dds"
+    }  
 	
     spriteType = {
         name = "GFX_gon_person_large"
@@ -560,6 +611,16 @@ spriteTypes = {
 	spriteType = {
         name = "GFX_ara_person_large"
         texturefile = "gfx/leaders/ARA/person_ara.dds"
+    }  
+	
+	
+	spriteType = {
+        name = "GFX_bop_GON_stinterius_support"
+        texturefile = "gfx/interface/bop/bop_GON_stinterius_support.dds"
+    }  
+	spriteType = {
+        name = "GFX_bop_GON_stintler_support"
+        texturefile = "gfx/interface/bop/bop_GON_stintler_support.dds"
     }  
 	
     

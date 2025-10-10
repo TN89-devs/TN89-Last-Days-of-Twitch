@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_insult_open_button"
+		texturefile = "gfx/interface/button_insult_info.dds"
+	}
+	spriteType = {
+		name = "GFX_info_background"
+		textureFile = "gfx/interface/GOZ.dds"
+	}
+}

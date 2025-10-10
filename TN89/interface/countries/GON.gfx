@@ -12,6 +12,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_GON_palace_blueprint_2"
+		texturefile = "gfx/interface/custom_gui/GON/palace_blueprint_2.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_GON_palace_state_0"
 		texturefile = "gfx/interface/custom_gui/GON/state_not_builded.dds"
 	}	

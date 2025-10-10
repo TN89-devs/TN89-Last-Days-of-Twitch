@@ -166,4 +166,20 @@ spriteTypes = {
 		name = "GFX_report_event_am_nam_march"
 		texturefile = "gfx/event_pictures/am_nam_march.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_gonduras_start_civilwar"
+		texturefile = "gfx/event_pictures/gonduras_start_civilwar.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_gonduras_rech"
+		texturefile = "gfx/event_pictures/gonduras_rech.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_gonduras_moderatori"
+		texturefile = "gfx/event_pictures/gonduras_moderatori.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_gonduras_imperia"
+		texturefile = "gfx/event_pictures/gonduras_imperia.dds"
+	}
 }
