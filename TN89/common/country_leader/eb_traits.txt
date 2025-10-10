@@ -257,9 +257,5 @@ leader_traits = {
 		random = no
 	}
 
-	inoagent = {
-		random = no
-	}
-
 	
 }

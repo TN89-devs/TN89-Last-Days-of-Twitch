@@ -1,0 +1,71 @@
+GON_Gondurasia_balance_category = {
+	GON_decrease_country_power_up = {
+		
+		icon = GFX_decision_eng_trade_unions_demand
+		
+		priority = 100
+		
+		allowed = {
+			original_tag = GON
+		}
+
+		days_remove = 0
+
+		days_re_enable = 0
+
+		cost = 1
+
+		complete_effect = { 
+			add_power_balance_value = {
+				id = GON_war_balance
+				value = 0.9
+			}
+		}
+	}
+	GON_decrease_country_power_down = {
+		
+		icon = GFX_decision_eng_trade_unions_demand
+		
+		priority = 100
+		
+		allowed = {
+			original_tag = GON
+		}
+
+		days_remove = 0
+
+		days_re_enable = 0
+
+		cost = 1
+
+		complete_effect = { 
+			add_power_balance_value = {
+				id = GON_war_balance
+				value = -0.9
+			}
+		}
+	}
+	GON_decrease_country_power_1 = {
+		
+		icon = GFX_decision_eng_trade_unions_demand
+		
+		priority = 100
+		
+		allowed = {
+			original_tag = GON
+		}
+
+		days_remove = 0
+
+		days_re_enable = 0
+
+		cost = 0
+
+		complete_effect = { 
+			add_power_balance_value = {
+				id = GON_war_balance
+				value = 0.1
+			}
+		}
+	}
+}
