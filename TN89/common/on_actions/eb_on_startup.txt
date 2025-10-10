@@ -4,6 +4,7 @@ on_actions = {
             every_country = {
                 limit = { is_ai = no }
                 country_event = CTM.1
+				country_event = CTM.2
             }
         }
 	}

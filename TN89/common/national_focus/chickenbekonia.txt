@@ -7,39 +7,6 @@ focus_tree = {
 			tag = CHB
 		}
 	}
-
-	focus = {
-		id = CHB_help_stint
-		icon = GFX_goal_unknown
-		cost = 5,00
-			
-		relative_position_id = chb_policits_effort
-		prerequisite = { focus = chb_policits_effort }
-		x = -5
-		y = 2
-
-		ai_will_do = {
-			factor = 50
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			#
-		}
-	}
-
 	default = no
 	focus = {
 		id = chb_policits_effort

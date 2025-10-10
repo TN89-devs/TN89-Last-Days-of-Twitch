@@ -1,0 +1,692 @@
+focus_tree = {
+	id = FocusTree0
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = STS
+		}
+	}
+	default = no
+	focus = {
+		id = STS_start1
+		icon = GFX_focus_STS_start1
+		cost = 0
+		x = 26
+		y = 0
+
+	}
+	focus = {
+		id = STS_start2
+		icon = GFX_focus_STS_start2
+		cost = 0
+		prerequisite = {
+			focus = STS_start1
+		}
+		x = 26
+		y = 1
+
+	}
+	focus = {
+		id = STS_war1
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STS_start2
+		}
+		x = 17
+		y = 2
+
+	}
+	focus = {
+		id = STS_war2
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STS_war1
+		}
+		mutually_exclusive = {
+			focus = STS_war3
+		}
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = STS_war4
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STS_war2
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = STS_war3
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STS_war1
+		}
+		mutually_exclusive = {
+			focus = STS_war2
+		}
+		x = 18
+		y = 3
+
+	}
+	focus = {
+		id = STS_war5
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STS_war3
+			focus = STS_war2
+		}
+		x = 17
+		y = 4
+
+	}
+	focus = {
+		id = STS_war8
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STS_war5
+		}
+		x = 17
+		y = 5
+
+	}
+	focus = {
+		id = STS_war6
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STS_war3
+		}
+		x = 19
+		y = 4
+
+	}
+	focus = {
+		id = STS_war9
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STS_war6
+		}
+		x = 19
+		y = 5
+
+	}
+	focus = {
+		id = STS_war11
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STS_war9
+		}
+		prerequisite = {
+			focus = STS_war8
+		}
+		x = 18
+		y = 6
+
+	}
+	focus = {
+		id = STS_start3
+		icon = GFX_focus_STS_start3
+		cost = 0
+		prerequisite = {
+			focus = STS_start2
+		}
+	mutually_exclusive = {
+			focus = STS_start4
+		}
+		x = 24
+		y = 2
+
+	}
+	focus = {
+		id = STS_start5
+		icon = GFX_focus_STS_start5
+		cost = 0
+		prerequisite = {
+			focus = STS_start3
+		}
+		x = 21
+		y = 3
+
+	}
+	focus = {
+		id = STS_start11
+		icon = GFX_focus_STS_start11
+		cost = 0
+		prerequisite = {
+			focus = STS_start5
+		}
+		x = 21
+		y = 4
+
+	}
+	focus = {
+		id = STS_start17
+		icon = GFX_focus_STS_start17
+		cost = 0
+		prerequisite = {
+			focus = STS_start11
+		}
+		x = 21
+		y = 5
+
+	}
+	focus = {
+		id = STS_start6
+		icon = GFX_focus_STS_start6
+		cost = 0
+		prerequisite = {
+			focus = STS_start3
+		}
+		x = 23
+		y = 3
+
+	}
+	focus = {
+		id = STS_start12
+		icon = GFX_focus_STS_start12
+		cost = 0
+		prerequisite = {
+			focus = STS_start5
+		}
+		prerequisite = {
+			focus = STS_start6
+		}
+		x = 23
+		y = 4
+
+	}
+	focus = {
+		id = STS_start18
+		icon = GFX_focus_STS_start18
+		cost = 0
+		prerequisite = {
+			focus = STS_start12
+		}
+		x = 23
+		y = 5
+
+	}
+	focus = {
+		id = STS_start7
+		icon = GFX_focus_STS_start7
+		cost = 0
+		prerequisite = {
+			focus = STS_start3
+		}
+		x = 25
+		y = 3
+
+	}
+	focus = {
+		id = STS_start13
+		icon = GFX_focus_STS_start13
+		cost = 0
+		prerequisite = {
+			focus = STS_start7
+		}
+		x = 25
+		y = 4
+
+	}
+	focus = {
+		id = STS_start19
+		icon = GFX_focus_STS_start19
+		cost = 0
+		prerequisite = {
+			focus = STS_start13
+		}
+		x = 25
+		y = 5
+
+	}
+	focus = {
+		id = STS_start23
+		icon = GFX_focus_STS_start23
+		cost = 0
+		prerequisite = {
+			focus = STS_start18
+		}
+		prerequisite = {
+			focus = STS_start17
+		}
+		prerequisite = {
+			focus = STS_start19
+		}
+		x = 23
+		y = 6
+
+	}
+	focus = {
+		id = STS_start24
+		icon = GFX_focus_STS_start24
+		cost = 0
+		prerequisite = {
+			focus = STS_start19
+		}
+		x = 25
+		y = 6
+
+	}
+	focus = {
+		id = STS_start4
+		icon = GFX_focus_STS_start4
+		cost = 0
+		prerequisite = {
+			focus = STS_start2
+		}
+		mutually_exclusive = {
+			focus = STS_start3
+		}
+		x = 28
+		y = 2
+
+	}
+	focus = {
+		id = STS_start8
+		icon = GFX_focus_STS_start8
+		cost = 0
+		prerequisite = {
+			focus = STS_start4
+		}
+		x = 27
+		y = 3
+
+	}
+	focus = {
+		id = STS_start14
+		icon = GFX_focus_STS_start14
+		cost = 0
+		prerequisite = {
+			focus = STS_start8
+		}
+		x = 27
+		y = 4
+
+	}
+	focus = {
+		id = STS_start9
+		icon = GFX_focus_STS_start9
+		cost = 0
+		prerequisite = {
+			focus = STS_start4
+		}
+		x = 29
+		y = 3
+
+	}
+	focus = {
+		id = STS_start15
+		icon = GFX_focus_STS_start15
+		cost = 0
+		prerequisite = {
+			focus = STS_start9
+		}
+		x = 29
+		y = 4
+
+	}
+	focus = {
+		id = STS_start20
+		icon = GFX_focus_STS_start20
+		cost = 0
+		prerequisite = {
+			focus = STS_start14
+		}
+		prerequisite = {
+			focus = STS_start15
+		}
+		x = 27
+		y = 5
+
+	}
+	focus = {
+		id = STS_start21
+		icon = GFX_focus_STS_start21
+		cost = 0
+		prerequisite = {
+			focus = STS_start15
+		}
+		x = 29
+		y = 5
+
+	}
+	focus = {
+		id = STS_start10
+		icon = GFX_focus_STS_start10
+		cost = 0
+		prerequisite = {
+			focus = STS_start4
+		}
+		x = 31
+		y = 3
+
+	}
+	focus = {
+		id = STS_start16
+		icon = GFX_focus_STS_start16
+		cost = 0
+		prerequisite = {
+			focus = STS_start9
+		}
+		prerequisite = {
+			focus = STS_start10
+		}
+		x = 31
+		y = 4
+
+	}
+	focus = {
+		id = STS_start22
+		icon = GFX_focus_STS_start22
+		cost = 0
+		prerequisite = {
+			focus = STS_start16
+		}
+		x = 31
+		y = 5
+
+	}
+	focus = {
+		id = STS_start26
+		icon = GFX_focus_STS_start26
+		cost = 0
+		prerequisite = {
+			focus = STS_start22
+		}
+		prerequisite = {
+			focus = STS_start21
+		}
+		x = 29
+		y = 6
+
+	}
+	focus = {
+		id = STS_economic1
+		icon = GFX_focus_STS_economic1
+		cost = 0
+		prerequisite = {
+			focus = STS_start2
+		}
+		x = 36
+		y = 2
+
+	}
+	focus = {
+		id = STS_economic2
+		icon = GFX_focus_STS_economic2
+		cost = 0
+		prerequisite = {
+			focus = STS_economic1
+		}
+		mutually_exclusive = {
+			focus = STS_economic3
+		}
+		x = 34
+		y = 3
+
+	}
+	focus = {
+		id = STS_economic4
+		icon = GFX_focus_STS_economic4
+		cost = 0
+		prerequisite = {
+			focus = STS_economic2
+		}
+		x = 33
+		y = 4
+
+	}
+	focus = {
+		id = STS_economic8
+		icon = GFX_focus_STS_economic8
+		cost = 0
+		prerequisite = {
+			focus = STS_economic4
+		}
+		x = 33
+		y = 5
+
+	}
+	focus = {
+		id = STS_economic5
+		icon = GFX_focus_STS_economic5
+		cost = 0
+		prerequisite = {
+			focus = STS_economic2
+		}
+		x = 35
+		y = 4
+
+	}
+	focus = {
+		id = STS_economic9
+		icon = GFX_focus_STS_economic9
+		cost = 0
+		prerequisite = {
+			focus = STS_economic5
+		}
+		x = 35
+		y = 5
+
+	}
+	focus = {
+		id = STS_economic12
+		icon = GFX_focus_STS_economic12
+		cost = 0
+		prerequisite = {
+			focus = STS_economic9
+		}
+		prerequisite = {
+			focus = STS_economic8
+		}
+		x = 34
+		y = 6
+
+	}
+	focus = {
+		id = STS_economic3
+		icon = GFX_focus_STS_economic3
+		cost = 0
+		prerequisite = {
+			focus = STS_economic1
+		}
+		mutually_exclusive = {
+			focus = STS_economic2
+		}
+		x = 38
+		y = 3
+
+	}
+	focus = {
+		id = STS_economic6
+		icon = GFX_focus_STS_economic6
+		cost = 0
+		prerequisite = {
+			focus = STS_economic3
+		}
+		x = 37
+		y = 4
+
+	}
+	focus = {
+		id = STS_economic10
+		icon = GFX_focus_STS_economic10
+		cost = 0
+		prerequisite = {
+			focus = STS_economic6
+		}
+		x = 37
+		y = 5
+
+	}
+	focus = {
+		id = STS_economic13
+		icon = GFX_focus_STS_economic13
+		cost = 0
+		prerequisite = {
+			focus = STS_economic9
+			focus = STS_economic10
+		}
+		x = 36
+		y = 6
+
+	}
+	focus = {
+		id = STS_economic15
+		icon = GFX_focus_STS_economic15
+		cost = 0
+		prerequisite = {
+			focus = STS_economic13
+			focus = STS_economic12
+		}
+		x = 35
+		y = 7
+
+	}
+	focus = {
+		id = STS_start25
+		icon = GFX_focus_STS_start25
+		cost = 0
+		prerequisite = {
+			focus = STS_start20
+		}
+		prerequisite = {
+			focus = STS_start21
+		}
+		x = 27
+		y = 6
+
+	}
+	focus = {
+		id = STS_start27
+		icon = GFX_focus_STS_start27
+		cost = 0
+		prerequisite = {
+			focus = STS_start25
+			focus = STS_start26
+			focus = STS_start24
+			focus = STS_start23
+		}
+		x = 26
+		y = 7
+
+	}
+	focus = {
+		id = STS_start28
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STS_war12
+		}
+		prerequisite = {
+			focus = STS_start27
+		}
+		prerequisite = {
+			focus = STS_economic15
+		}
+		prerequisite = {
+			focus = STS_economic16
+		}
+		x = 26
+		y = 8
+
+	}
+	focus = {
+		id = STS_war7
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STS_war4
+		}
+		x = 15
+		y = 5
+
+	}
+	focus = {
+		id = STS_war10
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STS_war8
+		}
+		prerequisite = {
+			focus = STS_war7
+		}
+		x = 16
+		y = 6
+
+	}
+	focus = {
+		id = STS_war12
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STS_war11
+			focus = STS_war10
+		}
+		x = 17
+		y = 7
+
+	}
+	focus = {
+		id = STS_economic7
+		icon = GFX_focus_STS_economic7
+		cost = 0
+		prerequisite = {
+			focus = STS_economic3
+		}
+		x = 39
+		y = 4
+
+	}
+	focus = {
+		id = STS_economic11
+		icon = GFX_focus_STS_economic11
+		cost = 0
+		prerequisite = {
+			focus = STS_economic7
+		}
+		x = 39
+		y = 5
+
+	}
+	focus = {
+		id = STS_economic14
+		icon = GFX_focus_STS_economic14
+		cost = 0
+		prerequisite = {
+			focus = STS_economic11
+		}
+		prerequisite = {
+			focus = STS_economic10
+		}
+		x = 38
+		y = 6
+
+	}
+	focus = {
+		id = STS_economic16
+		icon = GFX_focus_STS_economic16
+		cost = 0
+		prerequisite = {
+			focus = STS_economic13
+			focus = STS_economic14
+		}
+		x = 37
+		y = 7
+
+	}
+}

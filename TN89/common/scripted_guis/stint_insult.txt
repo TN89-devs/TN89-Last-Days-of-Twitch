@@ -1,0 +1,79 @@
+scripted_gui = { 
+    stint_insult = {
+        context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "stint_insult"
+		
+		visible = {
+			tag = GON
+			has_country_flag = GON_stint_insult
+		}
+		
+		effects = {
+			insult_click = {
+				if = {
+					limit = { NOT = { has_variable = global.open_insult_window } }
+					set_variable = { global.open_insult_window = 1 }
+				}
+				else = {
+					clear_variable = global.open_insult_window
+				}
+			}
+
+		}
+        
+		triggers = {
+			
+        }
+    }
+
+	window_view = {
+    
+        context_type = player_context
+		
+		window_name = "stint_insult_view"
+		
+		visible = {
+			tag = GON
+            has_variable = global.open_insult_window
+		}
+		
+		effects = {
+			button_close_click = {            
+				clear_variable = global.open_insult_window
+			}	
+		}
+        
+		triggers = {
+			brain_status_green_light_visible = { check_variable = { brainstatus = 5 } }
+			brain_status_green_visible = { check_variable = { brainstatus = 4 } }
+			brain_status_yellow_visible = { check_variable = { brainstatus = 3 } }
+			brain_status_yellow_dark_visible = { check_variable = { brainstatus = 2 } }
+			brain_status_red_visible = { check_variable = { brainstatus = 1 } }
+
+			heart_status_green_light_visible = {  check_variable = { heartstatus = 5 } }
+			heart_status_green_visible = { check_variable = { heartstatus = 4 } }
+			heart_status_yellow_visible = { check_variable = { heartstatus = 3 } }
+			heart_status_yellow_dark_visible = { check_variable = { heartstatus = 2 } }
+			heart_status_red_visible = { check_variable = { heartstatus = 1 } }
+
+			lungs_status_green_light_visible = { check_variable = { lungsstatus = 5 }}
+			lungs_status_green_visible = { check_variable = { lungsstatus = 4 }}
+			lungs_status_yellow_visible = { check_variable = { lungsstatus = 3 }}
+			lungs_status_yellow_dark_visible = { check_variable = { lungsstatus = 2 }}
+			lungs_status_red_visible = { check_variable = { lungsstatus = 1 }}
+
+			general_condition_name_schizalzheimer_insult_1_visible = { check_variable = { schizalzheimer = 1 } }
+			general_condition_description_schizalzheimer_insult_1_visible = { check_variable = { schizalzheimer = 1 } }
+
+			general_condition_name_schizalzheimer_insult_cancer_lungs_2_visible = { check_variable = { schizalzheimer = 2 } }
+			general_condition_description_schizalzheimer_insult_cancer_lungs_2_visible = { check_variable = { schizalzheimer = 2 } }
+
+			general_condition_name_schizalzheimer_3_visible = { check_variable = { schizalzheimer = 3 } }
+			general_condition_description_schizalzheimer_3_visible = { check_variable = { schizalzheimer = 3 } }
+
+			general_condition_name_death_by_insult_visible = { check_variable = { schizalzheimer = 4 } }
+			general_condition_description_death_by_insult_visible = { check_variable = { schizalzheimer = 4 } }
+        }
+    }
+}

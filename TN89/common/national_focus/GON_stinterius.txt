@@ -1,0 +1,211 @@
+focus_tree = {
+	id = GON_stinterius
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = 
+		}
+	}
+	default = no
+	focus = {
+		id = GON_stinterius1
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 14
+		y = 0
+
+	}
+	focus = {
+		id = GON_stinterius2
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 10
+		y = 1
+
+	}
+	focus = {
+		id = GON_stinterius3
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 14
+		y = 1
+
+	}
+	focus = {
+		id = GON_stinterius4
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 18
+		y = 1
+
+	}
+	focus = {
+		id = GON_stinterius5
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 8
+		y = 2
+
+	}
+	focus = {
+		id = GON_stinterius6
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = GON_stinterius7
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = GON_stinterius8
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 14
+		y = 2
+
+	}
+	focus = {
+		id = GON_stinterius9
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = GON_stinterius10
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 18
+		y = 2
+
+	}
+	focus = {
+		id = GON_stinterius11
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 20
+		y = 2
+
+	}
+	focus = {
+		id = GON_stinterius12
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = GON_stinterius13
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = GON_stinterius14
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = GON_stinterius15
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = GON_stinterius16
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = GON_stinterius17
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 18
+		y = 3
+
+	}
+	focus = {
+		id = GON_stinterius18
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 20
+		y = 3
+
+	}
+	focus = {
+		id = GON_stinterius19
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = GON_stinterius20
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 13
+		y = 4
+
+	}
+	focus = {
+		id = GON_stinterius21
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = GON_stinterius22
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 18
+		y = 4
+
+	}
+	focus = {
+		id = GON_stinterius23
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 12
+		y = 5
+
+	}
+	focus = {
+		id = GON_stinterius24
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 16
+		y = 5
+
+	}
+	focus = {
+		id = GON_stinterius25
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 14
+		y = 6
+
+	}
+}

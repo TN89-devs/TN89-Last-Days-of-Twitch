@@ -1,0 +1,470 @@
+focus_tree = {
+	id = Gondurasia
+	country = {
+		factor = 0
+		modifier = {
+			add = 110
+			tag = GON
+		}
+	}
+	default = no
+	focus = {
+		id = GON_The_Proud_Crown_of_Honduras
+		icon = GFX_GON_The_Proud_Crown_of_Honduras
+		cost = 0
+		x = 7
+		y = 0
+
+	}
+	focus = {
+		id = GON_The_Cryptoinvestor_of_All_of_Honduras
+		icon = GFX_GON_The_Cryptoinvestor_of_All_of_Honduras
+		cost = 0
+		prerequisite = {
+			focus = GON_The_Proud_Crown_of_Honduras
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = GON_Grant_more_rights_to_moderators
+		icon = GFX_GON_Grant_more_rights_to_moderators
+		cost = 0
+		prerequisite = {
+			focus = GON_The_Cryptoinvestor_of_All_of_Honduras
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = GON_strengthen_chat_moderation
+		icon = GFX_GON_strengthen_chat_moderation
+		cost = 0
+		prerequisite = {
+			focus = GON_The_Proud_Crown_of_Honduras
+		}
+		x = 8
+		y = 1
+
+	}
+	focus = {
+		id = GON_Father_of_All_Honduras
+		icon = GFX_GON_Father_of_All_Honduras
+		cost = 0
+		prerequisite = {
+			focus = GON_strengthen_chat_moderation
+		}
+		prerequisite = {
+			focus = GON_The_Cryptoinvestor_of_All_of_Honduras
+		}
+		x = 7
+		y = 2
+		
+		completion_reward = {
+			hidden_effect = {
+				country_event = {
+					id = gonduras.6
+					days = 30
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = GON_The_law_of_eternal_streaming
+		icon = GFX_GON_The_law_of_eternal_streaming
+		cost = 0
+		prerequisite = {
+			focus = GON_Grant_more_rights_to_moderators
+		}
+		prerequisite = {
+			focus = GON_Father_of_All_Honduras
+		}
+		x = 6
+		y = 3
+
+	}
+	focus = {
+		id = GON_not_subscribed_pay_up
+		icon = GFX_GON_not_subscribed_pay_up
+		cost = 0
+		prerequisite = {
+			focus = GON_The_law_of_eternal_streaming
+		}
+		x = 6
+		y = 4
+
+	}
+	focus = {
+		id = GON_Arrest_of_Unwanted_VIPs
+		icon = GFX_GON_Arrest_of_Unwanted_VIPs
+		cost = 0
+		prerequisite = {
+			focus = GON_strengthen_chat_moderation
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = GON_form_an_anti_chater_campaign
+		icon = GFX_GON_form_an_anti_chater_campaign
+		cost = 0
+		prerequisite = {
+			focus = GON_Father_of_All_Honduras
+		}
+		prerequisite = {
+			focus = GON_Arrest_of_Unwanted_VIPs
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = GON_ban_sleep
+		icon = GFX_GON_ban_sleep
+		cost = 0
+		prerequisite = {
+			focus = GON_form_an_anti_chater_campaign
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = GON_Step_into_a_better_future
+		icon = GFX_GON_Step_into_a_better_future
+		cost = 10
+		prerequisite = {
+			focus = GON_ban_sleep
+		}
+		prerequisite = {
+			focus = GON_not_subscribed_pay_up
+		}
+		x = 7
+		y = 5
+		
+		bypass = {	
+			169 = {
+				controller = {
+					original_tag = ST2
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = GON_The_collapse_of_order
+		icon = GFX_goal_unknown
+		cost = 1
+		
+		prerequisite = {
+			focus = GON_Step_into_a_better_future
+		}
+		
+		mark_focus_tree_layout_dirty = yes
+		
+		allow_branch = { has_completed_focus = GON_Step_into_a_better_future }
+		
+		x = 7
+		y = 6
+		
+	}
+	focus = {
+		id = GON_convene_the_all_Honduran_stream
+		icon = GFX_GON_convene_the_all_Honduran_stream
+		cost = 0
+		prerequisite = {
+			focus = GON_The_collapse_of_order
+		}
+		
+		allow_branch = { has_completed_focus = GON_Step_into_a_better_future }
+			
+		x = 7
+		y = 7
+		
+		completion_reward = {
+		 set_power_balance = {
+			id = GON_war_balance
+			}
+		declare_war_on = {
+			target = ST2
+			type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = GON_Continuation_of_the_Shabanovs_rule
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GON_convene_the_all_Honduran_stream
+		}
+		mutually_exclusive = {
+			focus = GON_To_convene_a_council_of_moderators
+		}
+		
+		allow_branch = { has_completed_focus = GON_Step_into_a_better_future }
+		
+		x = 6
+		y = 8
+
+	}
+	focus = {
+		id = GON_To_convene_a_council_of_moderators
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GON_convene_the_all_Honduran_stream
+		}
+		mutually_exclusive = {
+			focus = GON_Continuation_of_the_Shabanovs_rule
+		}
+		
+		allow_branch = { has_completed_focus = GON_Step_into_a_better_future }
+		
+		x = 8
+		y = 8
+
+	}
+	focus = {
+		id = GON777
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GON_Continuation_of_the_Shabanovs_rule
+		}
+
+		allow_branch = { has_completed_focus = GON_Step_into_a_better_future }
+		
+		x = 5
+		y = 9
+
+	}
+	focus = {
+		id = GON16
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GON_To_convene_a_council_of_moderators
+			focus = GON_Continuation_of_the_Shabanovs_rule
+		}
+
+		allow_branch = { has_completed_focus = GON_Step_into_a_better_future }
+		
+		x = 7
+		y = 9
+
+	}
+	focus = {
+		id = GON_Establish_a_military_council
+		icon = GFX_GON_Establish_a_military_council
+		cost = 0
+		prerequisite = {
+			focus = GON_To_convene_a_council_of_moderators
+		}
+
+		allow_branch = { has_completed_focus = GON_Step_into_a_better_future }
+		
+		x = 9
+		y = 9
+
+	}
+	focus = {
+		id = GON18
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GON777
+		}
+
+		allow_branch = { has_completed_focus = GON_Step_into_a_better_future }
+		
+		x = 3
+		y = 10
+
+	}
+	focus = {
+		id = GON19
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GON777
+		}
+
+		allow_branch = { has_completed_focus = GON_Step_into_a_better_future }
+		
+		x = 5
+		y = 10
+
+	}
+	focus = {
+		id = GON_to_fund_schools_of_moderation
+		icon = GFX_GON_to_fund_schools_of_moderation
+		cost = 0
+		prerequisite = {
+			focus = GON_Establish_a_military_council
+		}
+		
+		allow_branch = { has_completed_focus = GON_Step_into_a_better_future }
+		
+		x = 9
+		y = 10
+
+	}
+	focus = {
+		id = GON_To_use_the_Stieter_doctrine
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GON_Establish_a_military_council
+		}
+		
+		allow_branch = { has_completed_focus = GON_Step_into_a_better_future }
+		
+		x = 11
+		y = 10
+
+	}
+	focus = {
+		id = GON22
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GON18
+		}
+		
+		allow_branch = { has_completed_focus = GON_Step_into_a_better_future }
+		
+		x = 3
+		y = 11
+
+	}
+	focus = {
+		id = GON23
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GON19
+		}
+		
+		allow_branch = { has_completed_focus = GON_Step_into_a_better_future }
+		
+		x = 5
+		y = 11
+
+	}
+	focus = {
+		id = GON_withdraw_Banhamer_10000
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GON_to_fund_schools_of_moderation
+		}
+
+		allow_branch = { has_completed_focus = GON_Step_into_a_better_future }
+		
+		x = 9
+		y = 11
+
+	}
+	focus = {
+		id = GON25
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GON_To_use_the_Stieter_doctrine
+		}
+		
+		allow_branch = { has_completed_focus = GON_Step_into_a_better_future }
+		
+		x = 11
+		y = 11
+
+	}
+	focus = {
+		id = GON26
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GON23
+		}
+		prerequisite = {
+			focus = GON22
+		}
+
+		allow_branch = { has_completed_focus = GON_Step_into_a_better_future }
+		
+		x = 5
+		y = 12
+
+	}
+	focus = {
+		id = GON27
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GON16
+		}
+
+		allow_branch = { has_completed_focus = GON_Step_into_a_better_future }
+		
+		x = 7
+		y = 12
+
+	}
+	focus = {
+		id = GON28
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GON25
+		}
+		prerequisite = {
+			focus = GON_withdraw_Banhamer_10000
+		}
+		
+		allow_branch = { has_completed_focus = GON_Step_into_a_better_future }
+		
+		x = 9
+		y = 12
+
+	}
+	focus = {
+		id = GON29
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GON28
+			focus = GON26
+		}
+		prerequisite = {
+			focus = GON27
+		}
+
+		allow_branch = { has_completed_focus = GON_Step_into_a_better_future }
+		
+		x = 7
+		y = 13
+
+	}
+	focus = {
+		id = GON30
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GON29
+		}
+		
+		allow_branch = { has_completed_focus = GON_Step_into_a_better_future }
+		
+		x = 7
+		y = 14
+		
+		completion_reward = {
+			country_event = gonduras.5
+		}
+	}
+}

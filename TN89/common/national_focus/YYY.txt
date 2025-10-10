@@ -1,12 +1,12 @@
 focus_tree = {
-	id = zolo_focus
+	id = yyy_f
 
 	country = {
 		factor = 0
 		
 		modifier = {
 			add = 10
-			tag = ZOL
+			tag = 
 		}
 	}
 	
