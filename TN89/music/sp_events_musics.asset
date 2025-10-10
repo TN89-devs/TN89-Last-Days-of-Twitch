@@ -68,8 +68,3 @@ music = {
 	name = "hamster_criminal"
 	file = "SP/hamster_criminal.ogg"
 }
-
-music = {
-	name = "SHT_vedaet_united_amerika"
-	file = "SP/SHT_vedaet_united_amerika.ogg"
-}

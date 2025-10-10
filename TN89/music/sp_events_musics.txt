@@ -59,8 +59,3 @@ chance = { factor = 0 }}
 music = {
 song = "hamster_criminal"
 chance = { factor = 0 }}
-
-music = {
-	song = "SHT_vedaet_united_amerika"
-	chance = { factor = 0 }
-}
