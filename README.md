@@ -33,7 +33,7 @@ _Глобальная стратегия. Локальные мемы. Альт�
 ```bash
 git clone https://github.com/Hearts-of-Twitch/The-New-89.git
 ```
-Или скачай готовый билд со страницы [релизов](https://github.com/Hearts-of-Twitch/TN89/releases)
+Или скачай готовый билд со страницы [релизов](https://github.com/TN89-devs/TN89-Last-Days-of-Twitch)
 
 2. **Скопируй файлы в папку с модами**
    - Windows: `Documents/Paradox Interactive/Hearts of Iron IV/mod/`
@@ -54,15 +54,15 @@ git clone https://github.com/Hearts-of-Twitch/The-New-89.git
 
 ## 🧭 Наши ресурсы
 
-| 📡 Канал новостей | 📝 Teletype | 🛠️ GitHub | 🎮 Steam Beta (будет позже) | 🎮 Steam Release (будет позже) |
+| 📡 Канал новостей | 📝 Teletype | 🛠️ GitHub | 🎮 Steam Beta (в разроботке) | 🎮 Steam Release (будет позже) |
 |------------------|-----------|-----------|-------------------------|-------------------------|
-| [@TN89_hoi4](https://t.me/TN89_hoi4) | [Teletype](https://teletype.in/@tn89/hello) | [GitHub](https://github.com/Hearts-of-Twitch) | [Steam Beta](https://steamcommunity.com/sharedfiles/filedetails/?id=3542956733) | *в разработке* |     
+| [@TN89_hoi4](https://t.me/TN89_hoi4) | [Teletype](https://teletype.in/@tn89-last-days-of-twitch) | [GitHub](https://github.com/Hearts-of-Twitch) | *в разработке* | *в разработке* |     
 
 ---
 
 ## 👥 Хочешь помочь?
 
-- Предложи фокус-ветку, ивент или мем через бота предложку: [@TN89_bot](https://t.me/@TN89_bot)
+- Предложи фокус-ветку, ивент или мем через нашу почту предложку: tn89developers@gmail.com
 - Или просто расскажи друзьям. Один ретвит — одна оккупация.
 
 ---
